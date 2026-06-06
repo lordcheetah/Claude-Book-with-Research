@@ -73,6 +73,24 @@ The book doesn't take a position on AI development policy. It presents the lands
 
 ---
 
+## Genre conventions
+
+### Accessible nonfiction (science explainer)
+- **Hook before mechanism**: Every chapter earns the explanation by making the reader curious first. Curiosity is the contract.
+- **Analogy integrity**: Each analogy must be accurate in the dimension it's illustrating, even if simplified elsewhere. An analogy that's intuitive but technically misleading is worse than no analogy.
+- **Layered complexity**: Introduce the simple version, then complicate it. Never give the full picture before the reader has the skeleton.
+- **Honest unknowns**: Distinguish three categories clearly — what is established, what is active research debate, what is speculation. Never let one bleed into another.
+- **Reader respect**: The reader is intelligent. They don't need protection from difficult ideas — only clear pathways through them.
+- **No false closure**: Don't wrap up an explanation so neatly that the reader leaves with false confidence. Complexity is the point.
+
+### What this book is NOT
+- Not a how-to guide — never "here's how to use ChatGPT better"
+- Not a policy argument — the book presents the landscape; the reader makes judgments
+- Not a prediction — when discussing future trajectories, the uncertainty is the message
+- Not a debunking piece — the capabilities are real and impressive; they just have a mechanism
+
+---
+
 ## Chapter length
 - Target: 2,500–3,500 words per chapter
 - 8 chapters total

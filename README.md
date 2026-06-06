@@ -7,7 +7,7 @@ A multi-agent framework for writing novels and nonfiction books with Claude Code
 ```
 ├── CLAUDE.md                 # Orchestrator — coordinates all agents
 ├── .claude/
-│   ├── agents/               # 16 specialized sub-agents
+│   ├── agents/               # 17 specialized sub-agents
 │   └── skills/               # 6 reusable skills
 ├── projects/                 # YOUR book projects (one subdirectory per book)
 ├── series/                   # Series bibles (shared across related books)
@@ -18,6 +18,7 @@ A multi-agent framework for writing novels and nonfiction books with Claude Code
 ├── bible/                    # Templates (copy to your project's bible/)
 │   ├── style.md.example
 │   ├── structure.md.example
+│   ├── genre-conventions.md.example  ← paste into style.md for your genres
 │   ├── characters/_template.md
 │   └── universe/_template.md
 ├── state/
@@ -77,6 +78,7 @@ cp -Recurse examples/english-starter projects/my-novel
 | bible-builder | Generate/fill out character and location files | When bible is sparse; when planner needs a new entry | Sonnet |
 | research-assistant | Research for sci-fi plausibility, settings, nonfiction | When accuracy matters; uses web search + Wolfram Alpha | Sonnet |
 | series-bible-updater | Extract series-canon facts after a book is complete | After completing a book in a series | Sonnet |
+| weird-fiction-reviewer | Genre integrity for weird fiction — the incomprehensible, revelation problem, prose-as-symptom | Weird fiction projects; chapters introducing central weird elements | Opus |
 
 ---
 

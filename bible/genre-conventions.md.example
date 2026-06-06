@@ -1,0 +1,75 @@
+# Genre Conventions
+# Copy the relevant sections into your project's bible/style.md
+
+---
+
+## Sci-fi
+
+- **The novum**: One core speculative premise drives the story. Establish it early, follow its implications rigorously.
+- **Wonder vs. explanation**: Let the reader encounter the idea before explaining it. The sense of scale or strangeness should land emotionally before it's unpacked technically.
+- **No info-dump**: All worldbuilding through action and observation. Characters don't explain the world to each other if they both already live in it.
+- **Technical plausibility**: Science doesn't have to be accurate, but it must be internally consistent. Inconsistencies break the reader's trust faster than implausibility.
+- **The human question**: The best sci-fi asks a question about what it means to be human, or to be conscious, or to be in a society. The speculative element is the lens, not the point.
+
+---
+
+## Fantasy
+
+- **Internal magic consistency**: The magic system has rules and costs. The world-rules-reviewer enforces this — but the rules must be established before they're used.
+- **A larger world**: The story takes place in a corner of something bigger. The reader should feel the weight of history, geography, and culture beyond what the plot requires.
+- **No exposition dumps**: Lore belongs in action, not footnotes. If the character needs to explain how the world works to another character, that's a red flag.
+- **Ordinary stakes alongside epic ones**: The best fantasy anchors large-scale events in personal stakes. The reader cares about kingdoms because they care about people.
+
+---
+
+## Horror — Cosmic / Monster (Alien, Stranger Things, Daikaiju)
+
+- **Pace the reveal**: The creature is more frightening unseen. Every chapter the creature appears, ask whether the appearance earns its cost to mystery.
+- **Keep the monster unknowable**: Once the creature has understandable motivations, it becomes a villain, not a monster. The terror is in its indifference to human categories.
+- **Escalating stakes with a ceiling**: Stakes escalate through the story, but the threat must remain plausible. Don't escalate past the world's ability to contain the story.
+- **Ensemble survival dynamics**: Monster horror often lives in the group — who trusts whom, who acts selfishly, who makes the sacrifice. Character relationships under pressure are the genre engine.
+- **Earned deaths**: Characters should not die randomly. Each death should cost the reader something.
+
+---
+
+## Weird Fiction
+
+Weird fiction has a dedicated reviewer agent: `weird-fiction-reviewer`. Use it instead of relying on style guide alone.
+
+Key contracts to encode in style.md:
+- The central weird element must resist explanation throughout the story
+- Atmosphere precedes incident — dread accumulates before events
+- The revelation problem: seeing/knowing must be MORE unsettling, not less
+- Protagonist psychology is destabilized, not preserved
+- Resolution resistance: wrongness does not end; it may recede
+
+---
+
+## Mystery
+
+- **Fair-play convention**: Every clue that leads to the solution must be available to the reader before the revelation. No solutions from information the reader didn't have.
+- **Red herring discipline**: Red herrings must be genuinely plausible, not just present. If they're too obviously wrong, they're not herrings — they're decorations.
+- **Clue distribution**: Use the foreshadowing-tracker to ensure clues are planted at the right rate. Too many early = reader solves it; too few = revelation feels unfair.
+- **The detective's method**: The protagonist's reasoning should be followable. Show the logic, not just the conclusion.
+- **Motive, means, opportunity**: All three must be established for the solution to be satisfying.
+
+---
+
+## Adventure
+
+- **Momentum is non-negotiable**: Every chapter must end further along than it began, with no chapter that is purely recuperation or setup.
+- **Clear stakes**: The reader must always know what failure costs. Abstract stakes don't create tension.
+- **Set piece clarity**: Action sequences must be spatially clear. The reader needs to know where everyone is and what they're trying to do.
+- **Competence under pressure**: Adventure protagonists should be good at something. The reader follows them because they're worth following.
+- **Escalation**: Each obstacle should be harder to overcome than the last. If the obstacles stay the same difficulty, momentum dies.
+
+---
+
+## Thriller / Technothriller
+
+- **The paranoia arc**: Trust erodes across the story. Who can be trusted, and why, changes. The reader should be as uncertain as the protagonist.
+- **Competent protagonist**: The thriller hero solves problems by being good at their job — not by luck, not by superhuman ability. Competence is the genre fantasy.
+- **Technical accuracy (technothriller)**: Use the research-assistant agent. Technical errors that specialists notice break the genre contract completely.
+- **Reversals**: Each reversal should reframe prior information, not just raise stakes. The best thriller reversals make the reader re-read earlier scenes.
+- **Ticking clock**: The thriller almost always has a deadline. Establish it early, track it consistently.
+- **The antagonist is competent too**: The protagonist needs an adversary worth beating. An incompetent villain makes the protagonist's victory hollow.

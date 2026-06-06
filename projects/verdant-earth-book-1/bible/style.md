@@ -123,6 +123,29 @@ Dry professional humor; Yara's sardonic internal commentary on bureaucratic obst
 
 ---
 
+## Genre conventions
+
+### Solarpunk
+- The world is genuinely better — not ironically, not secretly. Characters live inside the Covenant without explaining it.
+- Solutions are collective and procedural, not individual heroism. The win at the end is partial and honest about that.
+- Labor and cooperation are the engine of the world. Show people doing skilled work and taking it seriously.
+- Technology is integrated with ecology, not opposed to it. Biotech is infrastructure, not spectacle.
+- Optimism is load-bearing, not naive. The story acknowledges what was lost; it doesn't pretend the Collapse didn't happen.
+
+### Procedural thriller
+- The investigative logic must be airtight. Every clue Yara finds should be discoverable by the reader from the available evidence.
+- Fair-play convention: no solutions that depend on information the reader didn't have access to.
+- Pacing: each chapter should advance the investigation AND raise a new obstacle or question. Standing still is not allowed.
+- The antagonist is an institution, not a person — the "villain" is a structural incentive, not individual malice. The story should never simplify this.
+- Technical accuracy matters. The biofilter, mycorrhizal systems, and water chemistry must behave as real systems would.
+
+### What this is NOT
+- Not a thriller where the protagonist is exceptional or uniquely heroic — Yara wins by doing her job correctly
+- Not dystopian — institutional frustration is not institutional condemnation
+- Not a heist or action story — no physical confrontation, no chase sequences
+
+---
+
 ## Series note
 This is Book 1 of the Verdant Earth series. Load `series/verdant-earth/world-rules.md` as a constraint layer alongside this style guide.
 
