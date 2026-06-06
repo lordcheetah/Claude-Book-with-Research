@@ -15,6 +15,8 @@ into the Claude Code agent configuration directory to maintain a single source o
 | character-reviewer | Checks character consistency | Sonnet |
 | continuity-reviewer | Checks timeline/spatial logic | Sonnet |
 | state-updater | Extracts and records state changes | Sonnet |
+| research-assistant | Researches sci-fi/nonfiction topics | Sonnet |
+| bible-builder | Generates/fills out characters and locations | Sonnet |
 
 ## Usage
 

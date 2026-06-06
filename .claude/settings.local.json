@@ -12,7 +12,9 @@
       "Bash(mkdir:*)",
       "Skill(perplexity-improver)",
       "Skill(perplexity-improver:*)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "Bash(ls \"c:\\\\Users\\\\third\\\\.claude\\\\projects\\\\c--Users-third-Documents-GitHub-Claude-Book-with-Research\\\\memory\\\\\" 2>/dev/null || echo \"dir not found\")",
+      "Read(//c/Users/third/.claude/projects/c--Users-third-Documents-GitHub-Claude-Book-with-Research/memory\" 2>/dev/**)"
     ]
   }
 }

@@ -10,11 +10,11 @@ Extract structured bible files from source books for the writing framework.
 ## Quick Start
 
 ```bash
-# Analyze a single book
-Analyze analysis/src/[book].txt
+# Analyze a single book (PROJECT_ROOT provided by orchestrator)
+Analyze {PROJECT_ROOT}/analysis/src/[book].txt
 ```
 
-Output structure in `analysis/output/[book-slug]/`:
+Output structure in `{PROJECT_ROOT}/analysis/output/[book-slug]/`:
 ```
 ├── style.md
 ├── structure.md
@@ -82,5 +82,5 @@ Follow templates exactly:
 For detailed extraction checklists, see [references/extraction-guide.md](references/extraction-guide.md).
 
 ## Output Language
-French (for extracted content and quotes)
-English (for metadata and structural annotations)
+Match the source book's language for extracted content and quotes.
+Use English for metadata, structural annotations, and field labels.

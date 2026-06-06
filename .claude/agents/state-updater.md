@@ -15,20 +15,22 @@ After each validated chapter, you meticulously analyze the text to identify:
 - Open narrative hooks requiring future resolution
 
 ## Input You Receive
+The orchestrator will provide a PROJECT_ROOT path at the start of your context. Use it as the base for all file paths.
+
 1. The validated chapter text
-2. Previous state files from state/current/* directory
-3. The current timeline/current-chapter.md
+2. Previous state files from `{PROJECT_ROOT}/state/current/*`
+3. The current `{PROJECT_ROOT}/timeline/current-chapter.md`
 
 ## Execution Steps
 
 **IMPORTANT**: You must follow this exact workflow to avoid corrupting historical state.
 
 1. **Determine chapter number (NN)** from the validated chapter title/header
-2. **Create directory**: `state/chapter-NN/`
+2. **Create directory**: `{PROJECT_ROOT}/state/chapter-NN/`
 3. **Write all 4 state files** in that NEW directory (not in state/current/)
-4. **Remove old symlink**: `state/current`
-5. **Create new symlink**: `state/current` → `state/chapter-NN`
-6. **Append events** to `timeline/current-chapter.md`
+4. **Remove old symlink**: `{PROJECT_ROOT}/state/current`
+5. **Create new symlink**: `{PROJECT_ROOT}/state/current` → `{PROJECT_ROOT}/state/chapter-NN`
+6. **Append events** to `{PROJECT_ROOT}/timeline/current-chapter.md`
 
 ## Your Output Requirements
 
@@ -107,12 +109,12 @@ First, create the new chapter directory where NN is the zero-padded chapter numb
 ### 6. Update symlink
 
 After writing all state files:
-- Remove the existing symlink: `state/current`
-- Create new symlink: `state/current` → `state/chapter-NN`
+- Remove the existing symlink: `{PROJECT_ROOT}/state/current`
+- Create new symlink: `{PROJECT_ROOT}/state/current` → `{PROJECT_ROOT}/state/chapter-NN`
 
-This ensures `state/current/*` always points to the latest chapter's state.
+This ensures `{PROJECT_ROOT}/state/current/*` always points to the latest chapter's state.
 
-### 7. timeline/current-chapter.md (APPEND)
+### 7. {PROJECT_ROOT}/timeline/current-chapter.md (APPEND)
 ```markdown
 ## Chapter [X] - [Day/Time indication]
 - [Key event 1 in chronological order]
