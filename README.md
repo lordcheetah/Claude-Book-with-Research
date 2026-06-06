@@ -1,21 +1,17 @@
 # Claude Book Framework
 
-A multi-agent framework for writing novels with Claude Code. Supports multiple simultaneous book projects, English and non-English output, and research-assisted writing for any genre.
+A multi-agent framework for writing novels and nonfiction books with Claude Code. Supports multiple simultaneous projects, series bibles, English and non-English output, and research-assisted writing for any genre.
 
 ## Repository Structure
 
 ```
 ├── CLAUDE.md                 # Orchestrator — coordinates all agents
 ├── .claude/
-│   ├── agents/               # Specialized sub-agents
-│   └── skills/               # Reusable skills
+│   ├── agents/               # 16 specialized sub-agents
+│   └── skills/               # 6 reusable skills
 ├── projects/                 # YOUR book projects (one subdirectory per book)
-│   └── my-novel/             # Example: your project lives here
-│       ├── bible/            # Style guide, characters, locations
-│       ├── story/            # Synopsis, chapter plan, chapters
-│       ├── state/            # Per-chapter narrative state
-│       ├── timeline/         # Event history
-│       └── analysis/         # Optional: source book analyses
+├── series/                   # Series bibles (shared across related books)
+│   └── _template/            # Templates for series bible files
 ├── examples/
 │   ├── english-starter/      # Near-future thriller — complete English example
 │   └── club-des-cinq/        # French children's adventure — 18 chapters written
@@ -26,37 +22,37 @@ A multi-agent framework for writing novels with Claude Code. Supports multiple s
 │   └── universe/_template.md
 ├── state/
 │   └── template/             # Initial state file templates
-├── scripts/
-│   ├── detection/            # AI-pattern detection (Python)
-│   └── style/                # Style compliance checker (Python)
-└── .work/                    # Temporary agent work files (gitignored)
+└── scripts/
+    ├── detection/            # AI-pattern detection (Python)
+    └── style/                # Style compliance checker (Python)
 ```
 
 ## Quick Start
 
-### Option A: Start from scratch
+**1. Set up a new project:**
+Tell Claude Code: `Set up a new project called [name]`
 
-1. Tell Claude Code: **"Set up a new project called [name]"**
-2. Fill in your `bible/style.md`, `bible/structure.md`, character and location files
-3. Write `story/synopsis.md` and `story/plan.md`
-4. Run: **"Write chapter 1 of [name]"**
+**2. Fill in your bible:**
+- `bible/style.md` — your writing style, POV, tense, tone
+- `bible/structure.md` — your story's structure and arc patterns
+- `bible/characters/[name].md` — one file per character
+- `bible/universe/[name].md` — one file per location
 
-### Option B: Copy the English starter
+**3. Write your story:**
+- `story/synopsis.md` — your story pitch
+- `story/plan.md` — chapter-by-chapter outline
+- Then: `Write chapter 1 of [project-name]`
 
+Or copy the English starter example to see what a filled-in project looks like:
 ```powershell
 cp -Recurse examples/english-starter projects/my-novel
 ```
 
-Edit the files to match your story, then: **"Write chapter 1 of my-novel"**
-
-### Option C: Analyze existing books for style matching
-
-1. Place source books in `projects/[name]/analysis/src/` (txt or md format)
-2. Run: **"Analyze projects/[name]/analysis/src/[book].txt"**
-3. Review generated bible in `projects/[name]/analysis/output/[book]/`
-4. For multiple books: **"Merge projects/[name]/analysis/output/* into projects/[name]/bible/"**
+---
 
 ## Agents
+
+### Core Pipeline (run every chapter)
 
 | Agent | Purpose | Model |
 |-------|---------|-------|
@@ -65,84 +61,111 @@ Edit the files to match your story, then: **"Write chapter 1 of my-novel"**
 | style-linter | Validates compliance with bible/style.md | Sonnet |
 | character-reviewer | Checks character consistency and voice | Sonnet |
 | continuity-reviewer | Checks timeline and spatial logic | Sonnet |
-| state-updater | Extracts state changes after validation | Sonnet |
-| **research-assistant** | **Researches topics for sci-fi/nonfiction** | **Sonnet** |
-| **bible-builder** | **Generates/fills out characters and locations** | **Sonnet** |
+| state-updater | Extracts and records state after each chapter | Sonnet |
+| subplot-tracker | Updates open narrative thread registry | Sonnet |
+| foreshadowing-tracker | Updates plants and payoffs registry | Sonnet |
+
+### Optional / On-Demand
+
+| Agent | Purpose | When to Use | Model |
+|-------|---------|-------------|-------|
+| revision-agent | Craft-level prose pass (filter words, passive, weak verbs) | Between writer and perplexity-improver | Opus |
+| arc-reviewer | Narrative arc health: tension, character arcs, pacing | Every 3–5 chapters, at act transitions | Opus |
+| nonfiction-reviewer | Argument structure and evidence sufficiency | For nonfiction — replaces character/continuity reviewers | Sonnet |
+| world-rules-reviewer | Invented system consistency (magic, tech, physics) | Fantasy/sci-fi; when new rules are introduced | Sonnet |
+| sensitivity-reader | Character portrayal and representation patterns | On demand; before sharing with external readers | Opus |
+| bible-builder | Generate/fill out character and location files | When bible is sparse; when planner needs a new entry | Sonnet |
+| research-assistant | Research for sci-fi plausibility, settings, nonfiction | When accuracy matters; uses web search + Wolfram Alpha | Sonnet |
+| series-bible-updater | Extract series-canon facts after a book is complete | After completing a book in a series | Sonnet |
+
+---
 
 ## Skills
 
 | Skill | Trigger | Purpose |
 |-------|---------|---------|
 | book-analyzer | "Analyze [book]" | Extract style/characters/structure from source books |
-| bible-merger | "Merge analysis" | Unify multiple analyses into one bible |
+| bible-merger | "Merge analysis" | Unify multiple book analyses into one bible |
 | story-ideator | "Invent a story", "generate synopsis" | Create original storylines from your bible |
 | perplexity-improver | After each chapter | Reduce AI-detectable writing patterns |
+| synopsis-writer | End of manuscript | Query synopsis, back-cover blurb, logline, query letter |
+| chapter-stats | On demand | Word count, pacing, dialogue ratio dashboard |
+
+---
+
+## Per-Chapter Workflow
+
+```
+plan → write → [revision pass] → perplexity-improver → style-linter
+     → character-reviewer → continuity-reviewer → [world-rules-reviewer]
+     → state-updater → subplot-tracker → foreshadowing-tracker → archive
+```
+
+Square brackets = optional. The orchestrator suggests arc-reviewer every 3–5 chapters.
+
+---
+
+## Persistent Registries
+
+Two files grow throughout the project and are referenced when planning chapters:
+
+- **`story/subplots.md`** — every open narrative thread, flagged when stalled
+- **`story/foreshadowing.md`** — every plant and payoff, flagged when overdue
+
+These are created automatically on the first chapter and updated after each chapter.
+
+---
+
+## Series Support
+
+For books that share a world and characters across multiple volumes:
+
+```
+series/
+└── my-series/
+    ├── overview.md        ← What the series is
+    ├── characters.md      ← Series-wide character tracker
+    ├── world-rules.md     ← Permanent rules of the world
+    ├── timeline.md        ← Series-wide chronological events
+    └── books.md           ← Each book and what it permanently established
+```
+
+Tell the orchestrator: `Write [book-name] as part of the [series-name] series`
+
+After completing each book, run **series-bible-updater** to record what the book permanently established.
+
+---
 
 ## Research Assistant
 
-The research-assistant agent supports both fiction and nonfiction writing with four modes:
+Uses web search and Wolfram Alpha for four modes:
+- **Sci-fi plausibility** — is this technology real/extrapolatable/handwave?
+- **Setting & atmosphere** — how a place actually looks, sounds, operates
+- **Historical/technical accuracy** — procedures, timelines, anachronism checks
+- **Nonfiction research** — citable facts, named sources, contested claims flagged
 
-- **Sci-fi plausibility**: "Research cryosleep science for chapter 4" — evaluates fictional tech against current knowledge, flags where handwaving is required
-- **Setting & atmosphere**: "Research what offshore platforms actually feel like" — sensory detail, jargon, realistic procedures
-- **Historical/technical accuracy**: "Check my 1940s timeline for anachronisms"
-- **Nonfiction research**: "Research sleep deprivation for my chapter on cognitive performance" — citable facts, named sources, contested claims flagged
+Research briefs saved to `.work/[project]/research-[topic].md`.
 
-Research briefs are saved to `.work/[project-name]/research-[topic].md`.
+---
 
-## Multi-Project Support
-
-Each subdirectory of `projects/` is an independent book project. The orchestrator:
-1. Detects which project you're referring to from context
-2. Asks you to choose if multiple projects exist and none is named
-3. Routes all agent calls to the correct project's files
-
-**To work on a specific project**: "Write chapter 3 of my-sci-fi-novel"  
-**With only one project**: "Write chapter 3" works without naming it
-
-## Output Language
-
-The orchestrator and all agents default to **English**. To write in another language, specify it in your project's `bible/style.md`. The writer and planner agents will match the language configured there.
-
-Technical reports (style-linter, character-reviewer, continuity-reviewer) are always in English regardless of story language.
-
-## Workflow (per chapter)
-
-1. **Plan**: chapter-planner creates detailed beats
-2. **Write**: chapter-writer drafts the chapter
-3. **Improve**: perplexity-improver reduces AI-detectable patterns
-4. **Lint**: style-linter validates against style guide
-5. **Review**: character-reviewer and continuity-reviewer check consistency
-6. **Loop**: writer revises if gates fail (max 3 iterations)
-7. **Archive**: state-updater saves state; chapter moves to `story/chapters/`
-
-## Ebook Export
-
-For the Club des Cinq example, see `examples/club-des-cinq/ebook/`. Adapt the pipeline for your project:
-
-```powershell
-cd examples/club-des-cinq/ebook
-.\build-ebook.ps1              # EPUB (default)
-.\build-ebook.ps1 -Format all  # All formats
-```
-
-**Prerequisites**: Pandoc, powershell-yaml module, Calibre (for MOBI/AZW3)
-
-## Perplexity Improver
-
-Reduces AI-detectable patterns in chapters using a local language model.
-
-**Prerequisites**: NVIDIA GPU (~16 GB VRAM), `uv` package manager
+## End-of-Project Tools
 
 ```
-/perplexity-improver projects/my-novel/story/chapters/chapter-05.md
+/synopsis-writer projects/my-novel
 ```
+Produces: query synopsis, back-cover blurb, logline, query letter opening
 
-See `.claude/skills/perplexity-improver/SKILL.md` for full documentation.
+```
+/chapter-stats projects/my-novel
+```
+Produces: word count dashboard, pacing chart, dialogue ratio, outlier flags
+
+---
 
 ## Examples
 
 ### `examples/english-starter/` — Near-Future Thriller
-Complete English-language example: a data analyst on an isolated offshore station uncovers a corporate cover-up. Includes filled-in style guide, structure, character sheet, location file, synopsis, chapter plan, and initial state files. Use as a template or read to understand how the framework's files fit together.
+A complete English-language example: *The Manifest Anomaly*. Filled-in style guide, structure, character sheet, location file, synopsis, 18-chapter plan, and initial state files.
 
 ### `examples/club-des-cinq/` — French Children's Adventure
-A complete 18-chapter novel written using this framework, based on Enid Blyton's Famous Five style. Includes the full pipeline: 4 analyzed source books, merged bible, 18 completed chapters, per-chapter state files, and generated ebook. Demonstrates the full end-to-end workflow.
+A complete 18-chapter French novel with the full pipeline: 4 analyzed source books, merged bible, 18 chapters, per-chapter state, and generated ebook.

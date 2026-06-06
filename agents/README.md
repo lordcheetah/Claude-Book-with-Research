@@ -17,6 +17,14 @@ into the Claude Code agent configuration directory to maintain a single source o
 | state-updater | Extracts and records state changes | Sonnet |
 | research-assistant | Researches sci-fi/nonfiction topics | Sonnet |
 | bible-builder | Generates/fills out characters and locations | Sonnet |
+| arc-reviewer | Reviews narrative arc health across chapters | Opus |
+| subplot-tracker | Tracks open narrative threads and promises | Sonnet |
+| revision-agent | Craft-level prose revision pass | Opus |
+| nonfiction-reviewer | Argument structure review for nonfiction | Sonnet |
+| foreshadowing-tracker | Tracks plants and payoffs | Sonnet |
+| sensitivity-reader | Reviews character portrayal and representation | Opus |
+| world-rules-reviewer | Checks fictional world rules consistency | Sonnet |
+| series-bible-updater | Extracts series-canon facts after a book | Sonnet |
 
 ## Usage
 

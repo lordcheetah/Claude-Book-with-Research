@@ -28,85 +28,104 @@ Before doing anything else, identify which project to work on:
 
 Set: **PROJECT_ROOT = projects/[project-name]** (or examples/[name] for the included examples)
 
-All subsequent file paths in this workflow use PROJECT_ROOT as their base.
+If the project is part of a series, also set **SERIES_ROOT = series/[series-name]** and load series bible files as a read-only constraint layer alongside the project bible.
+
+All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as base paths.
 
 ---
 
-## Workflow
+## Core Workflow (per chapter)
 
 1. Load `{PROJECT_ROOT}/state/current/situation.md` to understand current position
    - If `state/current/` doesn't exist yet, use `state/template/` as the initial state
-2. Call planner agent with: synopsis + plan.md + state/current/situation.md + PROJECT_ROOT
+2. Call **planner** agent: synopsis + plan.md + state/current/situation.md + PROJECT_ROOT
 3. Validate plan aligns with story trajectory
-4. Call writer agent with: chapter plan + bible/style.md + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
-5. Call perplexity-improver skill to reduce cliches and AI slope patterns in draft
-6. Call style-linter with: draft + bible/style.md + PROJECT_ROOT
-7. Call character-reviewer with: draft + bible/characters/*.md + state/current/characters.md + PROJECT_ROOT
-8. Call continuity-reviewer with: draft + state/current/* + timeline/history.md + PROJECT_ROOT
+4. Call **writer** agent: chapter plan + bible/style.md + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
+   - [Optional] Call **revision-agent** for craft-level prose pass before moving on
+5. Call **perplexity-improver** skill to reduce AI-detectable patterns
+6. Call **style-linter**: draft + bible/style.md + PROJECT_ROOT
+7. Call **character-reviewer**: draft + bible/characters/*.md + state/current/characters.md + PROJECT_ROOT
+   - For nonfiction: call **nonfiction-reviewer** instead
+8. Call **continuity-reviewer**: draft + state/current/* + timeline/history.md + PROJECT_ROOT
+   - For fantasy/sci-fi: also call **world-rules-reviewer** after continuity
 9. If any gate fails: loop writer with reports (max 3 iterations)
-10. Call state-updater to:
-    - Create `{PROJECT_ROOT}/state/chapter-NN/` directory
-    - Write state files in new directory
-    - Update symlink: `{PROJECT_ROOT}/state/current` → `{PROJECT_ROOT}/state/chapter-NN`
-    - Append events to `{PROJECT_ROOT}/timeline/current-chapter.md`
-11. Move final chapter to `{PROJECT_ROOT}/story/chapters/`
-12. Archive timeline (leave clean state for next):
-    - Append `{PROJECT_ROOT}/timeline/current-chapter.md` to `{PROJECT_ROOT}/timeline/history.md`
+10. Call **state-updater**: creates `{PROJECT_ROOT}/state/chapter-NN/`, updates symlink, appends timeline
+11. Call **subplot-tracker**: update `{PROJECT_ROOT}/story/subplots.md` with this chapter
+12. Call **foreshadowing-tracker**: update `{PROJECT_ROOT}/story/foreshadowing.md` with this chapter
+13. Move final chapter to `{PROJECT_ROOT}/story/chapters/`
+14. Archive timeline:
+    - Append `{PROJECT_ROOT}/timeline/current-chapter.md` → `{PROJECT_ROOT}/timeline/history.md`
     - Clear `{PROJECT_ROOT}/timeline/current-chapter.md`
-13. Proceed to next chapter or stop
+15. Proceed to next chapter or stop
+
+### Periodic checks (not every chapter)
+- **arc-reviewer**: recommended every 3–5 chapters and at act transitions — flag this to the user
+- **sensitivity-reader**: on demand or before sharing with external readers
 
 ---
 
 ## Files
-- `{PROJECT_ROOT}/bible/*` : read-only, never modify during writing
-- `{PROJECT_ROOT}/state/current/*` : current chapter state (symlink to chapter-NN/, or template/ initially)
-- `{PROJECT_ROOT}/state/chapter-NN/*` : archived state after each chapter
-- `{PROJECT_ROOT}/timeline/history.md` : all past chapters (append only at chapter transition)
-- `{PROJECT_ROOT}/timeline/current-chapter.md` : current chapter events (reset at chapter transition)
+- `{PROJECT_ROOT}/bible/*` : read-only during writing
+- `{SERIES_ROOT}/*` : read-only constraint layer (if series project)
+- `{PROJECT_ROOT}/state/current/*` : current chapter state
+- `{PROJECT_ROOT}/state/chapter-NN/*` : archived state
+- `{PROJECT_ROOT}/timeline/history.md` : all past chapters (append-only)
+- `{PROJECT_ROOT}/timeline/current-chapter.md` : current chapter (reset at transition)
+- `{PROJECT_ROOT}/story/subplots.md` : subplot registry (maintained by subplot-tracker)
+- `{PROJECT_ROOT}/story/foreshadowing.md` : foreshadowing registry (maintained by foreshadowing-tracker)
 - `{PROJECT_ROOT}/story/chapters/*` : final destination
 
 ---
 
 ## Output Language
 
-Write all story content (chapters, plans, state files) in the language configured in
-`{PROJECT_ROOT}/bible/style.md`. Default to **English** if not specified.
+Write all story content in the language configured in `{PROJECT_ROOT}/bible/style.md`. Default to **English** if not specified.
 
-Technical reports (style-linter, character-reviewer, continuity-reviewer) are always in English.
+Technical reports are always in English regardless of story language.
 
 ---
 
 ## When the Bible Is Incomplete
 
-If a planner or writer agent needs a character or location that doesn't exist in the bible, or flags that an existing entry is too thin to work from:
+If a planner or writer needs a character or location that doesn't exist in the bible, or flags that an existing entry is too thin:
 - Do **not** invent the character/location yourself
-- Tell the user: "The [agent] needs [X] — do you want me to run **bible-builder** to create it, or would you like to define it yourself?"
-- Wait for the user's direction before proceeding
+- Tell the user: "The [agent] needs [X] — do you want me to run **bible-builder** to create it, or define it yourself?"
+- Wait for the user's direction
+
+---
 
 ## Skills
-- `skills/book-analyzer/` : analyze source books to extract bible
-- `skills/bible-merger/` : merge multiple analyses into unified bible
-- `skills/story-ideator/` : generate original storylines from bible
-- `skills/perplexity-improver/` : reduce cliches and AI slope patterns in chapters
+- `book-analyzer` : extract bible from source books
+- `bible-merger` : merge multiple analyses into one bible
+- `story-ideator` : generate original storylines from bible
+- `perplexity-improver` : reduce AI-detectable patterns in chapters
+- `synopsis-writer` : generate query synopsis, blurb, logline, query letter (end of project)
+- `chapter-stats` : statistics dashboard across all chapters (on demand)
 
 ---
 
 ## Using story-ideator
 
-Call this skill when:
-- Creating initial synopsis and chapter plan (before writing)
+Call when:
+- Creating initial synopsis and chapter plan
 - Stuck on a chapter and need fresh plot ideas
-- Developing a subplot or secondary arc mid-story
 - A chapter feels thin and needs additional beats
 - Brainstorming alternatives when a scene isn't working
 
-The skill ensures new ideas stay consistent with the bible while avoiding plagiarism of source material. It can generate full story arcs or single scene seeds as needed.
+---
+
+## Series Projects
+
+If a project is part of a series:
+1. Load `{SERIES_ROOT}/world-rules.md`, `{SERIES_ROOT}/characters.md`, and `{SERIES_ROOT}/timeline.md` alongside the project bible
+2. Treat series bible as read-only — never generate content that contradicts it
+3. After the book is complete, run **series-bible-updater** to extract what this book permanently established
 
 ---
 
 ## Setting Up a New Project
 
-When the user asks to set up a new project, create this structure under `projects/[name]/`:
+Create this structure under `projects/[name]/`:
 
 ```
 projects/[name]/
@@ -114,19 +133,21 @@ projects/[name]/
 │   ├── style.md              ← fill in from bible/style.md.example
 │   ├── structure.md          ← fill in from bible/structure.md.example
 │   ├── characters/
-│   │   └── _template.md      ← copy from bible/characters/_template.md
+│   │   └── _template.md
 │   └── universe/
-│       └── _template.md      ← copy from bible/universe/_template.md
+│       └── _template.md
 ├── story/
 │   ├── synopsis.md
-│   └── plan.md
+│   ├── plan.md
+│   ├── subplots.md           ← created by subplot-tracker on first chapter
+│   └── foreshadowing.md      ← created by foreshadowing-tracker on first chapter
 ├── state/
 │   └── template/             ← copy from state/template/
 ├── timeline/
 │   ├── history.md
 │   └── current-chapter.md
 └── analysis/
-    └── src/                  ← place source books here for analysis
+    └── src/                  ← optional: source books for style analysis
 ```
 
 Tell the user what to fill in next.
