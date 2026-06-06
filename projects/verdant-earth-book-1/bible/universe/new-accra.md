@@ -30,7 +30,7 @@ The New Accra Water Authority manages a four-stage treatment cascade:
 3. **UV cascade treatment**: backup purification using certified solar-powered UV arrays
 4. **Distribution network**: pressurized ceramic pipes with embedded biofilm sensors throughout
 
-The network has 23 active monitoring stations (Station 1–23). Stations 1–8 handle the eastern inlet; 9–15 cover the mid-wetlands; 16–23 are inland distribution.
+The network has 23 active monitoring stations (Station 1–23). Stations 1–9 handle the eastern inlet (estuary-adjacent); 10–15 cover the mid-wetlands; 16–23 are inland distribution. Stations 7, 8, and 9 are the innermost estuary stations, closest to the open sea.
 
 ### Energy
 Decentralized solar-biogas hybrid. Upper Terraces have high solar coverage; Lower City relies more on district biogas (waste-processing bioreactors). No grid-dependent single point of failure by design.
