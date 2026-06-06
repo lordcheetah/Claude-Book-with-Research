@@ -1,6 +1,6 @@
 # Foreshadowing Registry — The Mycelial City
 
-*Last updated: Chapter 3*
+*Last updated: Chapter 4*
 
 ---
 
@@ -128,15 +128,16 @@
 
 ---
 
-## [F-11] — The Open Knowledge Compact (Implicit)
+## [F-11] — The Open Knowledge Compact
 
 **Type**: Setup
-**Planted**: Chapter 1
-**Payoff expected**: Chapter 5–6 (Yara's resolution mechanism)
-**Urgency**: LOW
+**Planted**: Chapter 1 (implicit, architectural); Chapter 4 (named explicitly)
+**Payoff expected**: Chapter 5 (invocation — Del explains Yara's right to publish) and Chapter 6 (deposit goes through)
+**Urgency**: MEDIUM (escalated from LOW — named explicitly in Ch. 4 evidence package; Yara's personal Compact credentials confirmed untouched by the suspension; payoff is one chapter away)
 **Plant**: Yara's report cites "the Accord's monitoring systems" as a recipient of the regional summary feed, establishing a data-transparency architecture in which multiple institutions are supposed to receive the same public ecological record. The suppression violates this architecture — the Accord receives clean data from the Authority's own aggregation.
-**Expected payoff**: In Ch. 5, Del explains the Open Knowledge Compact — a Covenant-era commitment to public access for ecological monitoring data — which gives Yara the legal right to publish the full technical record directly. The groundwork for why public data has a public right of access is laid here, through the institutional setup.
-**Status**: OPEN
+**Chapter 4 development**: The Open Knowledge Compact is named explicitly in Ch. 4 as the legal mechanism by which Yara retains the right to publish the full technical record despite suspension. Yara's personal Compact credentials are confirmed untouched — the suspension froze her Authority access and Del's Accord secondment, but did not reach her individual compact standing. Named as an open gap in the evidence package pending payoff.
+**Expected payoff**: Ch. 5 — Del walks Yara through the Compact's public-deposit procedure: a Covenant-era right of public access for ecological monitoring data collected in a professional capacity on public infrastructure. Ch. 6 — the deposit goes through and triggers mandatory Accord response.
+**Status**: OPEN — MEDIUM
 
 ---
 
@@ -235,12 +236,13 @@
 
 **Type**: Chekhov's gun / World-fact
 **Planted**: Chapter 2
-**Payoff expected**: Chapter 4–5 (when the access level of the perpetrator is established — who inside the Authority could reach the receipt log?)
-**Urgency**: HIGH (escalated from MEDIUM — Ch. 3 confirmed the firmware modification was installed through an Accord-certified contractor, but the deletion of the Authority's intake receipt required inside access at a different and deeper level. The two access vectors — Altera's certification pathway for firmware, and a separate Authority credential for the receipt log — now constitute a multi-layer coordination problem. Who held both, or who coordinated between them?)
+**Payoff expected**: Chapter 5–6 (inside actor identity — must resolve before final escalation)
+**Urgency**: CRITICAL (escalated from HIGH — Ch. 4 names the inside-actor gap explicitly in the formal escalation package as "someone with extraordinary Authority credentials"; it is an acknowledged open hole in the evidence they are submitting; the suspension is in part a response to how close they came to naming it; must resolve in Ch. 5–6)
 **Plant**: When Yara searches for the deleted report's receipt, she finds it gone — and names what that means: "The intake system did not delete receipts. It couldn't, not through any interface she had ever touched; the receipt log was append-only by design, the whole point of it. Deleting the report was one kind of access. Reaching into the receipt log and lifting out the stamp was another kind entirely — deeper, and cleaner, and not available to anyone who'd simply made a mistake."
 **Chapter 3 development**: The firmware vector (Altera's certification pathway) is now identified. But the receipt-log deletion was a separate action requiring Authority-level system access — not something a certified contractor like Altera could have done. Ch. 3 makes the coordination question sharper: someone inside the Authority used deep credential access concurrent with Altera's physical site visit. These are two distinct actors or one actor with exceptional access to both systems.
-**Expected payoff**: Ch. 4–5 — the formal escalation package that Del drafts will need to account for both vectors. The inside-access question points toward the certifying analyst (complicit? deceived?), someone in Authority IT infrastructure, or both. The append-only log is the evidence that rules out accidental deletion and confirms institutional depth of the cover.
-**Status**: OPEN — HIGH
+**Chapter 4 development**: The formal escalation package Del drafts explicitly names this as an unresolved gap: "someone with extraordinary Authority credentials." The inside-actor question is now on the record — in the evidence package, and presumably in the hands of whoever triggered the suspension. This makes the gap more dangerous, not less. The suspension arrives before they can name the inside actor. CRITICAL for Ch. 5.
+**Expected payoff**: Ch. 5–6 — the inside actor is identified through Del's personal network work or the Compact publication triggering institutional disclosure. The append-only log is the evidence that rules out accidental deletion and forces accountability at the Authority level.
+**Status**: OPEN — CRITICAL
 
 ---
 
@@ -261,11 +263,11 @@
 **Type**: Explicit foreshadowing
 **Planted**: Chapter 2
 **Payoff expected**: Chapter 4 (Rational Innovation's purpose fully articulated)
-**Urgency**: HIGH (escalated from MEDIUM — the square now has a line drawn out of it to a name; payoff is one chapter away)
+**Urgency**: PAID OFF (Chapter 4)
 **Plant**: Del draws a small empty square off to the side of their notes, separate from the bloom clock and the timestamps: "If this is what it looks like — if someone built this and installed it six weeks out — there's a third thing we don't have. A why. Who wants a showcase city to have a bloom appear from nowhere, and what does the appearing buy them." He doesn't fill the square in. "I don't have a single guess yet. I want to write down that I don't."
 **Chapter 3 development**: The square is now partially filled. In the closing scene of Ch. 3, Del looks up Altera's corporate registration, finds a single director, and the director's only other listed directorship: Rational Innovation — Infrastructure Advisory Group. He writes the name a little apart from the square and draws a single line connecting them. "The square on the notepad wasn't empty anymore. It had a line drawn out of it to a name that hadn't been explained — the first shape the why had taken." The plant transitions from total absence of motive to named-but-unexplained motive.
-**Expected payoff**: Ch. 4 — Del explains what Rational Innovation actually does and why New Accra was the target. The square will be fully filled in then. "The square being filled in" closes a loop now three chapters old.
-**Status**: OPEN — HIGH
+**Payoff (Chapter 4)**: Del explains what Rational Innovation actually does — a Technist lobbying organization pushing for looser biotech certification in three jurisdictions, using New Accra as a demonstration case. The motive is fully articulated: "If New Accra's ecological management looks vulnerable, their regulatory argument gets stronger." Del and Yara reconstruct the full play (Altera modifies firmware → bloom develops → Authority blind → emergency declared → Rational Innovation publishes failure report → certification argument advances). The notepad map is written out during the assembly of the escalation package. The square drawn empty in Ch. 2 and partially filled in Ch. 3 is now a complete diagram of the conspiracy. Three-chapter loop closed.
+**Status**: PAID OFF
 
 ---
 
@@ -274,11 +276,11 @@
 **Type**: Setup / Thematic
 **Planted**: Chapter 2
 **Payoff expected**: Chapter 4 (when Rational Innovation's play becomes clear — imminent)
-**Urgency**: HIGH (escalated from MEDIUM — with Rational Innovation now named as connected to Altera, the showcase framing is one scene away from its payoff)
+**Urgency**: PAID OFF (Chapter 4)
 **Plant**: Del articulates the institutional stakes in the closing scene: "Whoever built this wanted the Authority standing there with a clean monitoring log and a dead inlet behind it. Officially watched. Officially found nothing. Then a bloom from nowhere. In public." He adds: "In a city that's something of a showcase." Yara echoes it: "The clean record is the weapon. They built it out of our own paperwork."
 **Chapter 3 echo**: The city motif appears again at the night inspection — Yara pauses on the boardwalk path: "The Upper Terraces stood lit against the night... The city carried on its work in the dark without knowing what was being done to it down here at its edge." The beauty-and-vulnerability tension deepens. The city is still ignorant of what is happening to it.
-**Expected payoff**: Chapter 4 — Del explains what Rational Innovation actually does: they've been pushing for looser certification rules in three jurisdictions. New Accra is the demonstration. "If New Accra's ecological management looks vulnerable, their regulatory argument gets stronger." The "showcase" framing planted in Ch. 2 is the reason New Accra was chosen as the target.
-**Status**: OPEN — HIGH
+**Payoff (Chapter 4)**: New Accra as a showcase city is named explicitly as Rational Innovation's motive — not incidentally, but as the central logic of the demonstration play. Del walks Yara through the regulatory argument: three jurisdictions, looser certification rules, and New Accra as the proof-of-concept that the current certification system fails. The word "showcase" planted in Ch. 2 as Del's characterization is now the mechanism of selection. The city chosen because of what it represents is the plant closed.
+**Status**: PAID OFF
 
 ---
 
@@ -298,10 +300,11 @@
 
 **Type**: Character / Mystery
 **Planted**: Chapter 3
-**Payoff expected**: Chapter 4–5 (certifying analyst: complicit or deceived?)
-**Urgency**: HIGH
+**Payoff expected**: Chapter 5 (certifying analyst identity and complicity question — imminent)
+**Urgency**: HIGH (sustained — Ch. 4 surfaced the context behind Del's Ch. 3 pause: his personal knowledge of Rational Innovation means he may also have a partial read on who the certifying analyst is; analyst question is still formally open but Del's fuller knowledge makes the Ch. 5 resolution feel loaded rather than arbitrary; escalate attention for Ch. 5)
 **Plant**: Del describes the Altera recertification: "It passed. Clean sign-off at the Accord level, a senior certifying analyst's name on it." A small pause there — "a half-beat she noticed and filed" — before he moves on. He does not name the analyst or explain the pause. The pause is visible to Yara and to the reader; Del does not elaborate.
-**Expected payoff**: Ch. 5 — the certifying analyst is identified as a former Technical Council employee who was fired two years ago following a standards disagreement (per the Ch. 5 plan: "A connection, not a conspiracy, but a human one"). The half-beat pause in Ch. 3 is the plant for this revelation. Whether the analyst was complicit (knowingly certified modified firmware) or deceived (didn't test the specific range) is the open question Del voices at the end of Ch. 3, left deliberately incomplete.
+**Chapter 4 development**: Del's Ch. 4 briefing on Rational Innovation revealed that his "distantly" in Ch. 3 understated his knowledge — he knew more than he named. The same pattern applies to the certifying analyst pause. His personal knowledge of Rational Innovation's orbit gives him a potential read on who the certifying analyst is or was. The pause in Ch. 3 now has additional weight: Del may have recognized the analyst's name at the time. Whether he did, and why he chose not to say so, is the open question arriving in Ch. 5.
+**Expected payoff**: Ch. 5 — the certifying analyst is identified as a former Technical Council employee fired two years ago following a standards disagreement (per Ch. 5 plan: "A connection, not a conspiracy, but a human one"). The half-beat pause in Ch. 3 is the plant for this revelation. Whether the analyst was complicit or deceived is one of the final character-level questions in the investigation.
 **Status**: OPEN — HIGH
 
 ---
@@ -311,10 +314,10 @@
 **Type**: Mystery / Setup
 **Planted**: Chapter 3
 **Payoff expected**: Chapter 4 (what Rational Innovation actually does — imminent)
-**Urgency**: HIGH
+**Urgency**: PAID OFF (Chapter 4)
 **Plant**: Rational Innovation — Infrastructure Advisory Group appears in the final scene of Ch. 3 as a name on a corporate registration — the director's only other listed directorship. Del writes it on the notepad and draws a line from the empty "why" square to the name. No function is given. Del says only "I've heard of them, distantly." He doesn't go further. "I don't know yet" is the chapter-ending state.
-**Expected payoff**: Ch. 4A — Del walks Yara through what Rational Innovation actually does: a Technist lobbying organization pushing for looser biotech certification rules in three jurisdictions. New Accra is the demonstration case. "If New Accra's ecological management looks vulnerable, their regulatory argument gets stronger." The name that arrives with no function in Ch. 3 acquires full explanatory weight in Ch. 4.
-**Status**: OPEN — HIGH
+**Payoff (Chapter 4)**: Del walks Yara through what Rational Innovation actually does: a Technist lobbying organization pushing for looser biotech certification rules in three jurisdictions. He reveals that "distantly" understated his knowledge — he had a partial read he had not put into words. New Accra is the demonstration case: if ecological management looks vulnerable in the city that represents the success of the Covenant model, the regulatory argument for looser certification advances. Function, strategy, motive — all fully explained in Ch. 4A. The name that arrived with no function in Ch. 3 now has full explanatory weight.
+**Status**: PAID OFF
 
 ---
 
@@ -322,10 +325,11 @@
 
 **Type**: Visual plant / Explicit foreshadowing
 **Planted**: Chapter 3
-**Payoff expected**: Chapter 5–6 (the diagram grows as the picture becomes complete)
+**Payoff expected**: Chapter 5–6 (the diagram may become part of the publication package)
 **Urgency**: MEDIUM
 **Plant**: The notepad in the middle of Del's desk carries the empty "why" square from Ch. 2. In Ch. 3's final scene, Del writes "Rational Innovation" a little apart from the square and draws a single line from the square to the name. "The square on the notepad wasn't empty anymore. It had a line drawn out of it to a name that hadn't been explained — the first shape the why had taken." The diagram is a visual record of the investigation's progress.
-**Expected payoff**: The notepad diagram is a recurring visual object that the reader can track. Each chapter may add to it — a line, a name, a connection. By Ch. 5, when the full picture is assembled (Altera → Rational Innovation → demonstration play → sabotage of certification), the diagram that began as an empty square will be a complete map of the conspiracy. The final state of the diagram may be what Yara and Del include in their escalation package.
+**Chapter 4 development**: The diagram grows substantially in Ch. 4. During the escalation package assembly, the square is filled in (the motive), additional lines are drawn (Altera → Rational Innovation → demonstration play → certification reform argument), and the map now represents the complete picture of the conspiracy as Yara and Del understand it at the moment of escalation. Yara writes a version of the notepad map during the drafting scene. The physical diagram exists on paper — outside the digital systems that have been compromised — and may survive the suspension as one of the physical evidence threads.
+**Expected payoff**: The notepad diagram is a recurring visual object the reader can track. By Ch. 5, when official channels are closed and the diagram sits in Yara's physical possession, its status as paper evidence — outside the systems that froze their credentials — echoes F-16 (the paper notebook). The diagram may be part of what goes into the Compact public deposit.
 **Status**: OPEN — MEDIUM
 
 ---
@@ -335,10 +339,10 @@
 **Type**: Character
 **Planted**: Chapter 3
 **Payoff expected**: Chapter 4 (Del's fuller knowledge of Rational Innovation emerges)
-**Urgency**: HIGH
+**Urgency**: PAID OFF (Chapter 4)
 **Plant**: When the name Rational Innovation appears, Del says: "I've heard of them. Distantly." He chooses not to go further. The word "distantly" is precise and chosen — Del is a man who fills silences, and he is electing not to fill this one. He says "I don't know yet" when Yara asks if it is good or bad, but the phrasing suggests he has a partial read he is not putting into words.
-**Expected payoff**: Ch. 4A — Del walks Yara through Rational Innovation in detail, revealing that he has done more background work than "distantly" suggested, or that the overnight research between Ch. 3 and Ch. 4 gives him the fuller picture. The plant creates an anticipatory beat: the reader and Yara both sense there is more he knows, and the Ch. 4 briefing delivers it.
-**Status**: OPEN — HIGH
+**Payoff (Chapter 4)**: Del's fuller knowledge surfaces in Ch. 4A — Yara notices he is reciting, not translating; he has clearly done more than overnight reading; the briefing has the fluency of someone who knew the contours of this organization before the name appeared on the corporate registration. He does not make a confession of prior knowledge but the quality of his explanation makes it legible. "Distantly" understated a closer familiarity. The non-confession is the payoff — he surfaces the fuller knowledge without directly acknowledging the gap between "distantly" and what he actually knew.
+**Status**: PAID OFF
 
 ---
 
@@ -358,8 +362,69 @@
 
 **Type**: Urgency escalation / Setup
 **Planted**: Chapter 3 (escalation of bloom-clock thread from Ch. 2)
-**Payoff expected**: Chapters 4–6 (the clock drives every decision through the end)
-**Urgency**: HIGH
+**Payoff expected**: Chapters 5–6 (the clock now drives every off-system decision)
+**Urgency**: CRITICAL (escalated from HIGH — by the end of Ch. 4 the clock is at approximately 40 hours; the suspension arrives before the escalation can be filed; Yara and Del are now outside the system with the clock still running; the remaining window is Ch. 5's entire dramatic pressure)
 **Plant**: At the end of Yara's night inspection, she thinks: "*Sixty-six hours,* she thought. She kept walking." By the chapter's close, the text notes: "They had the vector now, the firmware installed by Altera under cover of a certification visit four months ago. They had the clock, sixty hours and running." The bloom clock is now a named, on-page presence — not background math but an active countdown.
-**Expected payoff**: The clock introduced in Ch. 2 as projected time-to-irreversibility is now down to sixty hours and explicitly named as one of the three things they have. Each chapter from here forward runs against it. Ch. 4 ends with formal escalation and suspension — the clock is still running. Ch. 5 Yara monitors it alone: "forty-eight hours to chemical irreversibility." Ch. 6, the bloom is contained narrowly. The sixty-hour clock planted explicitly in Ch. 3 is what makes every chapter-4 and chapter-5 decision urgent.
+**Chapter 4 development**: The clock ran through Ch. 4's events — the Rational Innovation briefing, the escalation package assembly, the suspension. By chapter end, approximately 40 hours remain. The suspension is the worst-case clock scenario: the official response mechanism is now blocked at the exact moment it would have triggered mandatory inspection. The clock and the suspension are in direct opposition. CRITICAL for Ch. 5.
+**Expected payoff**: Ch. 5 Yara monitors it alone: "forty-eight hours to chemical irreversibility" (per plan) — actually closer to forty given Ch. 4's elapsed time. Ch. 6, the bloom is contained narrowly. Every decision Yara makes in Ch. 5 runs against this clock. The sixty-hour window planted explicitly in Ch. 3 is what makes every Ch. 5 action urgent and the manual biofilter override in Ch. 6 necessary.
+**Status**: OPEN — CRITICAL
+
+---
+
+## [F-30] — Del's Non-Confession: "I've Been in Rooms Where People Talked Like This"
+
+**Type**: Character
+**Planted**: Chapter 4
+**Payoff expected**: Chapter 5 (may surface more of his backstory; may be sufficient as planted)
+**Urgency**: LOW
+**Plant**: In the Ch. 4 briefing scene, Del's fluency with Rational Innovation's institutional logic — the lobbying argument, the regulatory strategy, the demonstration play — exceeds what could come from overnight research. When Yara notices he is reciting rather than translating, he says something close to: "I've been in rooms where people talked like this." It is not a confession. It does not explain which rooms, or when, or how close he came to the thing he is now working against. He does not go further, and Yara does not press.
+**Expected payoff**: The plant may be sufficient as laid — a texture detail that makes Del legible as someone with a more complicated institutional history than the Accord ecology role suggests. If Ch. 5 warrants expanding his backstory (the certifying analyst connection gives him a second human link to this world), the non-confession becomes the place he was already preparing to go. LOW urgency because the scene works either way.
+**Status**: OPEN — LOW
+
+---
+
+## [F-31] — The Inside Actor: "Someone with Extraordinary Authority Credentials"
+
+**Type**: Chekhov's gun / Mystery
+**Planted**: Chapter 4 (named explicitly in the escalation package)
+**Payoff expected**: Chapter 5–6 (inside actor identified through Compact publication or personal network)
+**Urgency**: HIGH
+**Plant**: In assembling the formal escalation package, Del names the append-only log deletion as an unresolved gap requiring inside Authority access at a level that Altera's certification pathway cannot explain. The package describes the gap as requiring "someone with extraordinary Authority credentials" — someone who knew both the existence of the intake receipt log and how to reach it, and who acted in the same window as Altera's physical site visit. The inside actor is named as a required component of the full evidence picture. The escalation is filed with this gap acknowledged; the suspension arrives before the gap can be filled.
+**Expected payoff**: Ch. 5–6 — the inside actor is identified, whether through Del's personal network, through the Compact publication triggering institutional disclosure, or through what surfaces during the mandatory inspection in Ch. 6. The name of "someone with extraordinary Authority credentials" pointed at but not reached in Ch. 4 is the human face on the inside layer of the conspiracy. (See also F-19 for the append-only log mechanics.)
 **Status**: OPEN — HIGH
+
+---
+
+## [F-32] — The Open Knowledge Compact Credentials: Untouched by Suspension
+
+**Type**: Chekhov's gun
+**Planted**: Chapter 4
+**Payoff expected**: Chapter 5 (invocation) and Chapter 6 (deposit goes through)
+**Urgency**: MEDIUM
+**Plant**: When the suspension arrives and credentials are frozen — Yara's Authority access, Del's Accord secondment — it becomes clear that the mechanism reached what it could reach. Yara notices (or Del notes) that her personal Open Knowledge Compact credentials are untouched. The suspension was engineered through institutional pathways that had no reach into her individual Compact standing. This is either an oversight or a limit: whoever designed the containment could not (or did not think to) reach the Compact layer. The untouched credentials are what makes the Ch. 5 publication plan viable.
+**Expected payoff**: Ch. 5 — Del explains the Compact's public-deposit procedure and Yara confirms her standing is intact. Ch. 6 — the upload completes, the Compact archive registers the deposit, and the mandatory Accord response is triggered within the time remaining on the bloom clock. The fact that the suspension could not reach the Compact is the structural reason the resolution is possible. (See also F-11 for the Compact's full context.)
+**Status**: OPEN — MEDIUM
+
+---
+
+## [F-33] — "The Small Good Feeling of Having Done a Hard Thing Correctly"
+
+**Type**: Thematic / Irony
+**Planted**: Chapter 4
+**Payoff expected**: Chapter 5–6 (the irony that correct process is what got them suspended is thematically resolved when correct process — the Compact — is also what saves them)
+**Urgency**: LOW
+**Plant**: In the suspension scene, Yara notices in herself a small residue of satisfaction from having assembled the escalation package well — the careful work of documentation, the methodical evidence chain, the correct procedure followed at every step. The feeling is present just before the suspension arrives: the small good feeling of having done a hard thing correctly. The irony follows immediately: it was the correct process that made them visible, that gave whoever triggered the suspension the exact moment to act. Doing it right is what got them caught.
+**Expected payoff**: Ch. 5–6, when the resolution also runs through correct process — the Compact deposit, the public-deposit procedure read carefully, the credentials confirmed. The thematic arc completes: correct process got them suspended; correct process also saves them. The small good feeling returns, differently weighted, in the Ch. 6 resolution.
+**Status**: OPEN — LOW
+
+---
+
+## [F-34] — Yara's Hand Going to the Paper Notebook in the Suspension Scene
+
+**Type**: Chekhov's gun / Visual plant
+**Planted**: Chapter 4
+**Payoff expected**: Chapter 5–6 (the notebook as physical evidence anchor that the suspension cannot freeze)
+**Urgency**: MEDIUM
+**Plant**: In the suspension scene — after the credentials are frozen, after the official channels close — Yara's hand goes to her paper notebook. The gesture is instinctive, not deliberate: the body reaching for the thing it trusts. The notebook is not digital, not networked, not subject to any credential freeze. It holds the confirmation number, the field inspection notes, the discovery record — the physical evidence spine of everything they built. The gesture plants the notebook as the thread they cannot freeze.
+**Expected payoff**: Ch. 5 — the paper notebook is part of the evidence inventory Yara and Del compile when assessing what they still have. Ch. 6 — the manual biofilter override at Station Seven is Yara doing again what she has done throughout: field work that lives in the physical world, outside the systems that were compromised. The notebook echoes F-16 (the paper habit planted in Ch. 1) and closes the pattern: paper beats deletion.
+**Status**: OPEN — MEDIUM

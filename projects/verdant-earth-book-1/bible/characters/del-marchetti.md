@@ -89,7 +89,12 @@ Born in São Paulo to an Italian-Brazilian father who worked in resource extract
 
 ---
 
-## Notes for writer
-- Del and Yara's dynamic is experienced colleague + technical expert; they complete each other's gaps
-- His verbal abundance is not weakness — he often surfaces the political dimension Yara has missed
-- His Technist background should be a note in the room, not a dramatic reveal; it comes up naturally when relevant
+## Connection to Rational Innovation
+
+In his twenties, during his Technist-adjacent consulting period, Del encountered Rational Innovation directly — they were one of the organizations pushing deregulation of biotech certification standards, and some of his work intersected with their lobbying interests. He wasn't a true believer, but he was in those rooms, understood their argument, and recognized their tactics. He left that world shortly after; Rational Innovation was part of the landscape he walked away from.
+
+When their name appears in Chapter 3, he recognizes it immediately. "I've heard of them, distantly" is temporal (fifteen years ago) and deliberate understatement. He knows what they actually do beneath the public-interest language about certification reform. He doesn't say more because naming them fully would require explaining why he knows — and his Technist background is something he carries quietly.
+
+His personal stake in Chapter 4: some part of what he's doing is finishing a moral accounting that started when he chose to leave. He walked away from that world; he is now, for the first time, actively working against it. This shouldn't be stated directly in the story — it should be the subtext under his particular thoroughness in Chapter 4.
+
+**How it surfaces in Ch. 4**: When Del explains Rational Innovation to Yara, he knows their talking points by heart — he heard them for years. The institutional-insider fluency becomes something more uncomfortable: he's not translating, he's recognizing. The arc reviewer's note applies: this is not a dramatic reveal, it's a note in the room.

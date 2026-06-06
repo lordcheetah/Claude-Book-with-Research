@@ -88,3 +88,35 @@ Events from completed chapters are appended here by the state-updater at the end
 - Yara's credentials: still active as of morning Day 3
 - Del's credentials and archive access: still intact
 - Open questions: Rational Innovation Infrastructure Advisory Group (function, motive unknown); who coordinated the suppression across both institutions; the "why" (motive — empty square now linked to Rational Innovation on notepad); Nwosu's three-reading ambiguity intact
+
+---
+
+## Chapter 4: The Institution Behind It — Completed
+
+**Story date**: Day 3, 2091. Late morning through evening.
+
+**Summary**: Yara and Del research Rational Innovation Infrastructure Advisory Group and confirm its motive and strategy. Rational Innovation is a Technist-leaning advocacy body arguing that biotech certification requirements are too restrictive; its three-jurisdiction lobbying strategy uses New Accra as the showcase city. The play is confirmed: Altera firmware → invisible bloom → forced emergency → Rational Innovation publishes "the certified system failed." The sabotage is a demonstration, not destruction — the clean monitoring record is the weapon, not the bloom itself. Del's personal connection to these rooms surfaces in subtext: his fluency is too specific for someone who has only "heard of them, distantly"; he was in those rooms fifteen years ago. One non-confession: "I've been in rooms where people talked like this." Filed and moved on. Yara names the Open Knowledge Compact on-page for the first time — Covenant-era right of public access to ecological monitoring data; her deposit credentials are confirmed untouched and separate from Authority operational access. An escalation package is assembled and Del files it through the Accord secondment channel. Four minutes later, automated response via shared Accord/Authority unified registry: Yara's Authority credentials suspended (conflict of interest, EI-2091-447), Del's secondment frozen. Chapter closes: "They know what we have. They moved to contain us before we could file it."
+
+**Key events in order**:
+1. Day 3 late morning — Rational Innovation researched: Technist advocacy body; too-restrictive certification argument; three-jurisdiction lobbying strategy
+2. Day 3 late morning — New Accra framing confirmed: showcase city; certified system failure = argument wins
+3. Day 3 midday — The play identified: Altera firmware → invisible bloom → forced emergency → "certified system failed" narrative; demonstration, not destruction; clean monitoring record is the weapon
+4. Day 3 midday — Del's personal connection surfaces (subtext): fluency too specific; was in those rooms fifteen years ago; non-confession: "I've been in rooms where people talked like this"; filed and moved on
+5. Day 3 afternoon — Open Knowledge Compact named on-page: Covenant-era public access right; Yara's deposit credentials confirmed untouched and separate from Authority operational access
+6. Day 3 afternoon — Escalation package assembled: firmware delta, Altera records, hardware log photos, Rational Innovation link, bloom projection; inside-actor gap noted as open
+7. Day 3 afternoon — Del files formal escalation through Accord secondment channel
+8. Day 3 afternoon — 4-minute automated response: Yara's Authority credentials suspended; Del's secondment frozen; both via shared Accord/Authority unified registry
+9. Day 3 evening — Chapter close: "They know what we have. They moved to contain us before we could file it."
+
+**State after chapter**:
+- Bloom clock: ~40h remaining (Day 3 evening; ~74h elapsed from Hour 0; chemical irreversibility at Hour 114)
+- Rational Innovation motive: CONFIRMED — demonstration strategy; New Accra showcase; clean monitoring record as weapon
+- The play: CONFIRMED — Altera firmware → invisible bloom → forced emergency → certification failure narrative
+- Open Knowledge Compact: named on-page; Yara's deposit credentials active and unaffected by suspension
+- Credential status: Yara's Authority credentials SUSPENDED (EI-2091-447); Del's secondment FROZEN; both via shared Accord/Authority unified registry
+- Surviving evidence (unaffected by suspension): paper notebook, personal drive (report copy, lab results), photographs of hardware logs, Del's printed certification records and personal notes
+- Inside actor: OPEN — identified as having configured the shared registry rules; unidentified personally; noted as gap in escalation package
+- Altera director identity: OPEN
+- Certifying analyst: OPEN (planted as question)
+- Nwosu: three-reading ambiguity intact; not present this chapter
+- Open Knowledge Compact: next move is invocation (Chapter 5)
