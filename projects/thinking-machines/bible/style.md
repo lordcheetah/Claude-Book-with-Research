@@ -13,6 +13,13 @@ First person plural ("we") as a device to put reader and writer alongside each o
 
 Conversational authority: the tone of someone who finds this genuinely interesting and has thought about how to explain it clearly, not the tone of someone performing expertise. Never condescending. Never oversimplified to the point of becoming wrong.
 
+### Influences (in effect from Chapter 3 onward)
+A light hand from a few popular-science communicators, used as seasoning, not as a costume:
+- **Sagan's sense of wonder**: when something genuinely strange or vast comes into view, let the prose pause and actually sit with it for a beat before moving on — wonder earned through precision, not through adjectives piled on top of it.
+- **Tyson's direct address**: lean a half-step further into "you've felt this," "here's the part that surprised researchers too" — keep the reader inside the investigation, not outside it being lectured at.
+- **Carroll's precision-with-warmth**: when something is genuinely unresolved, say so plainly and without anxiety — confident *about the uncertainty itself*, never vague to dodge it.
+Apply these as small adjustments in service of the existing voice — not a tonal shift the reader would notice as a change. Chapters 1–2 are already finalized and should not be revised to match; consistency with what's already on the page outranks adding more of any one technique.
+
 ### Analogies
 Central to the book's approach. Good analogies here are:
 - Mechanical/physical (weights on a scale, water flowing, sorting through a pile)
