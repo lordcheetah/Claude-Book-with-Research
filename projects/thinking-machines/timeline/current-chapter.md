@@ -1,7 +1,7 @@
 # Current Chapter — Thinking Machines
 
 ## Chapter in progress
-[Not yet started — Chapter 6 complete and archived to history.md]
+[Not yet started — Chapter 7 complete and archived to history.md]
 
 ---
 
@@ -10,4 +10,4 @@ This file is cleared and appended to history.md at each chapter transition.
 
 ---
 
-*Will be populated when Chapter 7 begins.*
+*Will be populated when Chapter 8 begins.*
