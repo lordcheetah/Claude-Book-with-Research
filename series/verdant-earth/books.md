@@ -28,8 +28,9 @@
 ---
 
 ## Book 2: Seed Vault
-- **Status**: planned
-- **Project folder**: `projects/verdant-earth-book-2` (not yet created)
-- **Time period covered**: 2094
-- **Central question**: TBD — Yara investigates irregularities in the global seed bank network
-- **What it permanently established**: [TBD]
+- **Status**: planned (skeleton scaffolded; protagonist and plot not yet defined)
+- **Project folder**: `projects/verdant-earth-book-2` (created — bible/structure/style adapted from Book 1 as templates, state/timeline initialized; no chapters written)
+- **Time period covered**: 2094 (3 years after Book 1)
+- **Protagonist**: a NEW character (decision locked in) — honoring the series design that each book features a different protagonist in a shared universe. Yara Osei and/or Del Marchetti may appear as supporting/connecting figures; the new protagonist is not yet defined.
+- **Central question**: TBD — premise seed carried forward from the original placeholder: irregularities surface somewhere in the global seed bank network. The actual mystery, setting, and protagonist's relationship to it are still open.
+- **What it permanently established**: [TBD — book not yet written]

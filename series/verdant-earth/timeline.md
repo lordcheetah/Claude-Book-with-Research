@@ -56,4 +56,7 @@
 - **Del Marchetti's Technist-era account**: deliberately bounded and never fully confessed — "something... closing... in the ordinary afternoon," left unexplained on purpose. Available-but-unconfirmed territory; would need new narrative justification to reopen.
 
 ## Book 2: Seed Vault (2094, planned)
-*[To be scaffolded]*
+- **Protagonist**: a NEW character — locked-in decision, honoring the series' "different protagonists, shared universe" design. Not Yara. Yara and/or Del may surface as supporting/connecting figures, and any of the four open threads above may intersect with this new character's story, but none are mandatory.
+- **Premise seed** (carried forward from the original placeholder, subject to revision once the actual story is chosen): irregularities surface somewhere in the global seed bank network.
+- **Setting**: TBD — likely not New Accra, given the network's global scope.
+- *[Plot, mystery, and "what this book establishes" remain to be scaffolded — pending protagonist definition and story-ideator development.]*
