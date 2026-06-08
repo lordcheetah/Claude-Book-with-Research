@@ -208,6 +208,8 @@ The most important open questions about AI are governance questions: who control
 
 ## Conclusion: Why This Matters (~1,500 words)
 
+> **MERGED INTO CHAPTER 8 — not written as a standalone chapter.** During drafting, Chapter 8's closing movement absorbed this section's full function: it returns to the opening "magic" image, reframes the reader's relationship to the technology (a working sorting habit rather than a stockpile of facts), and explicitly declines to adjudicate the governance questions ("disposition not a position"). The arc-reviewer's full-manuscript pass (post-Ch.8) confirmed this merge was the right structural call — a separate conclusion after an already-complete capstone would have been redundant — and recommended this note be added so the absent standalone file is understood as intentional, not a missing chapter. See `.work/thinking-machines/arc-review-full-manuscript.md`.
+
 ### Argument
 Understanding AI changes nothing about the technology — but it changes your relationship to it. It allows you to ask better questions: not "is AI good or bad" but "what is this system optimized for," "who benefits from its errors," "what is it being used to decide."
 
@@ -229,9 +231,9 @@ A callback to the opening: the AI output that seemed like magic. It's still impr
 | 6 | When It Fails | ~3,000 | 3 | Why does it confidently say false things? |
 | 7 | The Black Box | ~2,800 | 4 | Can we understand why it does what it does? |
 | 8 | What We Don't Know | ~3,000 | 4 | What are the genuine open questions? |
-| Conclusion | Why This Matters | ~1,500 | — | What do we do with this understanding? |
+| Conclusion | *(merged into Ch.8 — see note above)* | — | — | What do we do with this understanding? |
 
-**Total estimated**: ~26,600 words
+**Total estimated**: ~26,600 words (actual: 8 chapters complete, no separate Conclusion or Intro chapter files — see merge note above)
 
 ---
 
