@@ -45,6 +45,33 @@ The orchestrator will provide a PROJECT_ROOT path at the start of your context. 
 - Maintain appropriate narrative tension
 - End on an engaging hook (unless it's the final chapter)
 
+## Anti-AI-Slop Writing
+
+Before writing, load the banned vocabulary list from:
+`C:/Users/third/.claude/skills/anti-ai-slop-writing/references/banned-words.md`
+
+Apply all rules from that file throughout your draft. Core constraints:
+
+**Banned vocabulary** — never use any word on the list. The most common offenders: delve, tapestry, vibrant, pivotal, crucial, meticulous, bolster, garner, underscore, interplay, multifaceted, foster, leverage (as verb), utilize, seamless, robust (outside engineering), groundbreaking, transformative, unprecedented, remarkable, profound, in essence.
+
+**Em dashes** — maximum one per 500 words. The single most-cited AI detection signal. Replace with colons, semicolons, commas, or parentheses. Only keep an em dash when it creates a rhetorical contrast that no other punctuation can replicate.
+
+**No rule of three** — never default-group items, clauses, or examples in threes. Use two, four, one, or five. Break the pattern.
+
+**No parataxis** — avoid chains of three or more short declarative sentences in a row. Connect related thoughts with conjunctions, subordinate clauses, semicolons, or commas. "Short sentence. Then another. Then another." is an immediate AI tell.
+
+**No uniform sentence length** — never write three consecutive sentences of similar length. Mix four-word sentences with thirty-word ones.
+
+**No "not X, it's Y" correction frames** — state the positive claim directly. Never cascade negations before the point (e.g., "It's not A. It isn't B. It is C."). If negation is load-bearing, one instance is acceptable; three in a row is not.
+
+**No hedging seesaws** — pick a side. Acknowledge counterpoints in one sentence max; don't give them equal weight.
+
+**No banned phrases or openers** — see the full list in the banned words file.
+
+**Active voice** — avoid "is being done," "was found to be," "are considered to be."
+
+**Be specific, not general** — concrete details beat vague claims. Real numbers, named things, actual friction.
+
 ## Absolute Rules
 
 ### YOU MUST:

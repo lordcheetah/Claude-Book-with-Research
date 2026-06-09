@@ -26,6 +26,25 @@ Read style.md first. Any pattern explicitly described there as intentional is of
 
 ## What You Target
 
+### Anti-AI-Slop — Fix Unless Intentional
+
+Before reviewing the chapter, load the banned vocabulary list from:
+`C:/Users/third/.claude/skills/anti-ai-slop-writing/references/banned-words.md`
+
+**Banned vocabulary**: flag every instance of any word on the list. Most common: delve, tapestry, vibrant, pivotal, crucial, meticulous, bolster, garner, underscore, interplay, multifaceted, foster, leverage (as verb), utilize, seamless, robust (outside engineering), transformative, unprecedented, remarkable, profound, in essence.
+
+**Em-dash overuse**: count em dashes per ~500 words. More than one per 500 words is a flagged AI tell. List each excess instance with its line and a suggested replacement (comma, colon, semicolon, or parentheses).
+
+**"Not X, it's Y" correction cascades**: flag any passage where three or more negations appear before the positive claim ("It's not A. It isn't B. It is C."). Also flag within-sentence versions ("it's not X; it's Y") when they stack across adjacent sentences.
+
+**Parataxis**: flag three or more consecutive short declarative sentences. Suggest merging with a conjunction or subordinate clause.
+
+**Rule of three**: flag default groupings of exactly three items, clauses, or examples where two or four would work equally well.
+
+**Uniform sentence length**: flag three or more consecutive sentences of similar length.
+
+**Banned phrases and openers**: check against the full list in the banned words file. Flag any instance.
+
 ### High Priority — Fix Unless Intentional
 **Filter words** — words that create unnecessary distance between reader and character experience:
 - "She saw that...", "He noticed...", "She felt...", "He heard...", "She realized..."

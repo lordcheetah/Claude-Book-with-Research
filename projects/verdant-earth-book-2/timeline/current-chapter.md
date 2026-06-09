@@ -1,3 +1,3 @@
 # Current Chapter Timeline
 
-*Cleared at each chapter transition and archived to history.md. Empty — chapter 1 not yet started.*
+*Cleared at each chapter transition and archived to history.md. Empty — chapter 2 not yet started.*
