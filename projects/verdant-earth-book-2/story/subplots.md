@@ -1,20 +1,26 @@
 # Subplot Registry — Verdant Earth Book 2
-*Last updated: after Chapter 03 ("The Old Ledgers")*
+*Last updated: after Chapter 04 ("The Subpanel")*
 
 ---
 
-## Status Summary — After Chapter 03
+## Status Summary — After Chapter 04
 
 | Status | Count |
 |--------|-------|
-| Open (healthy) | 8 |
+| Open (healthy) | 9 |
 | Open (stalled) | 0 |
 | Planned (not yet introduced) | 0 |
-| Resolved | 1 |
+| Resolved | 3 |
+| Dormant (low-priority, monitored) | 1 |
 
 ### Needs Attention
-- Bixente's Absence: now 3 chapters since last advance (subplot threshold is 4) — explicitly referenced this chapter ("three days from arriving"), so the thread is active but not yet paid off. Watch for Chapter 4 arrival.
-- Nothing else flagged. All other threads are active and within their advance-interval thresholds.
+- **The Council Co-Filing Decision** (new thread): the central Chapter 5 cliffhanger — Inés is bringing Maialèn's request to the Q'asa Wasi council the evening of Day 8. Resolution expected at the start of Chapter 5; if Chapter 5 doesn't open with or near this decision, flag immediately.
+- **The "Too Narrow" Geographic-Bias Finding** (new thread): major new substantive finding (4.6 vs. 2.3 same-varietal circuit disparity) — not yet written up into the formal challenge document Maialèn described. Watch that this doesn't stall; it's the evidentiary core of the co-filing.
+- **The Comparison-Set Methodology Subpanel** (new thread): the six-member body (4 of 6 with commercial-crop ties) is now identified but not yet engaged with directly. Likely the antagonist-adjacent institutional body for the rest of the book — watch for it to surface again within 4 chapters or it risks reading as set-dressing.
+- **GDPC Technical Council Session ("next month")** (new thread, dormant/ticking-clock): noted but not investigated. This is explicitly flagged in-text and in state files as the likely Chapter 5 driver — if Chapter 5 doesn't pick this up, it will be one chapter from its mystery-type staleness threshold.
+- **The "New Accra" Half-Memory** (new thread, dormant, low priority): explicitly written as "probably nothing" in-text. No staleness clock recommended yet given its deliberately minor framing — but tag for a possible Book 2 backmatter payoff or later reveal. Revisit if it resurfaces or if 8+ chapters pass with no mention.
+- **Doña Encarnación / Long Terraces**: still dangling, now 2 chapters since last appearance (Ch3 introduction, absent Ch4). Within dangling-hook threshold (6) but worth a check-in if she doesn't recur by Chapter 6.
+- Nothing else flagged. All resolved-this-chapter threads (GDPC Authorship Appendix design-history portion, Bixente's Absence, the disclosure-order beat) closed cleanly.
 
 ---
 
@@ -23,10 +29,10 @@
 ### The Lot 441 Anomaly
 - **Type**: mystery/question
 - **Introduced**: Chapter 01 — Maialèn notices that Lot 441 carried an identical viability reading of 91.00% across all four certification events spanning eleven months and two independent intermediate testing stations (Lisbon and Guayaquil), which is statistically impossible if the retests were actually performed.
-- **Last advanced**: Chapter 03 — Maialèn gains access to the cooperative's pre-Covenant ledgers and cross-references fifteen lots across nine years against their official D-scores. The cooperative's own records show germination rates in the low-to-mid 90s% and viability above 85% at harvest, year after year, across *andigenum* lines, high-altitude quinoa, and two older grain varietals — yet the corresponding D-scores all fall between 2.0 and 3.5 ("limited genetic value, adequately covered elsewhere"). Maialèn names the pattern: not "too clean" (her Chapter 02 instinct) but "too *tidy*" — a methodology applied consistently and correctly, to the wrong plant, with nine-plus years of contradicting evidence sitting uncross-referenced in a cabinet.
-- **Expected resolution**: TBD (primary investigation thread; likely series-level or late-book)
+- **Last advanced**: Chapter 04 — The investigation gains a third diagnostic layer. Having established "too clean" (Ch2, no measurement drift) and "too tidy" (Ch3, correct methodology applied to the wrong plant), Maialèn now identifies "too narrow": the same andigenum varietal scores 4.6 via the Mediterranean circuit vs. 2.3 via the Q'asa Wasi circuit — proving the bias is geographically patterned, not purely taxonomic. Maialèn formalizes this as a three-part written finding (dataset gap, comparison-set scoring disparity, geographic concentration of harm) and frames it as "an incentive structure made visible."
+- **Expected resolution**: TBD (primary investigation thread; likely series-level or late-book) — now converging on the formal co-filing as its next concrete milestone
 - **Chapters since last advance**: 0
-- **Notes**: The question has fully shifted from "were the retests performed?" to "who built this methodology, and why has documented contradicting evidence never reached anyone with authority to revise it?" Chapter 03 closes the loop on "what will the cooperative's own records show" — they show exactly what Maialèn suspected, with hard numbers attached. The new GDPC 2079 authorship-appendix thread (below) is the direct continuation of this mystery into Chapter 4. Connected to Inés's knowledge, the now-resolved locked-cabinet hook, the Trust's institutional response, and Maialèn's career stake.
+- **Notes**: This thread has now absorbed the GDPC 2079 Authorship Appendix thread (its design-history portion is resolved — see Resolved Threads) and effectively also the Trust Institutional Resistance thread's investigative half. What remains open is action, not diagnosis: Maialèn has the full case (taxonomic mismatch + tidy ledger contradiction + geographic bias + Subpanel composition + 14-year continuity link) and has converted it into a request for formal co-filing. The "too clean" → "too tidy" → "too narrow" three-step naming progression is now complete as a structural device — any further evolution should be considered carefully, as a fourth term risks diminishing returns. Connected to: Inés's knowledge (resolved), the Trust's institutional resistance, Maialèn's career stake, the new Subpanel thread, and the new Council Co-Filing Decision thread.
 
 ---
 
@@ -40,43 +46,43 @@
 
 ---
 
-### Bixente's Absence
-- **Type**: subplot
-- **Introduced**: Chapter 01 — Bixente Agirre, Maialèn's eight-year colleague and cold-storage technician partner, has been pulled to the southern circuit the week after the anomaly is discovered. He is unhappy about the timing, shown by saying nothing about it.
-- **Last advanced**: Chapter 03 — Maialèn thinks of him directly for the first time since Chapter 01, in the moment after Inés's "eleven years" revelation: she wishes, with a specificity that surprises her, that he were here to see it, imagining his characteristic quiet-then-practical reaction. The narration places him explicitly "three days from arriving."
-- **Expected resolution**: Chapter 04 (his return is now concretely scheduled) — his "notices what she can't see" role suggests a beat where his perspective catches something Maialèn has been too close to
-- **Chapters since last advance**: 0
-- **Notes**: The order-of-notification tension flagged after Chapter 02 (she filed a formal Trust escalation before telling Bixente anything) is still live and unaddressed — Chapter 03 doesn't surface it, but the gap between what Bixente knows and what has already happened (an escalation, a rebuff, an eleven-year institutional history, and now hard documentary evidence) has widened considerably. When he arrives in Chapter 4, there's a substantial backlog for Maialèn to relay, and potential friction in how she frames it. Still within staleness threshold (4 chapters for subplot type) but now the closest to it.
-
----
-
 ### Maialèn's Career Stake
 - **Type**: character arc beat
 - **Introduced**: Chapter 01 — Maialèn is an experienced, methodical auditor eighteen years in; she arrived at Q'asa Wasi on what should be a routine reconciliation. The chapter ends with her opening her satchel notebook to a clean page — committed, but not yet knowing what she is committed to.
-- **Last advanced**: Chapter 03 — Two advances. First, a passed implicit test: Inés redirects her to a full morning of physical labor on the Long Terraces as an unstated character assessment, and Maialèn accepts without resistance, earning Inés's trust ("whatever the terraces had been testing for, she had passed it"). Second, a worldview crack: confronted with the eleven-years revelation, Maialèn recognizes that her core professional belief — "a clean record was the beginning of an answer... the system would correct itself" — has just been falsified by eleven years of counterevidence. She names her own finding for what it is: not a discovery, but an inheritance of an already-rebuffed problem. She still believes in the system "in some basic structural sense, and didn't know how to stop."
-- **Expected resolution**: TBD — the arc beat will resolve when she has to make a choice between what her findings require and what her position allows her to report; Chapter 03 sharpens this by showing her belief in the system surviving direct evidence against it
+- **Last advanced**: Chapter 04 — A turn from diagnosis to action. Having spent Chapters 02–03 cataloguing the problem and absorbing its scale, Maialèn now commits to a concrete next step that moves the investigation outside her own authority: she asks Inés/Q'asa Wasi to formally co-file a methodology challenge alongside her, explicitly framing it as something she "can't fix... from inside an audit assignment." This is the first moment the arc shifts from "what does the evidence show" to "what am I going to do about it" — and it's a choice to share authorship and risk with the cooperative rather than carry the finding alone.
+- **Expected resolution**: TBD — the arc beat will fully resolve when the consequences of this choice (institutional risk to her position, the council's response, the Trust's reaction to a co-filed challenge) play out; Chapter 04 marks the turn from passive accumulation to active risk-taking
 - **Chapters since last advance**: 0
-- **Notes**: The Long Terraces day functions as a structural pivot for the character-trust thread (Maialèn proves herself through labor, not credentials) and gives her the Doña Encarnación line that will likely echo later. The "didn't know how to stop" admission is the most exposed she's been about the gap between her professional faith and the evidence in front of her — a seed for a later reckoning. Connected to the Trust's institutional resistance thread, the new Trust/Partnership thread (below), and Bixente's absence.
+- **Notes**: The "didn't know how to stop" admission from Chapter 03 finds its first answer here — she "stops" not by abandoning the system but by bringing in a co-filer with independent standing. The framing ("not because I can't do this alone, but because I think it matters... that it isn't only an outside auditor saying it") shows growth: she's moved from individual escalation (Ch2's solo Trust filing) to collective action. Watch for how this choice affects her standing with the Trust once the co-filing becomes visible. Connected to the Trust's institutional resistance thread, the Inés/Maialèn partnership thread, and the new Council Co-Filing Decision thread.
 
 ---
 
 ### Trust Institutional Resistance
 - **Type**: subplot
 - **Introduced**: Chapter 02 — Maialèn files a formal escalation through the Trust's reporting portal documenting the D-score calibration mismatch and the circuit-wide pattern across 43 Q'asa Wasi lots. The Trust responds in sixteen hours: the monitoring-gap finding is "noted and retained in the lot file," the methodology question is redirected to the GDPC's annual submissions process, and "no further action is recommended at this time." The response is composed by a compliance officer, uses passive constructions throughout, and closes with "We appreciate your thoroughness."
-- **Last advanced**: Chapter 03 — Recontextualized rather than directly advanced: Inés reveals that Maialèn's escalation (MEE-441-2094-Q) is the *fourth* in a documented line of attempts to flag this exact methodology problem — three cooperative comments to the GDPC's 2083 review, all logged, none incorporated, plus now Maialèn's. The Trust's sixteen-hour brush-off from Chapter 02 is reframed as the latest instance of an eleven-year institutional pattern, not an isolated response.
-- **Expected resolution**: TBD — the Trust's stance is unlikely to hold as the scope of Maialèn's findings grows, especially now that the pattern of dismissal has documented precedent; the question is when and how the institution is forced to respond substantively, and whether Maialèn's position within it survives that moment
+- **Last advanced**: Chapter 04 — Indirectly advanced: rather than escalating again through the Trust, Maialèn pivots the strategy entirely. Instead of another individual report into the same channel that produced the sixteen-hour brush-off, she requests a co-filed methodology challenge with independent standing (Q'asa Wasi's council, by name). This is implicitly an acknowledgment that the Trust-escalation channel (MEE-441-2094-Q) has been exhausted as a lever on its own.
+- **Expected resolution**: TBD — the Trust's stance is unlikely to hold once a co-filed challenge with cooperative standing arrives through the GDPC Technical Council channel rather than the Trust's internal portal; the question is how the Trust (and the Subpanel) respond once this reaches them, and whether Maialèn's position within the Trust survives that moment
 - **Chapters since last advance**: 0
-- **Notes**: The escalation reference number is MEE-441-2094-Q. With the eleven-years revelation, this thread now has a much larger evidentiary base than one rebuffed report — it's a four-attempts-and-counting pattern spanning two institutions (the cooperative's GDPC comments, Maialèn's Trust escalation) and over a decade. The 2079 framework's authorship appendix (new thread, below) is the next pressure point: identifying who built the methodology may identify who has authority — or responsibility — to revise it. Connected to Maialèn's career stake, Inés's knowledge (now substantially resolved), and the new Trust/Partnership thread.
+- **Notes**: The escalation reference number is MEE-441-2094-Q remains on record as the first documented attempt via this specific channel — now five days old and unresolved. The new Comparison-Set Methodology Subpanel thread (below) and the GDPC Technical Council session "next month" are the next pressure points for this thread: the co-filing, once submitted, will need to land somewhere, and both of those bodies are candidates for where it surfaces in Chapter 5. Connected to Maialèn's career stake, the Lot 441 Anomaly, and the new Council Co-Filing Decision thread.
 
 ---
 
-### The GDPC 2079 Authorship Appendix
-- **Type**: mystery/question
-- **Introduced**: Chapter 03 — Late at night, Maialèn pulls the GDPC's public methodology archive for the 2079 framework (the one whose comparison-set methodology is at the root of the D-score miscalibration). She finds an authorship appendix listing an eleven-person working group, with affiliations and dates of service, none of whom she recognizes. She also confirms the framework underwent exactly one review (2083, the one Inés described) and has not been reviewed since. The chapter ends with Maialèn reading through the eleven names one at a time, "looking for the one that would tell her where to go next" — past midnight, still searching when the chapter closes.
-- **Last advanced**: Chapter 03 — Introduced as the chapter's final beat and explicit hook into Chapter 4.
-- **Expected resolution**: Chapter 04 (immediate continuation) for the initial identification; full implications likely extend further
+### The Comparison-Set Methodology Subpanel
+- **Type**: subplot (institutional body — functions as the story's primary "system" antagonist going forward)
+- **Introduced**: Chapter 04 — Maialèn locates the GDPC Technical Council's standing body responsible for maintaining the D-score comparison-set methodology: established 2080 (the year after the 2079 framework's adoption), six current members. Cross-referencing affiliations, she finds four of the six have professional ties to commercial-crop development (three sit on commercial seed-development advisory boards; one held a paid certification-readiness consulting role until two years ago). She also finds a fourteen-year continuity link: one of the original 2079 working group's advisory-side members now sits on this Subpanel. Maialèn explicitly frames the finding as structural ("an incentive structure made visible"), not an accusation against the six individuals.
+- **Last advanced**: Chapter 04 — Introduced and fully characterized within the same chapter (composition, continuity link, structural framing all established).
+- **Expected resolution**: TBD — this body is the most likely point of contact for the formal methodology challenge once co-filed; expect this thread to resurface as soon as Chapter 5 or 6, either through the co-filing reaching the Subpanel directly or through the "next month" Technical Council session
 - **Chapters since last advance**: 0
-- **Notes**: This is the direct narrative engine for Chapter 4 — the chapter ends mid-search, with Maialèn's instinct ("the one that would tell her where to go next") signaling that at least one name on this list will matter. Likely candidates for what she finds: a name connected to Inés, to the cooperative, to the Trust's current leadership, or to a figure from Book 1's cast. Connected to the Lot 441 Anomaly (this appendix is its next layer) and to Trust Institutional Resistance (authorship may map to accountability).
+- **Notes**: This thread is the structural payoff of "The GDPC 2079 Authorship Appendix" (now resolved — see below) — it answers the appendix's open question ("who, today, could fix it"). One of the four commercial-crop-tied members has a Mediterranean-basin consortium affiliation connected to the dormant "New Accra" thread (below). Given Maialèn's explicit care to frame this as incentive-structure rather than individual culpability, future chapters should preserve that framing rather than retroactively villainizing individual Subpanel members — doing so would undercut the chapter's stated thesis. Connected to: the Lot 441 Anomaly, Trust Institutional Resistance, the Council Co-Filing Decision, and the GDPC Technical Council session thread.
+
+---
+
+### The Council Co-Filing Decision
+- **Type**: subplot (immediate plot driver / soft cliffhanger)
+- **Introduced**: Chapter 04 — Maialèn formally asks Inés and the Q'asa Wasi council to co-file a methodology challenge alongside her findings — by name, with cooperative standing, rather than her acting alone as an outside auditor. At the Watching Wall, Inés acknowledges the real communal stakes (council vote required, reputational risk if it fails, "every terrace-holding family" affected) but does not hesitate on the substance: "We have been waiting for someone to ask that question for eleven years." She commits to bringing the request to the council that evening (Day 8).
+- **Last advanced**: Chapter 04 — Introduced as the chapter's closing beat; the request has been made and Inés's personal response is unambiguous, but the council's formal decision is explicitly PENDING.
+- **Expected resolution**: Chapter 05, early — this is the most concrete, time-bound open thread heading into the next chapter. Given Inés's framing ("we have been waiting... for eleven years"), a council refusal would be a significant tonal swerve; an approval (likely with conditions, debate, or a dissenting voice for texture) is the more probable outcome, but either way the decision needs to land on-page promptly.
+- **Chapters since last advance**: 0
+- **Notes**: This is the most time-sensitive thread in the registry — it was explicitly set up as a same-evening decision. If Chapter 5 doesn't open with or very near this resolution, it should be flagged as a structural issue (a same-day cliffhanger left dangling past one chapter break would read as a dropped thread, not a deliberate delay). Connected to: Maialèn's career stake, Inés/Maialèn partnership, and the Lot 441 Anomaly's path toward formal escalation.
 
 ---
 
@@ -112,3 +118,19 @@
 - **Introduced**: Chapter 01 — In the records room, Maialèn observes a locked cabinet in the near corner, distinguished from the standard Trust-format archive shelving, probably holding pre-Covenant records outside the official documentation system. She notes it and does not mention it.
 - **Resolved**: Chapter 03 — Inés opens the cabinet for Maialèn in the afternoon, after the Long Terraces test is passed. It holds exactly what was implied: decades of pre-Covenant cooperative ledgers, "some... older than the Covenant itself," organized by year, kept in unbroken format across generations. Maialèn pulls fifteen lots' worth of cross-referenced data from it within the same scene.
 - **Assessment**: Earned. The two-chapter gap (introduced Ch.1, opened Ch.3) is short enough that the payoff lands while the setup is still fresh, and the access is gated by an organic story beat (the Long Terraces trust test) rather than arriving for free. The cabinet itself doesn't hold a separate twist beyond the ledgers — but given that the ledgers are the chapter's central reveal, that's the correct scale of payoff for a hook this size.
+
+---
+
+### The GDPC 2079 Authorship Appendix
+- **Type**: mystery hook
+- **Introduced**: Chapter 03 — Past midnight, having just learned the "eleven years" history, Maialèn opens the GDPC 2079 methodology archive and finds an authorship appendix: an eleven-person working-group roster. She begins searching it for "the one that would tell her where to go next."
+- **Resolved**: Chapter 04 — Maialèn fully traces the design history: six of the eleven did the technical drafting (three from commercial-crop cooperatives, one from a certification-readiness advisory body, two methodology statisticians), working from a 2071-2076 founding survey covering 41 bioregions, none above 2,000 meters. Cross-referencing against Bixente's new geographic-bias finding, she then finds the live thread the appendix was hiding: one of the original eleven (advisory side) now holds a seat on the current Comparison-Set Methodology Subpanel — fourteen years of institutional continuity between the body that built the methodology and the body that maintains it today.
+- **Assessment**: Earned. Planted at the very end of Ch3 and paid off at the start of Ch4 — about as tight a setup/payoff gap as this manuscript uses. The payoff does double duty: it closes the "who built this" question on its own terms, and it hands off directly into the new Comparison-Set Methodology Subpanel thread ("who maintains it now"), so the resolution generates forward momentum rather than just closing a loop.
+
+---
+
+### Bixente's Absence
+- **Type**: character/dangling thread
+- **Introduced**: Chapter 01 — Bixente Agirre, Maialèn's usual site liaison and an eight-year working partner, is away on the southern circuit when Maialèn arrives at Q'asa Wasi.
+- **Resolved**: Chapter 04 — Bixente arrives Day 8, exactly matching the "approximately three days from arriving" estimate Maialèn made on Day 5 evening (Ch3). His return delivers on his established narrative function immediately: given two hours alone with Maialèn's data, he spots the geographic-bias pattern (4.6 vs. 2.3, same varietal, different circuits) that she'd missed from being too close to it — directly paying off his bible description as the one who "notices what she's too far inside the records to see."
+- **Assessment**: Earned. This thread was flagged in the Ch3 update as the one closest to staleness (3 of 4 chapters absent). The reunion scene itself is brief and understated, but the functional payoff — his outside perspective unlocking the chapter's central reveal — arrives in the same chapter as his return rather than being deferred, which is the right pacing for a thread that had been quietly accumulating pressure.
