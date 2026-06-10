@@ -1,81 +1,37 @@
 # Foreshadowing Registry — Verdant Earth Book 2
-*Last updated: after Chapter 02 ("The Monitoring Gap")*
+*Last updated: after Chapter 03 ("The Old Ledgers")*
 
 ---
 
-## Status Summary — After Chapter 02
+## Status Summary — After Chapter 03
 
 | Status | Count |
 |--------|-------|
 | Unresolved (LOW urgency) | 3 |
-| Unresolved (MEDIUM urgency) | 5 |
-| Unresolved (HIGH urgency) | 0 |
+| Unresolved (MEDIUM urgency) | 4 |
+| Unresolved (HIGH urgency) | 1 |
 | OVERDUE | 0 |
-| Resolved | 1 |
+| Resolved | 3 |
 
-### Needs Attention Before Chapter 03–05
-- **The Locked Cabinet**: planted in Chapter 1 with clean Chekhov's gun precision; Chapter 3 is the ledger disclosure scene where it must be addressed. If it does not open in Chapter 3, urgency escalates to HIGH.
-- **Inés's "We are familiar with the scoring system"**: planted in Chapter 2 as deliberate calibrated concealment; the payoff is the 2083 methodology comments Inés reveals in Chapter 3. The reinforcement in Chapter 2 (the terrace pause) has kept the thread warm — Chapter 3 must deliver.
-- **Q'asa Wasi's parallel varietal coding / pre-Covenant ledgers**: Inés's disclosure in Chapter 2 that the cooperative runs its own coding system plants the existence of older records; this is the direct setup for Maialèn's Chapter 3 request and "Come back in the morning" — payoff is imminent.
-- **Trust response's institutional language**: planted in Chapter 2; the escalation-path failure payoff (Chapter 5) is far enough out that it registers as MEDIUM now, but the plant is prominent and the reader will not forget it easily. It should be reinforced (not resolved) in Chapter 4 before the full Chapter 5 payoff.
-- **Maialèn's air-sketching gesture**: introduced in Chapter 2 as a recurring character gesture at investigative pivots; needs its second appearance in Chapter 3 or 4 to establish as a recognizable signature rather than a one-off mannerism.
+### Needs Attention Before Chapter 04–06
+- **The 2079 Authorship Appendix / Working-Group Roster**: planted explicitly at the end of Chapter 3 — Maialèn is reading it past midnight, "looking for the one that would tell her where to go next." Chapter 4 must deliver the subpanel-composition reveal this is pointed at. This is the most urgent open thread.
+- **Bixente's Arrival**: now on an explicit three-day countdown as of Chapter 3 ("three days from arriving"); Chapter 4 is the expected arrival chapter and must deliver both his presence and the spatial-pattern-recognition payoff already seeded in Chapter 1.
+- **Trust response's institutional language**: still pointed at the Chapter 5 escalation-path failure; Chapter 3 has now made this thread heavier by establishing that Maialèn's own escalation (two days before Chapter 3) is "the fourth" in a lineage of ignored attempts — Chapter 4 should carry at least one beat acknowledging this stacking before Chapter 5's full payoff.
+- **Maialèn's air-sketching gesture**: still awaiting its second appearance; Chapter 3 had a strong opportunity (the "fifteen lots, nine years" reveal) and did not use it. Urgency increases — flag for Chapter 4.
+- **"Too tidy" as an evolving diagnostic vocabulary**: newly tracked as a thematic thread this chapter; watch for a further evolution or a moment where the term itself becomes load-bearing in dialogue with another character (e.g., Bixente).
 
 ---
 
 ## Unresolved Plants
 
-### The Locked Cabinet
-- **Type**: Chekhov's gun
-- **Planted**: Chapter 01 — "a locked cabinet in the near corner that she noted and did not mention"
-- **Reinforced**: —
-- **Intended payoff**: The cabinet holds pre-Covenant ledgers belonging to the Seed Council; it is opened (or its contents disclosed) in Chapter 3 during the ledger disclosure scene.
-- **Expected by**: Chapter 03
-- **Urgency**: MEDIUM
-- **Notes**: The planting is clean and deliberate — the prose marks it with exactly the kind of specific, unnamed attention that signals a Chekhov's gun. Maialèn sees it and withholds the observation; this double silence (she notices, she stays quiet) increases the reader's expectation. Chapter 3 is the earliest natural payoff; if it does not arrive by Chapter 3, urgency escalates immediately to HIGH. The Q'asa Wasi parallel coding system (planted Chapter 2) and Maialèn's end-of-chapter request for the cooperative's older records are converging on the same disclosure event.
-
----
-
-### Inés's Controlled Response — "We Are Familiar With the Scoring System"
-- **Type**: character / mystery
-- **Planted**: Chapter 02 — "Then she said, precisely: 'We are familiar with the scoring system.' Nothing more."
-- **Reinforced**: Chapter 02 — Maialèn catalogs the terrace pause in her notebook: "Two seconds. Not evasion. Calibration."
-- **Intended payoff**: Chapter 3, when Inés reveals what the cooperative actually knows about the D-score methodology — specifically the 2083 methodology comments that document the problem. Her response in Chapter 2 is calibrated concealment, not ignorance; the payoff must distinguish between the two.
-- **Expected by**: Chapter 03
-- **Urgency**: MEDIUM
-- **Notes**: This plant builds directly on the Chapter 1 plant of Inés's shifted expression on D-scores (see Resolved Plants — that plant has been paid off by this chapter's reinforced version). The Chapter 2 version is a stronger, more explicit plant: Inés is now on record as having institutional knowledge she is not yet sharing. The phrase "We are familiar" is deliberate and chosen; the payoff must honor that precision. The reader will expect to learn what, exactly, the cooperative knows and for how long.
-
----
-
-### Inés's Shifted Expression on D-Scores (Residual)
-- **Type**: character / setup
-- **Planted**: Chapter 01 — Inés's expression shifting "in a way that Maialèn catalogs and does not yet interpret" when D-scores are mentioned
-- **Reinforced**: Chapter 02 — "We are familiar with the scoring system"; the terrace pause; Maialèn's notebook entry: "Not evasion. Calibration."
-- **Intended payoff**: Chapter 3, full disclosure of what the cooperative knows about the D-score mechanism and why Inés's reactions have been calibrated concealment. The Chapter 2 reinforcement has advanced this plant but not closed it.
-- **Expected by**: Chapter 03
-- **Urgency**: MEDIUM
-- **Notes**: This plant and the "We are familiar" plant are functionally coupled — they resolve in the same disclosure event in Chapter 3. The Chapter 2 reinforcement is well-handled: Maialèn's notebook notation ("Not evasion. Calibration.") shows her reading Inés accurately, which raises the stakes of the Chapter 3 reveal. The reader now knows Maialèn knows something is being withheld; the payoff must justify the precision of that perception.
-
----
-
-### Q'asa Wasi Parallel Varietal Coding — Pre-Covenant Ledgers
-- **Type**: setup / Chekhov's gun
-- **Planted**: Chapter 02 — Inés tells Maialèn: "We maintain our own in addition to the Accord format. For internal cross-reference — some of our lots have Accord identifiers that don't capture the local subvariety distinctions. We use a parallel system for the terraces."
-- **Reinforced**: Chapter 02 — Maialèn's end-of-chapter request for the cooperative's older, pre-network records; Inés's answer, "Come back in the morning."
-- **Intended payoff**: Chapter 3, when the older records are produced and the pre-Covenant ledgers reveal what the cooperative's own performance data shows about the varietals the D-score has been misclassifying.
-- **Expected by**: Chapter 03
-- **Urgency**: MEDIUM
-- **Notes**: This is a quick-turn plant — the chapter ends on Inés's "Come back in the morning," which is an explicit promise that the records will appear in Chapter 3. The parallel coding system detail does double work: it establishes the cooperative's institutional independence from the Accord's documentation standards, and it makes the existence of richer local data plausible and specific. The locked cabinet (planted Chapter 1) likely holds physical copies of the same records Maialèn is about to receive.
-
----
-
 ### The Trust Response's Generic Institutional Language
 - **Type**: setup / explicit foreshadowing
 - **Planted**: Chapter 02 — The Trust's response: "questions pertaining to the Genetic Diversity Preservation Council's scoring protocols fall outside the scope of routine audit review... The Accord's monitoring framework, including Protocol 4.7(c), is functioning as designed. No further action is recommended at this time."
-- **Reinforced**: —
-- **Intended payoff**: Chapter 5, when the internal escalation path fails completely — the Trust's response in Chapter 2 is the first demonstration that the institution cannot investigate itself through standard channels. The language ("functioning as designed," "no further action recommended") will read, in hindsight, as the system doing exactly what it was built to do.
+- **Reinforced**: Chapter 03 — Inés's "eleven years" disclosure recasts this plant retroactively: the Trust's Chapter 2 non-answer is now revealed as the *fourth* iteration of the same institutional response, following three cooperative comments filed during the 2083 methodology review (received, acknowledged, not incorporated). Inés states this plainly: "And your escalation, two days ago, made it four."
+- **Intended payoff**: Chapter 5, when the internal escalation path fails completely. The Trust's Chapter 2 language no longer reads as a single dismissal but as a recurring pattern with an eleven-year prior history — the Chapter 5 failure must now land as the *fifth* link in a chain the reader has been shown in full, which raises the stakes considerably.
 - **Expected by**: Chapter 05
-- **Urgency**: LOW
-- **Notes**: Maialèn's silent, methodical response to the Trust's letter — reading it twice, quoting it back to herself with flat irony, underlining "correct" in her notebook — is itself a plant: the reader is being taught how to read institutional language through her example. This prepares them to recognize the same quality of bureaucratic deflection when it escalates in Chapter 5. The plant is prominent enough that intermediate reinforcement in Chapter 4 (another escalation attempt that hits the same wall) would deepen the Chapter 5 payoff without requiring a new scene.
+- **Urgency**: MEDIUM
+- **Notes**: Chapter 3 has substantially deepened this plant without resolving it — it has converted a single bureaucratic brush-off into a documented eleven-year pattern of institutional non-response, which the reader (and Maialèn) now carries as inherited weight into every subsequent appeal. This raises urgency from LOW to MEDIUM: Chapter 4 should carry at least a small beat acknowledging the stacking (Maialèn's awareness that she is now part of a numbered sequence) before Chapter 5 delivers the full escalation-path failure. The "functioning as designed" language from Chapter 2 should ideally be echoed once more before Chapter 5, now with the eleven-year context attached.
 
 ---
 
@@ -84,9 +40,9 @@
 - **Planted**: Chapter 02 — "She raised one finger and traced a shape in the air in front of her — a sketch of geometry, not drawing anything specific, just giving the pattern a form outside her head while she thought through it. She did this when data resolved into something that had a shape."
 - **Reinforced**: —
 - **Intended payoff**: Recurs at each major investigative pivot — when she identifies the geographic distribution pattern (Chapters 3–4), and again at the regulatory window discovery (Chapter 4). Each recurrence signals to the reader that she has locked onto something structurally real.
-- **Expected by**: Chapter 03 or 04 (first recurrence needed to establish as habit rather than incident)
+- **Expected by**: Chapter 04 (first recurrence overdue from Chapter 3)
 - **Urgency**: MEDIUM
-- **Notes**: The prose is explicit about the gesture's meaning ("She did this when data resolved into something that had a shape"), which means the reader is primed to recognize it on recurrence. This makes the urgency for a second appearance real — one appearance with an authorial explanation is a setup; without a second appearance the explanation hangs in the air. The gesture also does thematic work: it is the kinesthetic counterpart to the "record vs. measurement" thread — she is making a measurement, not just a record, by giving the shape a physical form outside her head.
+- **Notes**: Chapter 3 contained a strong natural opportunity for this gesture's second appearance — the "fifteen lots, nine years, too tidy" reveal is exactly the kind of moment the gesture was established to mark, and the chapter did not use it. The authorial explanation from Chapter 2 ("She did this when data resolved into something that had a shape") is now one chapter further from its only appearance, raising urgency from MEDIUM to a firmer MEDIUM with an explicit flag: if Chapter 4 doesn't deliver the second appearance (ideally at the authorship-appendix reveal or Bixente's spatial-pattern moment), this risks reading as an abandoned character beat rather than a recurring signature.
 
 ---
 
@@ -97,7 +53,7 @@
 - **Intended payoff**: Recurs again at the regulatory window discovery (Chapter 4), where the count escalates and the method is put under pressure (what does she do when there are more than three, or when the count doesn't resolve cleanly?).
 - **Expected by**: Chapter 04 (next structural use)
 - **Urgency**: LOW
-- **Notes**: Chapter 2 has delivered the needed reinforcement — the habit is now established as a pattern, not a coincidence. The Chapter 2 use is more developed than the Chapter 1 plant: it includes both the three-count and its extension ("Four. The pause before she answered."), which shows the method is dynamic rather than formulaic. The reader now understands counting as her epistemological signature. The Chapter 4 payoff should put the method under some kind of pressure or complication to earn the setup.
+- **Notes**: No new development in Chapter 3 — the chapter's central numbers (fifteen lots, nine years, eleven years, "four" escalation attempts) are all counting motifs in spirit but don't explicitly invoke Maialèn's three-count habit by name or gesture. Worth noting: Inés's own line, "And your escalation, two days ago, made it four," structurally echoes Maialèn's habit of extending a count to the next number (cf. Chapter 2's "Three things... Four. The pause before she answered.") — this may be an intentional rhyme, with Inés now performing Maialèn's own diagnostic move back at her. The Chapter 4 payoff should still put the method under pressure as previously noted; urgency holds at LOW.
 
 ---
 
@@ -108,18 +64,29 @@
 - **Intended payoff**: Chapter 6, when the final planting trial takes place on the nursery terraces; the sensory signature gives that scene its grounding in something the reader has already felt twice.
 - **Expected by**: Chapter 06
 - **Urgency**: LOW
-- **Notes**: The Chapter 2 reinforcement is well-timed and well-executed — it uses the same structure (contrast at the gap) without repeating the language exactly. The setting is now doing double duty: it grounds the nursery as a felt place, and it is where Inés chose to have the D-score conversation, which connects the living plants to the institutional problem surrounding them. A third intermediate mention (brief, sensory) in Chapter 4 or 5 would make the Chapter 6 return feel like a true homecoming rather than a callback.
+- **Notes**: No appearance in Chapter 3 — the chapter's setting moves to the Long Terraces (a related but distinct location) and the records room, neither of which carries the nursery's specific sensory signature. The Long Terraces sequence does, however, introduce a structurally similar device (see new Thematic Thread below: "earned versus unearned reading of the land"), which may end up doing complementary work. A third intermediate mention of the nursery's smell (brief, sensory) in Chapter 4 or 5 would still make the Chapter 6 return feel like a homecoming; urgency holds at LOW but the window is narrowing.
 
 ---
 
 ### Bixente's "Notices What He Can't See" Capability
 - **Type**: setup / character
 - **Planted**: Chapter 01 — Bixente is established as methodical and spatially perceptive: "she trusted the way he moved through a vault the way she trusted her grandmother's handwriting." He is pulled away to the southern circuit; his absence is noted as poorly timed.
-- **Reinforced**: —
+- **Reinforced**: Chapter 03 — Maialèn's end-of-chapter thought: "She thought, briefly, of Bixente — somewhere on the southern circuit, three days from arriving — and wished, with a specificity that surprised her, that he were here to see this. He wouldn't have been surprised. He'd have gone quiet, the way he did, and then said something practical, and she'd have felt better for it." This both reinforces his established temperament (quiet, practical) and converts his absence into an explicit countdown.
 - **Intended payoff**: Chapter 4, when he arrives at Q'asa Wasi and immediately identifies the geographic patterning in the D-score distribution — a spatial pattern that Maialèn, working from documents rather than place, has missed.
 - **Expected by**: Chapter 04
-- **Urgency**: LOW
-- **Notes**: His absence in Chapters 1–3 is part of the plant — the reader knows he would see something she's missing. His eventual arrival must deliver a concrete observation that justifies the setup. The "vault intuition" description is the specific capability being seeded; the payoff must be a moment where physical-spatial reading of the landscape produces the insight, not just his presence as a plot device. No development in Chapter 2; urgency holds at LOW through Chapter 3.
+- **Urgency**: MEDIUM
+- **Notes**: The Chapter 3 reinforcement is doing careful double duty — it keeps Bixente present as an absence (the reader is reminded what his perspective would add right at the moment the "too tidy" diagnosis crystallizes) and it converts the previously vague "pulled away" status into a hard three-day clock. Urgency rises from LOW to MEDIUM: the "three days" framing is specific enough that Chapter 4 is now a near-explicit promise, not just a planned beat. The payoff must still deliver a concrete spatial observation (per the original "vault intuition" framing), not merely his arrival.
+
+---
+
+### The 2079 Authorship Appendix / Working-Group Roster
+- **Type**: mystery / setup
+- **Planted**: Chapter 03 — Maialèn pulls up the GDPC's 2079 methodology framework documentation and finds, "buried in an appendix," an authorship record: "a list of working-group members, eleven names, affiliations, dates of service." She reads it once, then again more slowly, recognizing none of the names. The chapter ends with her still working through the list past midnight, "looking for the one that would tell her where to go next."
+- **Reinforced**: —
+- **Intended payoff**: Chapter 4 — a subpanel-composition reveal. One (or more) of the eleven names on this roster must connect to something Maialèn can act on: an overlap with the 2083 review panel, a current Trust or Council affiliation, a connection to Lot 441 or Q'asa Wasi specifically, or a name that explains why the comparison-set methodology was built the way it was.
+- **Expected by**: Chapter 04
+- **Urgency**: HIGH
+- **Notes**: This is the chapter's final image and functions as a direct narrative arrow — "the one that would tell her where to go next" is about as explicit a promise of imminent payoff as foreshadowing gets. It is paired with the review-history detail that the framework was adopted in 2079, reviewed once in 2083, and never reviewed again — which means the eleven-person roster is also, implicitly, a list of the last people who had institutional authority over this methodology. Chapter 4 needs to deliver on this directly; if it doesn't, this becomes the registry's first OVERDUE item given how pointed the setup is.
 
 ---
 
@@ -133,24 +100,44 @@
 
 ---
 
+### The Locked Cabinet
+- **Type**: Chekhov's gun
+- **Planted**: Chapter 01 — "a locked cabinet in the near corner that she noted and did not mention"
+- **Paid off**: Chapter 03 — Inés withholds the cabinet for the entire morning (sending Maialèn to the Long Terraces instead, explicitly framing this as a test of "what kind of person" Maialèn is), then opens it in the afternoon: "These are ours... Before the Trust. Before the Accord had a name for any of this. Some of these books are older than the Covenant itself." The brass lock "turned without resistance — not because it was broken... but because it had simply never needed to resist anyone the cooperative had decided to let in." The ledgers inside produce the chapter's central evidence: fifteen cross-referenced lots, nine years, germination in the low-to-mid nineties and viability above 85%, against official D-scores of 2.0–3.5.
+- **Assessment**: Earned, and improved by the delay. The original plant (Chapter 1) primed the reader to expect the cabinet's contents as a fairly direct disclosure scene; Chapter 3 instead inserts the Long Terraces day as a narrative gate before the payoff, which deepens rather than dilutes it — the cabinet opens only after Maialèn has demonstrated (through Doña Encarnación's approval and the day's labor) that she's earned a different kind of trust than an auditor's credentials confer. The lock detail ("never needed to resist anyone the cooperative had decided to let in") retroactively recasts the original "locked cabinet" image: it was never a security mechanism, it was a relationship gate. This is a stronger payoff than a same-scene disclosure would have been.
+
+---
+
+### Inés's Controlled Response — "We Are Familiar With the Scoring System" / Inés's Shifted Expression on D-Scores
+- **Type**: character / mystery (coupled plants, resolved together)
+- **Planted**: Chapter 01 — Inés's expression shifting "in a way that Maialèn catalogs and does not yet interpret" when D-scores are mentioned. Chapter 02 — "Then she said, precisely: 'We are familiar with the scoring system.' Nothing more," reinforced by the terrace pause ("Two seconds. Not evasion. Calibration.").
+- **Paid off**: Chapter 03 — Inés's "eleven years" revelation. After Maialèn asks "How long have you known this?", Inés answers directly: in 2083 the GDPC opened a methodology review and the cooperative submitted three comments (the first requesting high-altitude comparators, the second including supporting data, the third largely for the record); all three were received, logged, and acknowledged, but the 2079 framework was adopted in 2084 with the comparison-set methodology unchanged. Inés delivers this "without bitterness... the way she'd check a measurement twice to be sure of a null result," and explicitly frames Maialèn's own escalation two days earlier as a fourth iteration of the same pattern.
+- **Assessment**: Earned and precisely calibrated to the plant's own language. The Chapter 2 plant promised that "We are familiar" was *calibration, not evasion* — the Chapter 3 payoff honors that exactly: Inés's eleven-year silence was never concealment for its own sake but the considered patience of someone who has already run this exact appeal and knows what answer it produces. The reveal also retroactively reframes Doña Encarnación's parallel line ("I told her... two years back") as part of the same lineage of the cooperative repeatedly explaining itself to people who didn't act on it — which deepens rather than just resolves the original plant. The emotional landing (Maialèn's "recalibration rather than an emotion," her realization that she has "found the same thing... eleven years after" Inés did) is understated and consistent with both characters' established voices.
+
+---
+
 ## Thematic Threads
 
 ### Record vs. Measurement — The Difference Between a Claim and a Reading
-- Appearances: Ch01 ("a record was not a measurement — it was a claim, made by someone, at a specific moment, for a specific reason"), Ch01 ("Not a wrong number. A number that was never rechecked."), Ch02 ("The calculation was correct. Every field was properly filled. The methodology had been applied exactly as specified."), Ch02 ("she had audited enough to know the difference between a failure and a design behaving correctly"), Ch02 (Maialèn's air-sketching gesture — giving a pattern a physical form outside her head, i.e., measuring rather than recording)
-- Building toward: The book's central argument that systems designed to verify can be subverted not through falsification but through the suppression of re-examination, or through the use of a correctly-functioning tool calibrated for the wrong thing. The D-score mechanism works by making re-examination unnecessary by design — which is harder to prosecute than fraud, and harder to see from inside the system.
+- Appearances: Ch01 ("a record was not a measurement — it was a claim, made by someone, at a specific moment, for a specific reason"), Ch01 ("Not a wrong number. A number that was never rechecked."), Ch02 ("The calculation was correct. Every field was properly filled. The methodology had been applied exactly as specified."), Ch02 ("she had audited enough to know the difference between a failure and a design behaving correctly"), Ch02 (Maialèn's air-sketching gesture — giving a pattern a physical form outside her head, i.e., measuring rather than recording), Ch03 (Doña Encarnación: "The paper says what the paper was given. I know what this plant does." — the thematic statement delivered, for the first time, by someone outside the audit/Accord world entirely), Ch03 (the ledger cross-reference itself: fifteen lots of "decades of real, varying, internally consistent measurements" set against a column of D-scores that never varies in the direction that matters)
+- Building toward: The book's central argument that systems designed to verify can be subverted not through falsification but through the suppression of re-examination, or through the use of a correctly-functioning tool calibrated for the wrong thing. The D-score mechanism works by making re-examination unnecessary by design — which is harder to prosecute than fraud, and harder to see from inside the system. Chapter 3 is a major waypoint for this thread: Doña Encarnación's line is the plainest possible statement of the theme, delivered with no audit vocabulary at all, and the ledger scene is the thread's first full demonstration in data rather than abstraction. This thread may now be considered substantially "stated" — what remains is institutional consequence (Chapters 4–5) rather than further articulation.
 
 ### The Thin Air / Altitude as Honest Disclosure
-- Appearances: Ch01 ("a slight widening at the edge of each breath, a reminder that she was working harder for the same amount of air"), Ch01 ("Give yourself a day before you trust your own head"), Ch02 (stars at altitude: "very precise... the altitude stripping away the atmospheric scatter that normally made them soft. They looked like a record — everything visible, everything in its exact position"), Ch02 ("the cold that had settled fully over the terraces now, stars very precise above the stone walls")
-- Building toward: Altitude as a recurring figure for conditions that do not deceive — the mountain charges an honest entry fee. The regulatory and institutional systems that fail in this story hide their costs. The altitude does not. The star passage in Chapter 2 makes the connection explicit: at this elevation, the sky itself looks like a record, with everything in its exact position and nothing scattered or softened. This may resolve as an explicit thematic statement or remain structural.
+- Appearances: Ch01 ("a slight widening at the edge of each breath, a reminder that she was working harder for the same amount of air"), Ch01 ("Give yourself a day before you trust your own head"), Ch02 (stars at altitude: "very precise... the altitude stripping away the atmospheric scatter that normally made them soft. They looked like a record — everything visible, everything in its exact position"), Ch02 ("the cold that had settled fully over the terraces now, stars very precise above the stone walls"), Ch03 (the Long Terraces' "swing" — cold soil under a warming sun, "Not weather. A schedule." — the mountain's honest, predictable cost), Ch03 (the stars again, at the chapter's close: "the stars had come out in the dense, precise way they did at this altitude — more of them than she was used to, and sharper," though notably this time Maialèn "didn't look up at them," too absorbed in the roster to take the disclosure offered)
+- Building toward: Altitude as a recurring figure for conditions that do not deceive — the mountain charges an honest entry fee. The regulatory and institutional systems that fail in this story hide their costs. The altitude does not. Chapter 3's repetition of the star image, paired with Maialèn's failure to look up this time, is a notable variation: she is now so deep in institutional documents (the very thing that *does* deceive) that she misses the honest disclosure available to her. This contrast — between the precise, honest sky and the buried, dishonest appendix she's reading instead — may be worth making more explicit in Chapter 4, possibly through Bixente, who arrives from "outside" and might notice what she didn't.
 
 ### The Watching Wall — Known and Unknown Arrivals
-- Appearances: Ch01 ("three people standing along the long stone terrace-edge... watching... they watched with the unhurried attention of people who had been watching this road their whole lives and knew everything that arrived along it"), Ch02 (Inés's sustained, unhurried assessment of Maialèn throughout — from the receiving yard to the final evening meeting: "the same measuring-out, the same careful calibration of the kind of person who had arrived")
-- Building toward: Who is watching whom, and what each party knows about what has been sent. Q'asa Wasi's awareness of arrivals — both physical and institutional — may extend to awareness of what has been sent to them through the Accord's documentation systems. Inés's calibrated attention is the human version of the watching wall: present, unhurried, reading everything that arrives.
+- Appearances: Ch01 ("three people standing along the long stone terrace-edge... watching... they watched with the unhurried attention of people who had been watching this road their whole lives and knew everything that arrived along it"), Ch02 (Inés's sustained, unhurried assessment of Maialèn throughout — from the receiving yard to the final evening meeting: "the same measuring-out, the same careful calibration of the kind of person who had arrived"), Ch03 (the Long Terraces day as the culmination of this assessment: Inés sends Maialèn to work, not watch, framing it explicitly as the final test of "what kind of person" will read the ledgers; Doña Encarnación's "You're the one asking about the scores" — news has already traveled, "fast, and through channels nobody bothered to name"; Inés's closing look, "the same long, assessing look from the receiving yard, the nursery terraces, the records-room table four nights ago. But it had a different quality now... she had passed it")
+- Building toward: Who is watching whom, and what each party knows about what has been sent. Chapter 3 substantially resolves the *interpersonal* dimension of this thread — Maialèn has now passed the cooperative's test and earned access to what the watching was gatekeeping. What remains open is the *institutional* dimension: whether the Accord/Trust/GDPC's "watching" of Q'asa Wasi (via the D-score, via monitoring suspension) is itself being watched back, and by whom. The roster Maialèn is reading at chapter's end may be the first thread connecting these two forms of watching — the named individuals who built the system that has been "watching" Q'asa Wasi's lots without truly seeing them.
 
 ### Layers of Engineering — Old Technique, New Material
-- Appearances: Ch01 ("sections where the original Inca-period stonework showed beneath the Covenant-era composite resurfacing, a layer of engineering on top of a layer of engineering"), Ch01 (the Vault House: "the new materials married to the old technique so naturally that you had to look carefully to see where one ended and the other began"), Ch02 (the parallel coding system: Q'asa Wasi maintains its own codes alongside the Accord format, the cooperative's older layer running beneath the network's current documentation standards), Ch02 (pre-Covenant ledgers as the older layer that the Accord's system is built on top of)
-- Building toward: The D-score system is itself a layer placed on top of existing verification architecture. Its danger is that it looks like continuity while actually suppressing what the old structure was designed to do. The cooperative's parallel coding system and pre-Covenant ledgers are the surviving older layer — the original engineering that the new layer has obscured but not replaced. TBD whether this surfaces as explicit dialogue or remains structural.
+- Appearances: Ch01 ("sections where the original Inca-period stonework showed beneath the Covenant-era composite resurfacing, a layer of engineering on top of a layer of engineering"), Ch01 (the Vault House: "the new materials married to the old technique so naturally that you had to look carefully to see where one ended and the other began"), Ch02 (the parallel coding system: Q'asa Wasi maintains its own codes alongside the Accord format, the cooperative's older layer running beneath the network's current documentation standards), Ch02 (pre-Covenant ledgers as the older layer that the Accord's system is built on top of), Ch03 (the ledgers themselves, opened: "Whoever had started this, sometime before the 1990s, had built something the cooperative simply kept doing, generation after generation, without needing to be told why" — the format unchanged across decades and changing hands; Doña Encarnación's "Forty-one... People round down because it's a rounder number. I don't" as a small human echo of the same precision-across-generations)
+- Building toward: The D-score system is itself a layer placed on top of existing verification architecture. Its danger is that it looks like continuity while actually suppressing what the old structure was designed to do. The cooperative's parallel coding system and pre-Covenant ledgers are the surviving older layer — the original engineering that the new layer has obscured but not replaced. Chapter 3 makes this thread concrete and load-bearing: the old layer (the ledgers) is now the evidentiary foundation for the entire investigation. Doña Encarnación's correction ("Forty-one... I don't [round down]") is a small but precise echo of the ledgers' own refusal to round off or simplify — both are forms of the same discipline, held by people the Accord's systems don't see.
 
 ### Institutional Patience — The Skill of Giving Important Answers Room to Arrive
-- Appearances: Ch02 ("She had learned, over eighteen years of audits, that patience was not passivity — it was a specific skill, the skill of giving the important answers room to arrive"), Ch02 (Inés's reciprocal patience — "very good at waiting," her interior pause before answering the records request), Ch02 (Maialèn's response to the Trust's letter — methodical, annotative, no emotional annotation in the notebook, underline "correct" and move on)
-- Building toward: TBD. Both Maialèn and Inés are established as practitioners of a particular kind of operative patience — not passive, not evasive, but interior and deliberate. The Trust's response represents the institutional version of this quality gone wrong: patience as deferral, as a design feature that produces acknowledgment without action. The contrast between these three forms of patience (investigative, cooperative, institutional) may be building toward a moment where patience fails as a strategy and a different kind of action is required.
+- Appearances: Ch02 ("She had learned, over eighteen years of audits, that patience was not passivity — it was a specific skill, the skill of giving the important answers room to arrive"), Ch02 (Inés's reciprocal patience — "very good at waiting," her interior pause before answering the records request), Ch02 (Maialèn's response to the Trust's letter — methodical, annotative, no emotional annotation in the notebook, underline "correct" and move on), Ch03 (Doña Encarnación's account of having explained the same thing to the council "two years back" and to Maialèn now — patience as repetition without bitterness), Ch03 (Inés's "eleven years" disclosure delivered "without bitterness... the way she'd check a measurement twice to be sure of a null result" — institutional patience pushed to its limit and beyond, eleven years of acknowledged-but-unactioned comments)
+- Building toward: Chapter 3 is a major escalation of this thread. What was, in Chapter 2, a contrast between three *forms* of patience (investigative, cooperative, institutional-as-deferral) becomes, in Chapter 3, a demonstration of what happens when cooperative patience is exhausted by institutional non-response for over a decade — and the patience holds anyway, without curdling into bitterness, because (as Inés implies) it has had to. Maialèn's closing realization — that she has "found the same thing... eleven years after" Inés did, and "filed the same kind of comment... and got the same kind of answer" — reframes her own patience (the methodical audit-trail patience established in Ch01–02) as something the cooperative has already tried and found insufficient. The thread now points toward a moment (likely Chapter 5, at the escalation-path failure) where patience-as-strategy must be abandoned or transformed into something else — possibly publicity, possibly going outside normal channels, possibly the roster Maialèn is chasing at chapter's end.
+
+### "Too Tidy" — The Evolving Diagnostic Vocabulary
+- Appearances: Ch02 (Maialèn's recurring self-translation tic, "Demasiado limpio" / "Too clean" — used previously to register when something shows *no* sign of drift or tampering, i.e., a finding of mechanical correctness), Ch03 (the tic recurs and is explicitly corrected in the moment: "*Demasiado limpio,* she thought. *Too clean.* No — not clean. That wasn't the right word... Not clean. *Tidy.* Too tidy — a system built carefully, applied consistently, producing with total internal consistency an answer that was wrong every time it was asked about this particular plant.")
+- Building toward: This is now a tracked two-stage diagnostic vocabulary rather than a single repeated phrase. "Too clean" (no drift, mechanically correct) and "too tidy" (internally consistent but built on the wrong premise) are related but distinct findings, and Maialèn now has language to distinguish them — which suggests the distinction itself will matter again. A plausible third stage would be a moment where Maialèn (or another character) needs a *third* term for a finding that is neither "too clean" nor "too tidy" — e.g., something that *isn't* internally consistent, a genuine anomaly inside the otherwise-tidy system, possibly surfacing from the authorship roster in Chapter 4. Watch for this vocabulary to be picked up by Bixente on arrival — he is established as plain-spoken and practical, and might either adopt Maialèn's terms or offer his own that reframes them again.
