@@ -94,4 +94,101 @@ Del's "Technist background available-but-unconfirmed" status is now closed for B
 - **OPEN THREAD — the cleanest sequel hook in the book**: the identity of the Altera board member / Rational Innovation director who authorized the connection is explicitly UNCONFIRMED at Book 1's close. Del hands this off on-page to the Technical Council's investigation ("a name for the Council's investigation now... subpoena power, financial records, the whole apparatus we don't have and shouldn't try to be"). This is the most natural inciting thread for a Book 2 institutional-conspiracy arc.
 
 ---
+
+## Maialèn Etxeberria Goikoetxea
+*(protagonist of Book 2: Seed Vault)*
+
+### Permanent facts
+- Full name: Maialèn Etxeberria Goikoetxea; introduces herself with the full name and lets people shorten it to "Mai" once they've earned it
+- Age at Book 2: 38; based at the Atlantic Seed Trust's northern verification office in Donostia (Basque coast)
+- Expertise: cross-bioregional seed-lot audit and chain-of-custody verification — eighteen years' experience as of Book 2
+- Registration credential: **AST-7734** (Atlantic Seed Trust verification circuit registration) — issued to her personally, independent of any specific assignment
+- Core traits: compulsive enumeration ("let me say it out loud," counting sequences aloud to catch gaps), faith in the written record as a form of honest witness, generous suspicion (assumes the best of individuals, the worst of processes), warm and socially fluent investigative style, occasional Basque/Spanish self-translation mid-sentence
+- Signature physical habit: traces shapes in the air with one finger when a pattern resolves — "the data had geometry"
+
+### Per-book arc summary
+- **Book 2 (Seed Vault)**: Maialèn traveled to Q'asa Wasi (Cusco bioregion, Peru, ~3,800m) to audit Lot 441 — a *Solanum tuberosum* subsp. *andigenum* seed lot that showed four identical 91.00% viability readings across eleven months and three independent testing events, with no drift. She discovered the anomaly was caused by Protocol 4.7(c), an automated monitoring-cycle suspension triggered by a low D-score (2.1, vs. a 2.5 re-monitoring threshold) — the lot had never actually been re-tested in transit. Working with Inés Huanca Quispe and the Q'asa Wasi Seed Council, she uncovered that the GDPC's 2079 D-score comparison-set methodology systematically miscalibrates high-altitude Andean varietals against lowland commercial cultivars (a "too tidy" classification mismatch), and — with Bixente Agirre's help — that the bias is also geographic: the same andigenum varietal scores 4.6 through the Mediterranean circuit but only 2.3 through Q'asa Wasi (a "too narrow" pattern, not just a taxonomic one). She traced the methodology's design history (the 2079 working group, six drafters, three from commercial-crop cooperatives, a founding survey that never collected data above 2,000 meters) and identified the GDPC Technical Council's **Comparison-Set Methodology Subpanel** (est. 2080) as the body currently maintaining the framework, including one member with fourteen years of continuous institutional involvement.
+  - **Permanent changes**: Filed a formal escalation (ref. MEE-441-2094-Q) that the Trust dismissed as outside audit scope; her field assignment (MEE-2094-QW-04) was subsequently closed by the Trust as "resolved" (no fraud found, monitoring gap explained). She then **filed a Rights Tribunal petition (Ref. RT-2094-11847) under her own personal credentials (AST-7734)**, co-filed by the Q'asa Wasi Seed Council (represented by Inés Huanca Quispe) — the first time in eighteen years she acted outside/beyond her employer's endorsement. The petition was accepted for expedited review under Section 9, and triggered an administrative hold (Notice AH-2094-0231) on the GDPC Subpanel's pending codification vote, postponing it indefinitely. As a direct consequence, her own registration (AST-7734) was placed "under review pending consultation with the Compact's standards office" — later softened to "under continued review, no further action required at this time," but never formally closed. She wrote herself the note: *"AST-7734: under review. Filed anyway. Would file again."*
+  - Her arc resolved from "a clean record is the beginning of an answer" to "a record is a claim, made by someone, for a reason — and a signature is a personal, answerable act, not just a statement about the record." She closed the book by annotating the original Lot 441 transfer record, in the margin she'd left blank at the start: *"Whose claim? Mine now too. I signed it forward. — M.E.G."*
+  - Her "let me say it out loud" enumeration habit was tested across the book: it broke for the first time ever mid-Chapter 5 (a count that should have had a "three" but instead had nothing — "there isn't a three... that's the first time that's happened," because a decision, unlike a finding, doesn't complete a sequence), then was restored cleanly in Chapter 6 with a count that finished with "nothing missing, nothing frightening."
+  - Her air-sketching gesture (introduced Chapter 4, when Bixente helped her see the geographic pattern) had a negative callback in Chapter 5 (she caught herself reaching for it during the germination trial and stopped — "this wasn't a pattern she was discovering, it was a number she'd been afraid of, arriving"). The gesture is now an established personal tic, available but dormant going into Book 3+.
+  - Lot 441's transfer record (the four identical 91.00% readings) is now her personal touchstone — it bears her own annotation as of the book's end and may be referenced as a physical object/document in future books.
+
+### Series-level arc note
+Maialèn's arc in Book 2 is now complete and stable: she has internalized that her registration credential and signature carry personal, not just institutional, weight, and has demonstrated she will act on that (and accept the institutional cost of doing so) again if needed. Future books should treat her as someone whose registration status (AST-7734) carries unresolved, low-grade institutional friction — available as a Book 3+ thread — and who has an established working partnership with Bixente Agirre and a personal/professional relationship with Inés Huanca Quispe and the Q'asa Wasi cooperative.
+
+---
+
+## Bixente Agirre
+*(supporting character, introduced Book 2 — recurring)*
+
+### Permanent facts
+- Cold-storage technician at the Atlantic Seed Trust's Donostia vault; Maialèn's usual site liaison and closest working partner — eight-year working relationship as of Book 2
+- Quiet, methodical, dry-humored; "noticed" things Maialèn was too close to the data to see (e.g., the geographic D-score pattern: same andigenum varietal scores 4.6 via Mediterranean circuit vs. 2.3 via Q'asa Wasi)
+- Has a half-remembered, unconfirmed connection to "that business in New Accra" via "a colleague of a colleague" who left a Mediterranean-basin consortium post around that time — this colleague-of-a-colleague's affiliation matches one of the six current Comparison-Set Methodology Subpanel members (see World Rules / open threads)
+
+### Per-book arc summary
+- **Book 2 (Seed Vault)**: Joined Maialèn at Q'asa Wasi on Day 8 after completing a southern-circuit assignment (Catalonian seed bank audit backlog). Read through all of Maialèn's findings in order, identified the geographic-bias pattern (same varietal, different circuits, different scores) that Maialèn had missed because she was "too far inside it." Fact-checked and rebuilt the methodology challenge document's tables over four days. Present at both bookend scenes of the book's final chapter (Watching Wall at dawn, Donostia office three weeks later). His line — "Some files don't really close. They just stop needing daily attention. That's its own kind of finished" — is the book's closing thesis.
+  - **Permanent change**: Their eight-year habit of "she tells him what she finds before she tells the Trust" was broken once, deliberately, when Maialèn filed her initial escalation (MEE-441-2094-Q) without telling him first. Both registered it explicitly ("Then we're square") — a small, named crack in an old habit, not a rupture.
+
+### Series-level arc note
+Bixente is now an established recurring supporting character at the Donostia vault and a likely fixture if future books return to Maialèn's circuit. The "New Accra" half-memory is an unconfirmed, planted thread (see World Rules — Open Threads).
+
+---
+
+## Inés Huanca Quispe
+*(supporting character, introduced Book 2 — recurring; Q'asa Wasi Seed Council Chair)*
+
+### Permanent facts
+- Approximately 65 years old; Chair of the Q'asa Wasi Seed Council (Cusco bioregion, Peru, ~3,800m)
+- Came to meet Maialèn personally on arrival (unusual — most cooperative stations send a records clerk or liaison officer to receive an Atlantic Seed Trust auditor)
+- Family history: her grandmother kept the cooperative's ledgers for forty years (her great-grandmother before that). The grandmother's earliest entry, dated **1991**, was written in pencil in an unofficial notebook during "the worst years" — the cooperative's official ledger had been lost the previous year (1990) "in the resettlement." The grandmother recorded a germination count for one of the tuber lines with no expectation anyone outside the valley would ever see it: "Someone has to remember what grew here." This page is now part of the cooperative's archive deposit (QW-GERM-2079-2093).
+- Cooperative's self-description, attributed to Inés as a recurring phrase: "Keeper, not innovator."
+
+### Per-book arc summary
+- **Book 2 (Seed Vault)**: Tested Maialèn over four days (a day of records-room access, a day of terrace labor with the harvest crew) before opening the cooperative's pre-Covenant ledger cabinet to her. Revealed that the Seed Council had identified the D-score miscalibration **eleven years before Maialèn's visit** (in 2083, during the GDPC's only methodology review) and had submitted three rounds of comments, all logged, acknowledged, and not incorporated into the 2079 framework when it was readopted unchanged in 2084. Brought the question of a formal co-filed challenge to the full council (not just the five-member Seed Council, but terrace representatives and elders as well) — the vote passed 8–3 (Tomás among the three dissenters). Co-filed the Rights Tribunal petition (Ref. RT-2094-11847) by name, alongside Maialèn, with the council's seal on the authorization.
+  - **Permanent changes**: The Q'asa Wasi Seed Council is now formally on record, by name, as co-petitioner in a Rights Tribunal challenge to the GDPC's D-score methodology — a first for the cooperative in its institutional history. The cooperative's pre-Covenant germination ledgers (fifteen cross-referenced lots spanning nine years, plus the broader archive) were deposited to the Compact's open agricultural archive as **QW-GERM-2079-2093** — citation count climbed from 0 to 3 (overnight) to 14 (next morning, three bioregions: Atlantic, Mediterranean, Andean) to 40+ (three weeks later).
+  - Lot 441's backup-stock germination trial (Day 12) returned 78% viability against its certified 91% — a confirmed 13-point loss, absorbed by the cooperative's own backup-stock mobilization (redistributed across three terraces within an hour of the result).
+
+### Series-level arc note
+Inés and the Q'asa Wasi Seed Council are now established as recurring series institutions. Q'asa Wasi's "two valleys over" neighboring cooperative (unnamed, heritage oca line lost, <30% backup viability, outcrossing in progress with Q'asa Wasi's donated surplus) is a related but distinct entity — see World Facts / Open Threads.
+
+---
+
+## Tomás
+*(minor recurring character, introduced Book 2 — Q'asa Wasi elder)*
+
+### Permanent facts
+- Retired Q'asa Wasi Seed Council member, served thirty years before stepping back
+- Voted against the co-filing (one of three dissenting votes, 8–3) — not because he disagreed with the substance, but to put the institutional-retaliation risk plainly on record before the vote: "Sometimes the cooperative is right, and loses anyway... It's shaped like an institution that has, very quietly, stopped being in a hurry about you."
+- After the Tribunal's swift acceptance and the administrative hold, sent word (via Inés) that he was "glad to have been wrong about the timing, if not the principle" — he still believes the institutional-cost risk is real, just that it didn't materialize as quickly as he feared
+
+### Series-level arc note
+Closed thread, mutual respect intact. Available as a minor recurring elder-statesman figure if a future book returns to Q'asa Wasi, but no further appearance is required.
+
+---
+
+## Doña Encarnación
+*(minor recurring character, introduced Book 2 — Q'asa Wasi tuber-line specialist)*
+
+### Permanent facts
+- Approximately 70 years old; has tended the same tuber line on the same Long Terraces section for **41 years** ("People round down because it's a rounder number. I don't.")
+- Coined/delivered the line that became a thematic touchstone for the book: "The paper says what the paper was given. I know what this plant does."
+- Told Inés (and, two years before Book 2, the council) about the D-score discrepancy when a younger council member first asked why Q'asa Wasi's lots always scored low
+
+### Series-level arc note
+Minor, Q'asa-Wasi-local. Available for future appearances if a later book returns to Q'asa Wasi, but not required.
+
+---
+
+## Yenny and Rosalía and Ernesto
+*(minor, Q'asa-Wasi-local characters introduced Book 2)*
+
+- **Yenny**: younger Q'asa Wasi council member, runs the cooperative's archive interface; handled the upload of the pre-Covenant ledgers to the Compact archive (QW-GERM-2079-2093). Noted that "there's a research group in the Atlantic bioregion that flags new high-altitude germination data automatically" — established as already actively looking for exactly this kind of data.
+- **Rosalía**: Long Terraces harvest-crew member; warm, dryly funny, taught Maialèn to harvest tubers and use a foot-plow.
+- **Ernesto**: seed-keeper who conducted the Lot 441 backup-stock germination count (Day 12), reporting the 78% result.
+
+All three are Q'asa-Wasi-local and minor; available for future appearances but not required.
+
+---
 *Add characters as books are completed and series-bible-updater runs.*

@@ -11,8 +11,9 @@ Adult readers who want science fiction that imagines good futures without naivet
 
 ## Scope
 - Books planned: 2 (test series — open to extension)
+- Books complete: 2 (Book 1: The Mycelial City, 2091; Book 2: Seed Vault, 2094)
 - Time span: 2091–2097
-- Geographic focus: the West African coast and global cooperative networks
+- Geographic focus: the West African coast (Book 1) and the global cooperative seed network, including the high-Andes Cusco bioregion (Book 2)
 
 ## Core premise
 The Ecological Covenant (2051) saved the world — but saving the world created winners and losers, and not everyone agrees on what "saved" means. Each book is a standalone mystery/thriller set within the same world, featuring different protagonists connected by a shared universe.
