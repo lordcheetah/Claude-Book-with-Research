@@ -1,0 +1,55 @@
+# Tropes Reference — [Project Name]
+
+## Genre(s): [e.g., Solarpunk Thriller / Cozy Mystery / Secondary World Fantasy]
+
+Populated at project setup by running research-assistant against the project's genre pages on TV Tropes.
+Update the "In active use" section as chapters are written.
+
+---
+
+## Genre-native tropes
+Tropes readers expect in this genre. Use some — they're genre contracts and reader pleasure.
+The goal is intentional deployment, not avoidance. A familiar trope executed well is satisfying;
+the same trope deployed by default, without thought, is a cliché.
+
+- **[Trope Name]** (tvtropes.org/…) — [what it is; what reader expectation it creates]
+- **[Trope Name]** — [description]
+- ...
+
+---
+
+## Clichés to avoid
+Overused executions in this genre that readers have seen too many times without payoff.
+Subvert, invert, or skip. If used, the execution must earn it.
+
+- **[Trope Name]** — [why it's tired; what makes it feel like a default rather than a choice]
+- **[Trope Name]** — [description of the failure mode]
+- ...
+
+---
+
+## In active use (this manuscript)
+Tropes deliberately deployed as the story is written. Updated after each chapter or arc.
+
+| Trope | Chapter | How deployed | Subverted? |
+|-------|---------|-------------|------------|
+| [Name] | Ch. 1 | [straight / variant] | [no / yes — how] |
+
+---
+
+## Subversions and inversions
+Tropes we're deliberately playing against reader expectation. Tracking these prevents
+unintentional double-subversion (subverting the same trope twice in a row stops being subversion).
+
+- **[Trope Name]** (Ch. X): Reader expects [X]; we do [Y] instead.
+
+---
+
+## Setup notes
+To populate this file at project start:
+1. Run research-assistant with the project genre(s) and these TV Tropes pages as targets:
+   - The genre's main page (e.g., tvtropes.org/pmwiki/pmwiki.php/Main/SolarpunkGenre)
+   - Any subgenre pages relevant to this project
+   - The "Played Straight / Subverted / Averted" sections of 3–5 central genre tropes
+2. Distill into the sections above — roughly 8–15 genre-native tropes, 5–10 clichés to avoid
+3. Add any project-specific tropes the synopsis or plan already commits to

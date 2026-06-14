@@ -38,15 +38,15 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 
 1. Load `{PROJECT_ROOT}/state/current/situation.md` to understand current position
    - If `state/current/` doesn't exist yet, use `state/template/` as the initial state
-2. Call **planner** agent: synopsis + plan.md + state/current/situation.md + PROJECT_ROOT
+2. Call **planner** agent: synopsis + plan.md + state/current/situation.md + bible/tropes.md (if it exists) + PROJECT_ROOT
 3. Validate plan aligns with story trajectory
-4. Call **creative-writing-skills:writer** agent: chapter plan + bible/style.md + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
+4. Call **creative-writing-skills:writer** agent: chapter plan + bible/style.md + bible/tropes.md (if it exists) + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
    - This agent loads prose-writing, scene-construction, writing-principles, and llm-writing skills automatically
    - [Optional] Call **creative-writing-skills:reader-sim**: draft → experiential reader signal before formal review. If it reports losing the reader at a specific location, send that finding back to the writer before proceeding.
    - [Optional] Call **revision-agent** for craft-level prose pass (proactive — before reviewers)
 5. Call **perplexity-improver** skill to reduce AI-detectable patterns
 6. Call **style-linter**: draft + bible/style.md + PROJECT_ROOT
-   Call **creative-writing-skills:critic**: draft + bible/style.md + PROJECT_ROOT (parallel with style-linter — covers four reader reward channels: transportation, aesthetic, social simulation, flow)
+   Call **creative-writing-skills:critic**: draft + bible/style.md + bible/tropes.md (if it exists) + PROJECT_ROOT (parallel with style-linter — covers four reader reward channels: transportation, aesthetic, social simulation, flow; trope lens: flag clichés from tropes.md that fire by default, and note whether genre-native tropes are deployed intentionally or lazily)
 7. Call **character-reviewer**: draft + bible/characters/*.md + state/current/characters.md + PROJECT_ROOT
    - For nonfiction: call **nonfiction-reviewer** instead
 8. Call **continuity-reviewer**: draft + state/current/* + timeline/history.md + PROJECT_ROOT
@@ -69,6 +69,7 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 
 ## Files
 - `{PROJECT_ROOT}/bible/*` : read-only during writing
+- `{PROJECT_ROOT}/bible/tropes.md` : genre-native tropes, clichés to avoid, in-use tracker — set at project setup, updated after chapters
 - `{SERIES_ROOT}/*` : read-only constraint layer (if series project)
 - `{PROJECT_ROOT}/state/current/*` : current chapter state
 - `{PROJECT_ROOT}/state/chapter-NN/*` : archived state
@@ -123,6 +124,32 @@ Available on demand (not in standard pipeline):
 
 ---
 
+## Setting Up Tropes
+
+Create `{PROJECT_ROOT}/bible/tropes.md` once at project setup (before Chapter 1). Do not fetch live during chapter writing — genre trope knowledge is stable.
+
+**To populate it:**
+1. Call **research-assistant** with the project's genre(s) and ask it to fetch the relevant TV Tropes genre pages (main genre page + 1–2 subgenre pages). Extract:
+   - 8–15 genre-native tropes (what readers expect; use intentionally)
+   - 5–10 clichés to avoid (overused executions in this genre)
+2. Add any tropes the synopsis or plan already commits to in the "In active use" section
+3. Use `bible/tropes.md.example` as the template
+
+**As the story is written:**
+- The **critic** flags when a named trope fires by default (cliché) or notes intentional deployment
+- Update the "In active use" table in `bible/tropes.md` after any chapter that deploys or subverts a listed trope — this prevents the same trope from firing twice without intent
+
+**When NOT to do a live fetch:**
+- Mid-chapter (use the existing tropes.md)
+- For trope lookups during revision (critic's job)
+- For obscure tropes not in the genre reference (trust the writer's judgment)
+
+**When a live fetch IS worth it:**
+- Project setup for a new genre you haven't worked in before
+- Before an arc where a known trope is being deliberately subverted (verify the reader expectation is accurate)
+
+---
+
 ## Using story-ideator
 
 Call when:
@@ -151,6 +178,7 @@ projects/[name]/
 ├── bible/
 │   ├── style.md              ← fill in from bible/style.md.example
 │   ├── structure.md          ← fill in from bible/structure.md.example
+│   ├── tropes.md             ← populate at project setup via research-assistant + TV Tropes (see bible/tropes.md.example)
 │   ├── characters/
 │   │   └── _template.md
 │   └── universe/
