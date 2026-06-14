@@ -40,15 +40,18 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
    - If `state/current/` doesn't exist yet, use `state/template/` as the initial state
 2. Call **planner** agent: synopsis + plan.md + state/current/situation.md + PROJECT_ROOT
 3. Validate plan aligns with story trajectory
-4. Call **writer** agent: chapter plan + bible/style.md + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
-   - [Optional] Call **revision-agent** for craft-level prose pass before moving on
+4. Call **creative-writing-skills:writer** agent: chapter plan + bible/style.md + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
+   - This agent loads prose-writing, scene-construction, writing-principles, and llm-writing skills automatically
+   - [Optional] Call **creative-writing-skills:reader-sim**: draft → experiential reader signal before formal review. If it reports losing the reader at a specific location, send that finding back to the writer before proceeding.
+   - [Optional] Call **revision-agent** for craft-level prose pass (proactive — before reviewers)
 5. Call **perplexity-improver** skill to reduce AI-detectable patterns
 6. Call **style-linter**: draft + bible/style.md + PROJECT_ROOT
+   Call **creative-writing-skills:critic**: draft + bible/style.md + PROJECT_ROOT (parallel with style-linter — covers four reader reward channels: transportation, aesthetic, social simulation, flow)
 7. Call **character-reviewer**: draft + bible/characters/*.md + state/current/characters.md + PROJECT_ROOT
    - For nonfiction: call **nonfiction-reviewer** instead
 8. Call **continuity-reviewer**: draft + state/current/* + timeline/history.md + PROJECT_ROOT
    - For fantasy/sci-fi: also call **world-rules-reviewer** after continuity
-9. If any gate fails: loop writer with reports (max 3 iterations)
+9. If any gate fails: loop **creative-writing-skills:revision-writer** with reports (reactive — applies specific critique findings surgically; max 3 iterations)
 10. Call **state-updater**: creates `{PROJECT_ROOT}/state/chapter-NN/`, updates symlink, appends timeline
 11. Call **subplot-tracker**: update `{PROJECT_ROOT}/story/subplots.md` with this chapter
 12. Call **foreshadowing-tracker**: update `{PROJECT_ROOT}/story/foreshadowing.md` with this chapter
@@ -101,6 +104,22 @@ If a planner or writer needs a character or location that doesn't exist in the b
 - `perplexity-improver` : reduce AI-detectable patterns in chapters
 - `synopsis-writer` : generate query synopsis, blurb, logline, query letter (end of project)
 - `chapter-stats` : statistics dashboard across all chapters (on demand)
+
+## Marketplace Agents (creative-writing-skills plugin)
+
+Used in the core pipeline:
+- `creative-writing-skills:writer` : generative prose writer (Opus) — loads prose-writing, scene-construction, writing-principles, llm-writing; replaces chapter-writer
+- `creative-writing-skills:critic` : adversarial critic (Sonnet) — four reader reward channels; runs parallel with style-linter
+- `creative-writing-skills:reader-sim` : experiential reader (Opus) — optional early signal after first draft; reports where a real reader drifts
+- `creative-writing-skills:revision-writer` : revision writer (Sonnet) — applies specific critique findings surgically; used in the gate-fail loop
+
+Available on demand (not in standard pipeline):
+- `creative-writing-skills:brainstormer` : wide-open idea exploration on a scoped question
+- `creative-writing-skills:character-sim` : character voice discovery and relationship testing
+- `creative-writing-skills:bridge-writer` : connective tissue between scenes (for transitions and time compression)
+- `creative-writing-skills:outliner` : arc, chapter, and beat-level outlines
+- `creative-writing-skills:style-creator` : creates style reference files from sample chapters
+- `creative-writing-skills:muse` : author's creative partner for open-ended session work
 
 ---
 
