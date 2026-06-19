@@ -38,20 +38,21 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 
 1. Load `{PROJECT_ROOT}/state/current/situation.md` to understand current position
    - If `state/current/` doesn't exist yet, use `state/template/` as the initial state
-2. Call **planner** agent: synopsis + plan.md + state/current/situation.md + bible/tropes.md (if it exists) + PROJECT_ROOT
+2. Call **chapter-planner** agent: synopsis + plan.md + state/current/situation.md + bible/tropes.md (if it exists) + PROJECT_ROOT
 3. Validate plan aligns with story trajectory
-4. Call **creative-writing-skills:writer** agent: chapter plan + bible/style.md + bible/tropes.md (if it exists) + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
-   - This agent loads prose-writing, scene-construction, writing-principles, and llm-writing skills automatically
-   - [Optional] Call **creative-writing-skills:reader-sim**: draft → experiential reader signal before formal review. If it reports losing the reader at a specific location, send that finding back to the writer before proceeding.
-   - [Optional] Call **revision-agent** for craft-level prose pass (proactive — before reviewers)
-5. Call **perplexity-improver** skill to reduce AI-detectable patterns
+4. Call **writer** agent: chapter plan + bible/style.md + bible/tropes.md (if it exists) + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
+   - This agent loads prose-writing, scene-construction, writing-principles, and llm-writing skills automatically (all vendored project-local skills)
+   - [Optional] Call **reader-sim**: draft → experiential reader signal before formal review. If it reports losing the reader at a specific location, send that finding back to the writer before proceeding.
+   - [Optional] Call **revision-agent** for craft-level prose pass (proactive — before reviewers). For a deeper pass, ask it for the Structural & Density metrics; to cut length, ask for Compression Mode.
+5. Call **perplexity-improver** skill to reduce AI-detectable patterns. Pair it with `craft/references/prose-smells.md` — the structural LLM-tic catalogue with frequency thresholds (paradoxical pairing, exhaustive triad, negative definition, default atmosphere words, etc.).
 6. Call **style-linter**: draft + bible/style.md + PROJECT_ROOT
-   Call **creative-writing-skills:critic**: draft + bible/style.md + bible/tropes.md (if it exists) + PROJECT_ROOT (parallel with style-linter — covers four reader reward channels: transportation, aesthetic, social simulation, flow; trope lens: flag clichés from tropes.md that fire by default, and note whether genre-native tropes are deployed intentionally or lazily)
+   Call **critic**: draft + bible/style.md + bible/tropes.md (if it exists) + `craft/references/prose-smells.md` + PROJECT_ROOT (parallel with style-linter — covers four reader reward channels: transportation, aesthetic, social simulation, flow; trope lens: flag clichés from tropes.md that fire by default, and note whether genre-native tropes are deployed intentionally or lazily)
+   - [Optional] For a named-author lens, also call one or more **persona critics** (`persona-stephen-king`, `persona-ursula-le-guin`, `persona-roxane-gay`, `persona-james-wood`) — pick by genre/fit.
 7. Call **character-reviewer**: draft + bible/characters/*.md + state/current/characters.md + PROJECT_ROOT
    - For nonfiction: call **nonfiction-reviewer** instead
 8. Call **continuity-reviewer**: draft + state/current/* + timeline/history.md + PROJECT_ROOT
    - For fantasy/sci-fi: also call **world-rules-reviewer** after continuity
-9. If any gate fails: loop **creative-writing-skills:revision-writer** with reports (reactive — applies specific critique findings surgically; max 3 iterations)
+9. If any gate fails: loop **revision-writer** with reports (reactive — applies specific critique findings surgically; max 3 iterations)
 10. Call **state-updater**: creates `{PROJECT_ROOT}/state/chapter-NN/`, updates symlink, appends timeline
 11. Call **subplot-tracker**: update `{PROJECT_ROOT}/story/subplots.md` with this chapter
 12. Call **foreshadowing-tracker**: update `{PROJECT_ROOT}/story/foreshadowing.md` with this chapter
@@ -101,26 +102,53 @@ If a planner or writer needs a character or location that doesn't exist in the b
 ## Skills
 - `book-analyzer` : extract bible from source books
 - `bible-merger` : merge multiple analyses into one bible
-- `story-ideator` : generate original storylines from bible
-- `perplexity-improver` : reduce AI-detectable patterns in chapters
+- `story-ideator` : generate original storylines from bible (includes the scored bisociation idea engine — see `references/bisociation.md`)
+- `folklore-generator` : generate culturally-plausible beliefs, rituals, and folk explanations for an object or phenomenon (worldbuilding)
+- `style-revision` : rewrite a passage in a named author style (Howard/Peake/Eddison) or character voice (Freeman/Paladin/Thorogood/Rogue) — see `craft/styles/` and `craft/voices/`
+- `perplexity-improver` : reduce AI-detectable patterns in chapters (pair with `craft/references/prose-smells.md`)
 - `synopsis-writer` : generate query synopsis, blurb, logline, query letter (end of project)
 - `chapter-stats` : statistics dashboard across all chapters (on demand)
 
-## Marketplace Agents (creative-writing-skills plugin)
+## Writing Agents (vendored, project-local)
+
+These were vendored from the creative-writing-skills plugin so the project is
+self-contained — no external plugin required. Each loads its backing skills
+(prose-writing, scene-construction, writing-principles, llm-writing, etc.)
+automatically. They write to the path the orchestrator gives them.
 
 Used in the core pipeline:
-- `creative-writing-skills:writer` : generative prose writer (Opus) — loads prose-writing, scene-construction, writing-principles, llm-writing; replaces chapter-writer
-- `creative-writing-skills:critic` : adversarial critic (Sonnet) — four reader reward channels; runs parallel with style-linter
-- `creative-writing-skills:reader-sim` : experiential reader (Opus) — optional early signal after first draft; reports where a real reader drifts
-- `creative-writing-skills:revision-writer` : revision writer (Sonnet) — applies specific critique findings surgically; used in the gate-fail loop
+- `writer` : generative prose writer (Opus) — loads prose-writing, scene-construction, writing-principles, llm-writing; replaces the legacy chapter-writer
+- `critic` : adversarial critic (Sonnet) — four reader reward channels; runs parallel with style-linter
+- `reader-sim` : experiential reader (Opus) — optional early signal after first draft; reports where a real reader drifts
+- `revision-writer` : revision writer (Sonnet) — applies specific critique findings surgically; used in the gate-fail loop
 
 Available on demand (not in standard pipeline):
-- `creative-writing-skills:brainstormer` : wide-open idea exploration on a scoped question
-- `creative-writing-skills:character-sim` : character voice discovery and relationship testing
-- `creative-writing-skills:bridge-writer` : connective tissue between scenes (for transitions and time compression)
-- `creative-writing-skills:outliner` : arc, chapter, and beat-level outlines
-- `creative-writing-skills:style-creator` : creates style reference files from sample chapters
-- `creative-writing-skills:muse` : author's creative partner for open-ended session work
+- `brainstormer` : wide-open idea exploration on a scoped question
+- `character-sim` : character voice discovery and relationship testing
+- `bridge-writer` : connective tissue between scenes (for transitions and time compression)
+- `outliner` : arc, chapter, and beat-level outlines
+- `style-creator` : creates style reference files (writes to `{PROJECT_ROOT}/bible/`)
+
+(The plugin's `muse` orchestrator was not vendored — this CLAUDE.md is the orchestrator.)
+
+## Persona Critics (optional, on demand)
+
+Named-author critique lenses. Invoke alongside or instead of `critic` when you
+want a specific sensibility. Each saves its critique to `.work/{project-name}/`.
+- `persona-stephen-king` : story/character/honesty; anti-adverb. Best for commercial, horror, thriller.
+- `persona-ursula-le-guin` : prose-as-music, world-as-meaning, moral weight. Best for SF/fantasy.
+- `persona-roxane-gay` : voice, the body, power, emotional truth. Best for contemporary/literary. (Complements, does not replace, sensitivity-reader.)
+- `persona-james-wood` : the sentence, free indirect style, rendering consciousness. Best for literary fiction.
+
+## Craft Library (`craft/` at repo root)
+
+Shared, cross-project, read-only craft reference. Inject the relevant file(s)
+into an agent's context when useful; agents may also read them directly. See
+`craft/README.md` for the full index.
+- `craft/references/` : prose-smells (LLM-tic catalogue w/ thresholds), audiobook-considerations, anti-patterns, prose-style, dialogue, scene-structure, story-structure, character, pacing, openings, endings, and more.
+- `craft/style-guides/` : Chicago (US) vs New Oxford (UK) copy-edit standards + a divergence decision-matrix. Pick one per project, keep it consistent.
+- `craft/styles/` & `craft/voices/` : named author styles and character voices for the `style-revision` skill.
+- `craft/data/` : abstracted paragraph templates, character-action sentences, and a craft-axis vocabulary with ban lists.
 
 ---
 

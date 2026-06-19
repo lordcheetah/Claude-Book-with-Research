@@ -1,0 +1,953 @@
+{
+  "male-names": [
+    "Phalantios Morror",
+    "Stober",
+    "Drenn of Wetstanes",
+    "Kolbrang",
+    "Gax-Goss",
+    "Thelvash",
+    "Vlinn",
+    "Semprovius Thessamander Kurz",
+    "Helmbrod",
+    "Plossk from Fendelaith",
+    "Kefko",
+    "Ghranvit",
+    "Zarphon",
+    "Vhode",
+    "Wemity Thross",
+    "Chorv of Strathtyr",
+    "Valdacian Stross",
+    "Snorv",
+    "Gormanynest",
+    "Machram",
+    "Plax",
+    "Eldimas",
+    "Mivven Murr Muvroxorn IX",
+    "Guzz",
+    "Slivven of Three Cairns",
+    "Phodrit",
+    "Corimbrian Dossbrian",
+    "Styrovit",
+    "Gurd of the Steep Marches",
+    "Benthazar",
+    "Droz",
+    "Thulvir",
+    "Pellish Vorn",
+    "Keldamar",
+    "Whulk",
+    "Coriandus Vex",
+    "Korvask",
+    "Glossblatt",
+    "Vardrek",
+    "Golbrang",
+    "Thrundle Vask",
+    "Moldrus",
+    "Pelvish from the Slate-colored Parishes",
+    "Swarthian Blekk",
+    "Gothvern",
+    "Stulm",
+    "Vloss of Muddenheim",
+    "Ghrollix",
+    "Throssimus Veldarian Klopp",
+    "Phoss",
+    "Grelb",
+    "Clodrit",
+    "Drossam the Moist",
+    "Blothrit",
+    "Grundvit from Lowmire",
+    "Prunt",
+    "Tholvax",
+    "Ghruddock",
+    "Spronk",
+    "Geldrim",
+    "Phelvius Strossander Venne",
+    "Vorrit",
+    "Globb",
+    "Peldritch",
+    "Thralk from Dry Korrie",
+    "Mald Rick Phenn",
+    "Skellavorn",
+    "Krossam",
+    "Velmit",
+    "Grelvius Thatch",
+    "Drelvit from Blotthall",
+    "Strumvast",
+    "Pelbrang Vork",
+    "Grundicus Thessabrang Murk III",
+    "Throbb",
+    "Mossrit",
+    "Stolvian Dross",
+    "Blendrith Mozzle",
+    "Threlvast",
+    "Grudden Voss",
+    "Veldrit of the Cantons",
+    "Ghrezz",
+    "Skuluvian Mork",
+    "Gothenbach",
+    "Dribbus",
+    "Welk from Kettledeep",
+    "Strombolg",
+    "Phloggan",
+    "Crelvit Thenn",
+    "Mundivarius Kess",
+    "Spalth",
+    "Glosk",
+    "Thrembolg of Four Kerns",
+    "Kethlrith",
+    "Drutch",
+    "Skvorn from the Damp",
+    "Grozzius Veldassar Bletch",
+    "Pelch",
+    "Stritvold",
+    "Kremlit",
+    "Vothgar of Slickholm",
+    "Tharn",
+    "Skelvius Drozzander Wursk",
+    "Grelch",
+    "Moldavan Thretch",
+    "Prong Halch Gut",
+    "Slebb of Greymidden",
+    "Krossivald Benn"
+  ],
+  "female-names": [
+    "Thessalandrine",
+    "Greffie",
+    "Vliss of Hillhenj",
+    "Kenthrixia",
+    "Ghranvenna",
+    "Clobba Cress",
+    "Thel",
+    "Kolvristria",
+    "Divvi Vorna",
+    "Cho",
+    "Semprovienna Kurtz",
+    "Thromi from Greynhess",
+    "Plixie",
+    "Heldri",
+    "Zarphenda",
+    "Ghrixabreexa",
+    "Stra",
+    "Valdacrixia Lorr",
+    "Gormu",
+    "Kress of the Ghrugh",
+    "Fellishi Cressa",
+    "Machridia",
+    "Thelmbryda",
+    "Kless",
+    "Drakka of Four Stones",
+    "Wiv Wiv Alexianddyra",
+    "Eldi",
+    "Styrnene",
+    "Thria",
+    "Gvaa",
+    "Kelvrindria",
+    "Phalantine Morrona",
+    "Vethrandoline",
+    "Dreff",
+    "Skolla of Mhydden",
+    "Ghrelixandria",
+    "Threzzis Vorr",
+    "Grema",
+    "Plindra",
+    "Krixavessa",
+    "Strypt",
+    "Vollindra Kess",
+    "Zess from Dusty Shelves",
+    "Phelvandrique",
+    "Sprelli",
+    "Klo-Ghren",
+    "Thermidraxis",
+    "Vlil",
+    "Gelvindroma",
+    "Ghrist of Three Lhinns Running",
+    "Krombella",
+    "Voxxi",
+    "Skrella of the Bronzvaults",
+    "Threzza",
+    "Gellandrixa",
+    "Pli-va",
+    "Vendrissia Threll",
+    "Strathenna",
+    "Bloa Vex",
+    "Krendovaxia Senn",
+    "Thessibrynne",
+    "Dreizz of Spidersilt",
+    "Skrivvi",
+    "Phollimbra Dess",
+    "Stev",
+    "Ghrellanthe",
+    "Tri-Vessa",
+    "Greldi",
+    "Voltrissima Crenn",
+    "Threx of Fourkerns",
+    "Threlvandrine",
+    "Grezzi",
+    "Kelthandrixa",
+    "Vothrenelle",
+    "Drelvissa of Sourfen",
+    "Skellandrine",
+    "Vlu",
+    "Grundissa Threll",
+    "Krembelline",
+    "Plev",
+    "Moldravienne",
+    "Kri Kia Drenn",
+    "Grondaxia",
+    "Thrembelline of the Cruzzy Stanes",
+    "Skella",
+    "Drossilda Krem",
+    "Velthi",
+    "Phossandrine",
+    "Gelvondra",
+    "Ghrezziline from Siltmoor",
+    "Voldrixxia Stenn",
+    "Preth",
+    "Krossaline",
+    "Drelvi of the Three Uvamhs",
+    "Sklithandra",
+    "Vorr Vorr Thess",
+    "Grelphinia"
+  ],
+  "location-names": [
+    {
+      "name": "Ghoulmark",
+      "type": "territory"
+    },
+    {
+      "name": "Fetch Isles",
+      "type": "territory"
+    },
+    {
+      "name": "Barguestry",
+      "type": "territory"
+    },
+    {
+      "name": "Wightmoor",
+      "type": "territory"
+    },
+    {
+      "name": "Hag's Pale",
+      "type": "territory"
+    },
+    {
+      "name": "Vothria",
+      "type": "territory"
+    },
+    {
+      "name": "Kelmory",
+      "type": "territory"
+    },
+    {
+      "name": "Thuréne",
+      "type": "territory"
+    },
+    {
+      "name": "Ossivard",
+      "type": "territory"
+    },
+    {
+      "name": "Peltrany",
+      "type": "territory"
+    },
+    {
+      "name": "Striqua",
+      "type": "territory"
+    },
+    {
+      "name": "Zulmë",
+      "type": "territory"
+    },
+    {
+      "name": "Carsobrine",
+      "type": "territory"
+    },
+    {
+      "name": "Mesquin",
+      "type": "territory"
+    },
+    {
+      "name": "Orbathy",
+      "type": "territory"
+    },
+    {
+      "name": "Ventraq",
+      "type": "territory"
+    },
+    {
+      "name": "Ghastenry",
+      "type": "territory"
+    },
+    {
+      "name": "Lurqany",
+      "type": "territory"
+    },
+    {
+      "name": "Silpho",
+      "type": "territory"
+    },
+    {
+      "name": "Ezzory",
+      "type": "territory"
+    },
+    {
+      "name": "Thornrigg",
+      "type": "fortress"
+    },
+    {
+      "name": "Vurlank",
+      "type": "fortress"
+    },
+    {
+      "name": "Kelpshaw",
+      "type": "fortress"
+    },
+    {
+      "name": "Drossaby",
+      "type": "fortress"
+    },
+    {
+      "name": "Skerriwast",
+      "type": "fortress"
+    },
+    {
+      "name": "Maudling",
+      "type": "fortress"
+    },
+    {
+      "name": "Quelm",
+      "type": "fortress"
+    },
+    {
+      "name": "Harrowik",
+      "type": "fortress"
+    },
+    {
+      "name": "Zabraq",
+      "type": "fortress"
+    },
+    {
+      "name": "Grith Keep",
+      "type": "fortress"
+    },
+    {
+      "name": "Orpelheim",
+      "type": "fortress"
+    },
+    {
+      "name": "Ketterith",
+      "type": "fortress"
+    },
+    {
+      "name": "Vespany",
+      "type": "fortress"
+    },
+    {
+      "name": "Churlgate",
+      "type": "fortress"
+    },
+    {
+      "name": "Drabbock",
+      "type": "fortress"
+    },
+    {
+      "name": "Strugh Veldriss",
+      "type": "fortress"
+    },
+    {
+      "name": "Dunn Kethram",
+      "type": "fortress"
+    },
+    {
+      "name": "Kahr of Throssvel",
+      "type": "fortress"
+    },
+    {
+      "name": "Benn Ymbrë",
+      "type": "mountain"
+    },
+    {
+      "name": "Benn Valend",
+      "type": "mountain"
+    },
+    {
+      "name": "Zora Metch Gharl",
+      "type": "mountain"
+    },
+    {
+      "name": "Benn Ithrek",
+      "type": "mountain"
+    },
+    {
+      "name": "Benn Vothras",
+      "type": "mountain"
+    },
+    {
+      "name": "Skurr of Bothrit",
+      "type": "mountain"
+    },
+    {
+      "name": "Mount Keldren",
+      "type": "mountain"
+    },
+    {
+      "name": "Mount Drothven",
+      "type": "mountain"
+    },
+    {
+      "name": "Drhum of Sorrows",
+      "type": "ridge"
+    },
+    {
+      "name": "Thremnir's Kregg",
+      "type": "crag"
+    },
+    {
+      "name": "Nhess of Velim",
+      "type": "headland"
+    },
+    {
+      "name": "Rhubha Kess",
+      "type": "headland"
+    },
+    {
+      "name": "Strait of Quelaphron",
+      "type": "strait"
+    },
+    {
+      "name": "Straits of Vlethenmor",
+      "type": "strait"
+    },
+    {
+      "name": "Glenn of Vethrim",
+      "type": "valley"
+    },
+    {
+      "name": "Strath Embreth",
+      "type": "valley"
+    },
+    {
+      "name": "Korrie of Whispers",
+      "type": "hollow"
+    },
+    {
+      "name": "Dry Korrie",
+      "type": "hollow"
+    },
+    {
+      "name": "Bealakh Sithren",
+      "type": "pass"
+    },
+    {
+      "name": "Mountains of Vleth",
+      "type": "mountain"
+    },
+    {
+      "name": "Kettleblack Ridge",
+      "type": "ridge"
+    },
+    {
+      "name": "The Wold of Thrase",
+      "type": "upland"
+    },
+    {
+      "name": "Celyamorne",
+      "type": "geographic"
+    },
+    {
+      "name": "Eshgrar Tholm",
+      "type": "mountain"
+    },
+    {
+      "name": "Morune Kregg",
+      "type": "crag"
+    },
+    {
+      "name": "Iron Tower",
+      "type": "landmark"
+    },
+    {
+      "name": "Switchwater",
+      "type": "settlement"
+    },
+    {
+      "name": "Middle Sea",
+      "type": "sea"
+    },
+    {
+      "name": "Gallowsmere",
+      "type": "settlement"
+    },
+    {
+      "name": "Shucklewood",
+      "type": "forest"
+    },
+    {
+      "name": "Mirkhollow",
+      "type": "settlement"
+    },
+    {
+      "name": "Revelshorn",
+      "type": "settlement"
+    },
+    {
+      "name": "Lhinn of Carsobry",
+      "type": "lake"
+    },
+    {
+      "name": "Barrowdeep",
+      "type": "landmark"
+    },
+    {
+      "name": "Switchwater Minor",
+      "type": "settlement"
+    },
+    {
+      "name": "Fellwrack",
+      "type": "ruin"
+    },
+    {
+      "name": "Ishnain Vothrek",
+      "type": "settlement"
+    },
+    {
+      "name": "Houndstooth Mere",
+      "type": "lake"
+    },
+    {
+      "name": "Wuthering Garth",
+      "type": "settlement"
+    },
+    {
+      "name": "Azumel Ulterior",
+      "type": "settlement"
+    },
+    {
+      "name": "Blackrigg",
+      "type": "settlement"
+    },
+    {
+      "name": "Throstlemark",
+      "type": "settlement"
+    },
+    {
+      "name": "Corpse Candle Fen",
+      "type": "wetland"
+    },
+    {
+      "name": "Vellarny",
+      "type": "settlement"
+    },
+    {
+      "name": "Glimholt",
+      "type": "forest"
+    },
+    {
+      "name": "Mulgrith",
+      "type": "settlement"
+    },
+    {
+      "name": "Sorrow's Lathe",
+      "type": "landmark"
+    },
+    {
+      "name": "Krannogg of Threll",
+      "type": "settlement"
+    },
+    {
+      "name": "Vveald Mossen",
+      "type": "forest"
+    },
+    {
+      "name": "Three Heaps",
+      "type": "landmark"
+    },
+    {
+      "name": "Four Stanes",
+      "type": "landmark"
+    },
+    {
+      "name": "Eass Veldrim",
+      "type": "waterfall"
+    },
+    {
+      "name": "Invr Kossam",
+      "type": "river-mouth"
+    },
+    {
+      "name": "Uvamh of Grothen",
+      "type": "cave"
+    },
+    {
+      "name": "Tharbett Crossing",
+      "type": "isthmus"
+    },
+    {
+      "name": "Makhir of Vess",
+      "type": "coastal"
+    },
+    {
+      "name": "Henj of Keldros",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Kromhlekh Drell",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Passaj Grav of Thelvorn",
+      "type": "tomb"
+    },
+    {
+      "name": "Rhyng Barroh of Kings",
+      "type": "tomb"
+    },
+    {
+      "name": "The Burnt Mhund",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Kursuss of Vethras",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Soutrenn Darkling",
+      "type": "underground"
+    },
+    {
+      "name": "Balli Throsswik",
+      "type": "settlement"
+    },
+    {
+      "name": "Athh Keldren",
+      "type": "ford"
+    },
+    {
+      "name": "Karrigg Vorn",
+      "type": "outcrop"
+    },
+    {
+      "name": "Dusty Shelves",
+      "type": "settlement"
+    },
+    {
+      "name": "Greynhess",
+      "type": "headland"
+    },
+    {
+      "name": "Wetstanes",
+      "type": "settlement"
+    },
+    {
+      "name": "Fendelaith",
+      "type": "settlement"
+    },
+    {
+      "name": "Strathtyr",
+      "type": "valley"
+    },
+    {
+      "name": "Steep Marches",
+      "type": "territory"
+    },
+    {
+      "name": "Muddenheim",
+      "type": "settlement"
+    },
+    {
+      "name": "Lowmire",
+      "type": "settlement"
+    },
+    {
+      "name": "Blotthall",
+      "type": "settlement"
+    },
+    {
+      "name": "Slate-colored Parishes",
+      "type": "territory"
+    },
+    {
+      "name": "Hillhenj",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Spidersilt",
+      "type": "settlement"
+    },
+    {
+      "name": "Bronzvaults",
+      "type": "landmark"
+    },
+    {
+      "name": "Three Lhinns Running",
+      "type": "waterfall"
+    },
+    {
+      "name": "Thrallmire",
+      "type": "territory"
+    },
+    {
+      "name": "Moldaverry",
+      "type": "territory"
+    },
+    {
+      "name": "Skeggmoor",
+      "type": "territory"
+    },
+    {
+      "name": "Dretchfold",
+      "type": "territory"
+    },
+    {
+      "name": "Phossany",
+      "type": "territory"
+    },
+    {
+      "name": "Grelmark",
+      "type": "territory"
+    },
+    {
+      "name": "Vothrit Pale",
+      "type": "territory"
+    },
+    {
+      "name": "Keltrith",
+      "type": "territory"
+    },
+    {
+      "name": "Slurqany",
+      "type": "territory"
+    },
+    {
+      "name": "Ghremwort",
+      "type": "territory"
+    },
+    {
+      "name": "Skrelving",
+      "type": "fortress"
+    },
+    {
+      "name": "Drubbock",
+      "type": "fortress"
+    },
+    {
+      "name": "Phelmwast",
+      "type": "fortress"
+    },
+    {
+      "name": "Grothwik",
+      "type": "fortress"
+    },
+    {
+      "name": "Veldrane",
+      "type": "fortress"
+    },
+    {
+      "name": "Quelming",
+      "type": "fortress"
+    },
+    {
+      "name": "Thrennaby",
+      "type": "fortress"
+    },
+    {
+      "name": "Strugh Skolvenn",
+      "type": "fortress"
+    },
+    {
+      "name": "Kahr of Drelmwik",
+      "type": "fortress"
+    },
+    {
+      "name": "Benn Skaldros",
+      "type": "mountain"
+    },
+    {
+      "name": "Benn Thremvit",
+      "type": "mountain"
+    },
+    {
+      "name": "The Mountain Veldrim",
+      "type": "mountain"
+    },
+    {
+      "name": "Skurr of Grelming",
+      "type": "mountain"
+    },
+    {
+      "name": "Mount Phossven",
+      "type": "mountain"
+    },
+    {
+      "name": "Mount Veldritch",
+      "type": "mountain"
+    },
+    {
+      "name": "Kettleblack Ridge",
+      "type": "ridge"
+    },
+    {
+      "name": "Skolvarn's Kregg",
+      "type": "crag"
+    },
+    {
+      "name": "Morune Stobb",
+      "type": "crag"
+    },
+    {
+      "name": "Glenn of Throssvit",
+      "type": "valley"
+    },
+    {
+      "name": "Strath Veldros",
+      "type": "valley"
+    },
+    {
+      "name": "Strath Drezzling",
+      "type": "valley"
+    },
+    {
+      "name": "Bealakh Thremnir",
+      "type": "pass"
+    },
+    {
+      "name": "Bealakh Skrel",
+      "type": "pass"
+    },
+    {
+      "name": "Nhess of Skolvren",
+      "type": "headland"
+    },
+    {
+      "name": "Rhubha Vothren",
+      "type": "headland"
+    },
+    {
+      "name": "Strait of Drelmoss",
+      "type": "strait"
+    },
+    {
+      "name": "Kyl Throsswik",
+      "type": "strait"
+    },
+    {
+      "name": "Siltmoor",
+      "type": "settlement"
+    },
+    {
+      "name": "Drabbingholme",
+      "type": "settlement"
+    },
+    {
+      "name": "Slickholm",
+      "type": "settlement"
+    },
+    {
+      "name": "Phlegmwort",
+      "type": "settlement"
+    },
+    {
+      "name": "Veldross Minor",
+      "type": "settlement"
+    },
+    {
+      "name": "Balli Skremvit",
+      "type": "settlement"
+    },
+    {
+      "name": "Greymidden",
+      "type": "settlement"
+    },
+    {
+      "name": "Wettingford",
+      "type": "settlement"
+    },
+    {
+      "name": "Sourfen",
+      "type": "settlement"
+    },
+    {
+      "name": "Kettledeep",
+      "type": "settlement"
+    },
+    {
+      "name": "Lhinn of Drothven",
+      "type": "lake"
+    },
+    {
+      "name": "Skrelving Mere",
+      "type": "lake"
+    },
+    {
+      "name": "Eass Pholvren",
+      "type": "waterfall"
+    },
+    {
+      "name": "Eass Thrembling",
+      "type": "waterfall"
+    },
+    {
+      "name": "Invr Skaldrem",
+      "type": "river-mouth"
+    },
+    {
+      "name": "Uvamh of Dretch",
+      "type": "cave"
+    },
+    {
+      "name": "Uvamh Veldross",
+      "type": "cave"
+    },
+    {
+      "name": "Vveald Grothling",
+      "type": "forest"
+    },
+    {
+      "name": "Skelmwood",
+      "type": "forest"
+    },
+    {
+      "name": "Dretchhollow",
+      "type": "forest"
+    },
+    {
+      "name": "Henj of Vothras",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Kromhlekh Skelvorn",
+      "type": "ritual-site"
+    },
+    {
+      "name": "The Drowned Mhund",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Kursuss of Threlvenn",
+      "type": "ritual-site"
+    },
+    {
+      "name": "Passaj Grav of Skolvarn",
+      "type": "tomb"
+    },
+    {
+      "name": "Rhyng Barroh of Priests",
+      "type": "tomb"
+    },
+    {
+      "name": "Corpseflower Fen",
+      "type": "wetland"
+    },
+    {
+      "name": "Phossmarsh",
+      "type": "wetland"
+    },
+    {
+      "name": "Athh Drezzvit",
+      "type": "ford"
+    },
+    {
+      "name": "Karrigg Skrel",
+      "type": "outcrop"
+    }
+  ]
+}

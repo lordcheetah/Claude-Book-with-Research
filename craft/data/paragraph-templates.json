@@ -1,0 +1,728 @@
+{
+  "action-paragraphs": [
+    {
+      "word-count": "100-150",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Five sentences building velocity: two short establishing urgency, two medium showing pursuit and arrival, one long climactic sentence landing the athletic feat.",
+      "rhetorical-dna": [
+        "Percussive opening verb sets kinetic rhythm; sentences accelerate toward action",
+        "Sensory flashes (examples: cloak on wind, mount rearing) paint motion without slowing pace",
+        "Group reactions frame the figure - we see him through their startled eyes",
+        "Final sentence extends to match the action's arc, ending in final physical feat"
+      ],
+      "respecification-seed": "A moving figure makes a desperate maneuver onto a transport or through an obstacle."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Four sentences of cascading collapse - each loss triggers the next, ending with terse takeover statement.",
+      "rhetorical-dna": [
+        "Bodily detail under stress personalizes the doomed",
+        "Transport personified - loses headway, rolls helplessly when its handler falls",
+        "Rhythm mimics the domino-fall: steady, steady, then sudden stop with the sinking",
+        "Final sentence snaps to new subject, tersely announcing shift without elaboration"
+      ],
+      "respecification-seed": "A group falls one by one until a singular figure must act."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Three sentences: brief setup, short pivot, then one long cascading sentence of carnage with accumulating verbs.",
+      "rhetorical-dna": [
+        "Equipment given agency and sound (Example: sword sings its death-song)",
+        "Verbs pile in triadic and quadratic groups, each blow a percussive beat",
+        "Abstract states made physical (Example: fury as colored mist before the eyes)",
+        "Final clause lands on visceral tableau as summation"
+      ],
+      "respecification-seed": "A figure stands at the center of overwhelming violence and dominates through superior ferocity."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Action",
+      "tension-arc": "Release",
+      "structure": "Three sentences: first establishes dominance, second builds to expected destruction, third freezes all motion with external interruption.",
+      "rhetorical-dna": [
+        "Tableau construction - action halts into frozen image",
+        "Parallel final clause balances opposing forces: foes poised, actor ready",
+        "Momentum built specifically to be arrested; the interruption gains power from denied climax",
+        "Single sensory detail sufficient to halt the scene"
+      ],
+      "respecification-seed": "A standoff reaches its breaking point and is frozen by unexpected intervention."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Four sentences building momentum: first establishes pursuit with precise measurement, second captures frantic physical scrambling, third pivots to psychological focus, fourth delivers staccato pair of negations before trailing into atmospheric close.",
+      "rhetorical-dna": [
+        "Numerical precision amid chaos grounds the fantastic",
+        "Limbs described as mechanical/puppet-like",
+        "Abrupt tonal shift from physical urgency to contemplative aside about perception",
+        "Closing sentence fragments punctuate longer unwinding clause",
+        "Formal, theatrical register - characters as performers unaware of stage mechanics"
+      ],
+      "respecification-seed": "A pursued figure enters hostile territory, gaining slight advantage through frantic movement while both parties remain blind to environmental changes around them."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Action",
+      "tension-arc": "Maintain",
+      "structure": "Three sentences of functional combat description: first establishes readiness, second tracks opponent's methodical advance, third shows preparation. Deliberately workmanlike - a gathering pause.",
+      "rhetorical-dna": [
+        "Opponent reduced to dehumanizing descriptor",
+        "Repetitive physical actions create slow-motion effect",
+        "Eyes emphasized as primary instruments of engagement",
+        "Technical vocabulary of combat preparation without flourish",
+        "Tension held through stillness rather than motion"
+      ],
+      "respecification-seed": "Two combatants face each other across a cluttered space, one methodically clearing obstacles while maintaining visual lock on the other."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Two long sentences tracking decision-making: first follows physical movement through hesitation to resolution, second explicates the internal shift with sardonic commentary.",
+      "rhetorical-dna": [
+        "Movement tracked through conditional clauses showing hesitation then resolution",
+        "Internal logic made external - we see the decision form",
+        "Formal diction applied to brutal intent",
+        "Authorial voice intrudes with judgment",
+        "Ceremony and ritual dignify violence"
+      ],
+      "respecification-seed": "A combatant abandons cautious preparation, committing fully to engagement with a shift in bearing that dignifies the violence to come."
+    },
+    {
+      "word-count": "250+",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Extended sequence building through multiple feints: initial positioning, tactical maneuvering, psychological insight via parenthetical asides, explosive climax in staccato fragments, then aftermath in single devastating image. A complete combat arc compressed.",
+      "rhetorical-dna": [
+        "Constant physical repositioning tracked with geometric precision",
+        "Environment weaponized through perception - terrain becomes ally",
+        "Grotesque characterization embedded in action",
+        "Parenthetical asides create ironic distance",
+        "Cosmic intrusion at violence's peak",
+        "Negation pairs emphasize deliberation",
+        "Final image inverts expectation - environment strikes the blow, not the weapon"
+      ],
+      "respecification-seed": "A tactical engagement where one combatant feints and maneuvers to lure the other into position for an environmental trap, climaxing in the terrain itself delivering the decisive strike."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Five sentences building from physical action to full-body transformation. Opens with brief movement, pauses, then cascades through facial and bodily details in lengthening clauses, culminating in the drawing of a weapon.",
+      "rhetorical-dna": [
+        "Short declarative opener yields to increasingly ornate simile chains stacking natural and martial imagery",
+        "Body-part catalogue (jaw, teeth, nostrils, eyes, whole body) each given its own image, tightening focus then releasing into action",
+        "Formal, archaic register with alliterative pairings",
+        "Weapon personified through sound as it is drawn",
+        "Semicolons yoke parallel sensory impressions into a single mounting sentence"
+      ],
+      "respecification-seed": "A warrior perceives an approaching threat and steels himself to fight."
+    },
+    {
+      "word-count": "250+",
+      "type": "Action",
+      "tension-arc": "Escalate",
+      "structure": "Six sentences. Terse one-line opener, then a long approach-and-description sentence, an extended anatomical catalogue, a chaotic multi-clause clash, and a catastrophic fall. Rhythm accelerates from slow descriptive dread into rapid sequential violence.",
+      "rhetorical-dna": [
+        "Clipped opening sentence breaks the preceding paragraph's ornament and resets tempo",
+        "Anatomy rendered through compounding similes, each detail layered without pause, denying the reader breath",
+        "Creature/foe described through composite analogies rather than a single fixed image",
+        "Violence delivered in rapid semicolon-joined independent clauses: strike, wound, charge, fall",
+        "The catastrophic fall elongated by spatial markers stretching the sentence to match the distance"
+      ],
+      "respecification-seed": "A monster/foe closes on an individual or party in a confined space, scattering them."
+    },
+    {
+      "word-count": "250+",
+      "type": "Action",
+      "tension-arc": "Escalate then Release",
+      "structure": "Twelve-plus sentences of relentless compounding violence. Opens with counter-attack, ratchets through escalating wounds and broken weapons, climaxes with bare-handed killing, then slowly unwinds through the creature/foe's death spasms and final rest. Polysyndeton piles action upon action without relief until the final still image.",
+      "rhetorical-dna": [
+        "Polysyndetic chains create breathless momentum, conjunctions refusing to let the reader pause",
+        "Sensory revulsion as combat texture: stench, blood, viscera rendered with the same formal diction as heroic action",
+        "Weapon loss as structural pivot, forcing shift from armed combat to visceral grappling",
+        "Similes shift register as the fight degrades: martial comparisons give way to domestic and natural ones (Example: heart sliced like a lemon, beast curled like a caterpillar)",
+        "Final sentences slow and flatten into a still-life after sustained frenzy, tension bleeding out through progressively shorter closing clauses"
+      ],
+      "respecification-seed": "A lone fighter, weapon broken, kills a monster/foe by hand and endures its collapse."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Action",
+      "tension-arc": "Release",
+      "structure": "Four sentences. Opens with a tableau of the fallen figure, pivots to the rescuer's prior act, returns to the grim image, then closes with tending and vigilance.",
+      "rhetorical-dna": [
+        "Inverted syntax gives archaic, saga-like cadence",
+        "Passive, death-still figure contrasted with the active hands of the lesser companion",
+        "Visceral body-horror detail bracketed by gentleness",
+        "Final clause shifts from urgency to patient watchfulness, letting tension drain"
+      ],
+      "respecification-seed": "A lesser companion tends a fallen warrior after a beast/foe-slaying."
+    },
+    {
+      "word-count": "250+",
+      "type": "Action",
+      "tension-arc": "Release",
+      "structure": "Seven sentences building from prayer through divine commentary, into a long procedural descent sequence, finishing with a quiet time-stamp. Opens short, swells through extended compound sentences, then contracts to a flat declarative close.",
+      "rhetorical-dna": [
+        "Narrator's ironic theological aside layered over genuine piety",
+        "Extended participial chains mimic physical labor",
+        "Repeated concessive constructions sustain a tone of hard-won perseverance",
+        "Archaic diction and syntax throughout, lending ceremonial weight to physical struggle",
+        "Final flat time-marker punctures the elevated register, grounding the scene"
+      ],
+      "respecification-seed": "A humble figure performs a perilous traversal of deadly terrain, aided by desperate prayer and raw skill."
+    }
+  ],
+  "scene-description-paragraphs": [
+    {
+      "word-count": "200-250",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Six sentences building from conditional environment observation to accumulated images of decay. Opens with elaborate subordinate clause, middle sentences layer parasitic imagery, closes with terse day/night contrast.",
+      "rhetorical-dna": [
+        "Elaborate periodic sentences give way to shorter declarative punch at the end",
+        "Disease and parasitism metaphors (epidemic, swarmed, clamping like limpets)",
+        "Anthropomorphic violence applied to environment (examples: mutilated finger, fists of knuckled masonry, pointed blasphemously)",
+        "Accumulation through shadows: shadows of smaller features, then a dominant penumbra cast from  a large structure or geological feature",
+        "Final sentence splits into binary contrast (night/day, voice/voiceless)"
+      ],
+      "respecification-seed": "A grand environment (natural or built) overwhelmed by dependent growths, culminating in one dominant feature that commands the scene."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Five sentences descending from elaborate observation to sentence-fragment finality. Opens with complex participial construction, compresses through middle, ends with three-word verdict.",
+      "rhetorical-dna": [
+        "Paradox as central device (vivid yet dark, colorful yet exuding darkness)",
+        "Atmosphere given emotional weight (air turgid with contempt)",
+        "Simile deflates human/object figures (examples: craftsmen like beggars)",
+        "Progressive shortening mirrors degradation: long sentence, medium, short, shorter, fragment",
+        "Final fragment delivers blunt judgment after ornate buildup"
+      ],
+      "respecification-seed": "A gathering of people and/or objects that, despite surface vitality, emanates decay and emotional poison."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Description",
+      "tension-arc": "Release",
+      "structure": "Two sentences of measured, slow observation. Both begin with light's attempt and acknowledge its failure, yet the tone softens rather than despairs.",
+      "rhetorical-dna": [
+        "Light as agent that partially fails (examples: gave vague structure, in no way dispelled)",
+        "Extended simile elevates dust motes, rays, or glimmers to cosmic imagery",
+        "Warm and brooding coexist without contradiction",
+        "Latinate diction creates formal, almost liturgical register (examples: infiltration, attenuate, grave order)",
+        "Rhythm slows through polysyllables, creating contemplative suspension"
+      ],
+      "respecification-seed": "Light penetrates a dark space, revealing small details that suggest larger, slower order."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Three sentences establishing spatial and comparative relationship between connected locations. Opens with superlative claim, follows with elaborate conditional syntax explaining the comparison, closes by contrasting the third space with its superior illumination and sweeping vista.",
+      "rhetorical-dna": [
+        "Comparative framework structures observation (example: darkest, less direct, best lit)",
+        "Light treated as active agent that penetrates, infiltrates through decay (examples: fissures, dislodged portions)",
+        "Final sentence rewards patience with panoramic payoff after cramped observations",
+        "Scale collapse for dramatic effect (example: figure no taller than a thimble)",
+        "Latinate and technical diction (examples: penetrate, banistered verandah, bastions, quadrangle)"
+      ],
+      "respecification-seed": "A sequence of connected spaces, each characterized by how light reaches it, culminating in one that opens onto a vast view."
+    },
+    {
+      "word-count": "250+",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Seven sentences building from simple action through expanding revelation of space and its accumulated contents. Opens with brief physical gesture, pivots to unconscious affection, then unfolds into elaborate cataloguing of objects that threatens to overwhelm before revealing secret pathways through.",
+      "rhetorical-dna": [
+        "Small domestic gesture grounds vast description in bodily scale",
+        "Catalogue technique: accumulation through diverse objects from grand to trivial",
+        "Paradox of constriction within vastness (example: long and lofty yet appearing smaller)",
+        "Extended simile comparing intimate knowledge to indigenous expertise",
+        "Sentence length mirrors spatial journey: short entrance, expanding middle, long winding exploration"
+      ],
+      "respecification-seed": "A figure enters a cluttered/dense space whose apparent chaos conceals secret passages known only to them."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Description",
+      "tension-arc": "Release",
+      "structure": "Three sentences moving from singular striking object to character's response to that object. Opens with central artifact described in isolation, middle sentence captures impulsive physical action, final sentence traces restless eyes seeking focus.",
+      "rhetorical-dna": [
+        "Polished grotesque as focal point (examples: writhing root, rare gloss, every wrinkle gleaming)",
+        "Objects/features given sensory personality (example: suavity of contour)",
+        "Eyes given independence and agency, moving as if separate from their owner",
+        "Tonal shift: calm emotion upon entry now replaced by smouldering restlessness",
+        "Neither setting nor object can hold attention, suggesting internal turbulence"
+      ],
+      "respecification-seed": "A figure sprawls in an ornate or sacral space, their restless gaze finding no anchor among the striking objects/features around them."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Five sentences. Opens with a compressed time-lapse journey, expands through increasingly detailed scenery, then snaps to an emotional payoff in the final short sentence.",
+      "rhetorical-dna": [
+        "Time-compression opener collapses hours/days/weeks into a single clause, then gradually slows to real-time arrival",
+        "Landscape/architecture accumulation through triadic and list structures",
+        "Simile drawn from the natural/animal world grounding the epic in bodily familiarity",
+        "Register is formal-archaic, dignified, with emotional restraint until the final sentence breaks into open feeling",
+        "Final sentence pivots from place to person, rewarding the long scenic build-up with sudden human recognition"
+      ],
+      "respecification-seed": "A long journey ends with the unexpected discovery of an ally."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Five sentences. Opens with a short physical anchor, expands into a long sensory panorama across three layered middle sentences, then closes with denial and concealment.",
+      "rhetorical-dna": [
+        "Sharp physical anchor followed by expansive dreamlike survey",
+        "Systematic depth layering: immediate edge, middle distance, far distance, hidden ultimate distance",
+        "Scene personified and feminized",
+        "Contrast between sensory abundance and final withholding",
+        "Register is elevated, wondering, deliberately gorgeous; the paragraph breathes outward then closes like a curtain"
+      ],
+      "respecification-seed": "Travelers gaze from a harsh threshold into a lush hidden scene whose ultimate secrets remain veiled."
+    },
+    {
+      "word-count": "250+",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Seven sentences. Opens with a one-line metaphorical verdict, follows with a blunt short sentence, then unfurls four increasingly elaborate sentences of setting-inventory, and closes with a rhythmic catalog of supernatural disturbances.",
+      "rhetorical-dna": [
+        "Opening metaphor frames the entire space as a death-chamber, coloring everything that follows with funereal beauty",
+        "Scene described through inversion of former splendor: each detail names what the thing once was before stating its decay",
+        "Extended simile yokes physical decay to aristocratic death",
+        "Shift from visual ruin to temporal endurance normalizes the uncanny before escalating into supernatural catalog",
+        "Final sentence uses asyndeton and rhythmic piling to accumulate dread without resolution"
+      ],
+      "respecification-seed": "A company shelters in a once-beautiful setting now haunted by decay and restless supernatural presences."
+    },
+    {
+      "word-count": "250+",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Nine sentences building from flat stark view to transcendent reveal. Opens with short declarative scene-setting, elongates dramatically as the vista unfolds, then closes with two sharp images.",
+      "rhetorical-dna": [
+        "Atmospheric suppression before revelation - gray/muted conditions described first so the opening in the conditions lands with force",
+        "Sentence length mirrors emotional intensity: short factual openers give way to sprawling, breath-catching constructions at the moment of awe",
+        "Landscape/archictural elements granted spiritual vocabulary (e.g., 'deathless ones,' 'pavilioned') - terrain described as divine beings",
+        "Elemental cataloguing in triadic and quadratic lists, pairing classical elements to convey primordial scale",
+        "Final sentence delivers a single concentrated image that seals the vision with sudden brevity after long unwinding sentences"
+      ],
+      "respecification-seed": "A long-hidden view breaks through obscuring conditions to stagger an observer."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Description",
+      "tension-arc": "Release",
+      "structure": "Three sentences. First tracks a gaze along a ridge in architectural language; second silences the tone; third resolves on a single peak described with intimate, tender imagery.",
+      "rhetorical-dna": [
+        "Motion-to-stillness arc: the eye travels, the tone drops, then description softens to reverence",
+        "Mountain architecture personified as divine figures descending (Example: 'dark gods going down from heaven')",
+        "Hard/masculine scenic terms pivot sharply into feminine softness in a tricolon of ascending delicacy",
+        "Silence used as a structural hinge between observation and wonder"
+      ],
+      "respecification-seed": "A character's gaze tracks along a grand feature and settles on one stunning focal point."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Five sentences. Opens at the observers' feet, sweeps outward across a layered scene, lingers on a dominant feature given regal personification, then reverses perspective to describe what looms behind.",
+      "rhetorical-dna": [
+        "Spatial stacking from near to far to near again, creating a 360-degree sweep anchored by the observers' position",
+        "Named features accumulate in list form, giving density and specificity that conveys overwhelming scale",
+        "Central feature personified as royalty surveying her domain, granting the scene authority and composure",
+        "Contrast between serene and severe elements holds tension between beauty and harshness without resolving either way",
+        "Closing sentence reverses the outward gaze, boxing the observers between grandeur ahead and bleak elevation behind"
+      ],
+      "respecification-seed": "Observers survey a layered scene where one feature dominates like a sovereign figure."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Description",
+      "tension-arc": "Release",
+      "structure": "Six sentences. A brief transitional sentence covers travel, then the passage unfolds into a pastoral tableau, each sentence adding one soft detail, funneling toward rest.",
+      "rhetorical-dna": [
+        "Temporal compression handled in a single sentence to deliver the actor(s) quickly into the scene that matters",
+        "Scene described through comfort and intimacy rather than grandeur: e.g. turf as cushion, trees as nymphs, cave as shelter",
+        "Features personified with bodily grace (Example: trees with 'limbs gleaming,' 'reflections quivering'), giving the scene a watchful gentleness",
+        "Light treated as a fading warmth rather than a spectacle, reinforcing the settling mood",
+        "Spatial composition moves from wide to narrow funneling toward rest and enclosure"
+      ],
+      "respecification-seed": "Travelers descend from harsh terrain into a gentle, sheltered place suited for rest."
+    }
+  ],
+  "character-description-paragraphs": [
+    {
+      "word-count": "150-200",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Seven sentences building from garment outward to physique to bearing to face, concluding with eye-contact confrontation. Short declarative opener, then increasingly elaborate dependent clauses stacking physical detail, climaxing in a power dynamic.",
+      "rhetorical-dna": [
+        "Anatomical inventory moving outward then inward: clothing, body, features, finally eyes",
+        "Simile anchors physicality (example: 'broad as a bull's'), sensory luxury (example: 'made for wine-cups and for ladies' lips')",
+        "Deliberate archaisms and compound epithets signal high register",
+        "Tension created through contrast (example: subject's insolence 'tamed' by superior presence)",
+        "Triadic listing at phrase level (example: 'throat and neck,' 'chin and jaw') gives cadence weight"
+      ],
+      "respecification-seed": "A proud warrior or professional presents himself before an imposing/authoritative figure."
+    },
+    {
+      "word-count": "0-50",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Two sentences only. First establishes scale through spatial filling; second delivers character impression via participial phrases stacked after the main clause.",
+      "rhetorical-dna": [
+        "Economy of means: entire presence conveyed in two strokes",
+        "Physical mass implied through architecture (example: 'filled all the space between the pillars')",
+        "Present participles chain consequence (example: 'clothed... armed... smoking')—suggests action just completed",
+        "Register formal but punchy; no ornamentation, raw impression"
+      ],
+      "respecification-seed": "A formidable figure occupies a seat of power, fresh from violence."
+    },
+    {
+      "word-count": "250+",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Long accumulative paragraph opening with movement, then static inventory of attire, then extended simile, finally settling on face and expression. Sentences lengthen progressively; last sentence is the longest, weaving contradictions.",
+      "rhetorical-dna": [
+        "Animal simile opens (example: 'lithe beast of prey newly wakened'), establishing predatory grace",
+        "Feminine comparison recurs (examples: 'slender... like a girl,' 'softly coloured like a girl's face') creating deliberate contrast with martial hints",
+        "Attire catalogued with precise materials and colors (examples: silk, gold, specific gemstones)",
+        "Nature simile (example: 'delicate peak of a snow mountain') bridges delicacy and latent power",
+        "Final sentence braids contradictions (examples: melancholy/disdain, gentleness/fiery glints, beauty/determination)",
+        "Archaic inversions (example: 'Very tall was that lord') maintain elevated register throughout"
+      ],
+      "respecification-seed": "A figure of deceptive delicacy appears, concealing dangerous capability beneath graceful beauty."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Description",
+      "tension-arc": "Release",
+      "structure": "Two sentences. First traces movement through alternating light; second expands into personification, the environment responding to the figure. Climactic clause stacks contrasts (example: outward loveliness vs. inner fire).",
+      "rhetorical-dna": [
+        "Nature personified as celebrant (example: 'spring laughed for joy beholding')",
+        "Contrast between external grace and internal vitality (examples: 'loveliness and grace' vs. 'fire and vital sap')",
+        "Elemental vocabulary (sunlight, shine, shade, spring, sap) creates organic unity",
+        "Movement implied through spatial progression (example: 'shine to shade and to shine again')",
+        "Register elevated but warm; admiring rather than awed"
+      ],
+      "respecification-seed": "A vital figure moves through an environment that seems to welcome or celebrate their presence."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Four sentences building portrait through contradiction. Opens with manner (example: furtive yet goodly), then anatomical features with animal similes, closes on spare frame and coloring. Each sentence adds one or two precise details.",
+      "rhetorical-dna": [
+        "Opening paradox sets tension (example: 'furtive step yet goodly and fair')",
+        "Animal comparisons recur: sickle (predatory tool), ox eyes (inscrutable bulk), retriever coat (groomed darkness)",
+        "Physical descriptors lean toward the uncanny: (example: 'hook, lean, spare, pale' repeated)",
+        "Triadic structure at phrase level (examples: 'lean and spare,' 'great and fair')",
+        "Register formal, clinical; observer maintaining distance"
+      ],
+      "respecification-seed": "A figure approaches whose pleasing appearance contradicts something furtive or predatory in their manner."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Description",
+      "tension-arc": "Escalate",
+      "structure": "Three sentences of increasing menace. First places figure in setting with posture; second lingers on atmospheric lighting; third delivers extended anatomical inventory culminating in eyes. Main clause delayed by participial buildup.",
+      "rhetorical-dna": [
+        "Predatory animal imagery throughout (examples: 'lean as an rat's tail,' 'hooked as the eagle's beak')",
+        "Light personified as co-conspirator (example: 'mother of shade and secrecy... moved about')",
+        "Anatomical inventory builds threat",
+        "Final image of eyes completes menacing portrait",
+        "Archaic syntax and compound epithets maintain high register"
+      ],
+      "respecification-seed": "A powerful figure sits in shadow, their predatory features gradually revealed by unfriendly light."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Four sentences cataloguing attire. Each sentence names materials, colors, and ornamentation with lapidary precision. No verbs of action; static display.",
+      "rhetorical-dna": [
+        "Catalog structure: different parts of attire, in sequence",
+        "Precious materials accumulated (examples: chain mail, gold, hyacinths, opals, diamonds, sealskin, ruby, cobra skins, silk)",
+        "Symbolic detail embedded",
+        "Color palette restricted to two primary colors throughout, with single accent",
+        "Register heraldic; reading like blazon or inventory rather than narrative"
+      ],
+      "respecification-seed": "A figure's elaborate outfit is catalogued piece by piece, revealing wealth, power, and symbolic identity."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Description",
+      "tension-arc": "Maintain",
+      "structure": "Five sentences alternating between physical impression and attire. Final image synthesizes light/dark contrast.",
+      "rhetorical-dna": [
+        "Martial simile for feminine subject (example: 'brave of carriage like a war-horse')",
+        "Contradictions woven throughout (examples: 'soft of feature' but 'proud-eyed,' 'sweet-mouthed, but not as one who can speak nought but sweetness')",
+        "Attire described with textile precision (examples: buff silk, spider-web gold threads, point-lace, wire stiffening)",
+        "Natural imagery for hair (examples: raven's wing, yellow rose, moon among night clouds)",
+        "Register courtly, admiring but wary; subject commands respect rather than inviting intimacy"
+      ],
+      "respecification-seed": "A beautiful woman is described, her softness undercut by manly qualities (examples: brave, proud)."
+    }
+  ],
+  "exposition-paragraphs": [
+    {
+      "word-count": "150-200",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Five long sentences of address, each building on the last. Opens with reassurance, traces through recent calamity to present opportunity, climaxes with tactical proposal.",
+      "rhetorical-dna": [
+        "Archaizing syntax with inverted word order (IE: 'rejoiced I,' 'jumpeth with mine own designs')",
+        "Periodic sentence structure that withholds the main point until the end",
+        "Courtly register: formal address, elaborate honorifics",
+        "Climactic accumulation toward a proposed action"
+      ],
+      "respecification-seed": "An actor addresses their master/leader, turning disaster into opportunity through cunning proposal."
+    },
+    {
+      "word-count": "250+",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Ten sentences. Extended catalogue of terrors, each episode punctuated by the same refrain, building through escalating wonders to a final vision of sublime beauty.",
+      "rhetorical-dna": [
+        "Anaphoric refrain creates drumbeat rhythm across escalating dangers",
+        "Each episode more cosmic than the last: beasts, cataclysm, supernatural invasion, haunted wilderness",
+        "Tonal pivot at the end from terror-catalogue to transcendent landscape vision",
+        "Sensory density: starlight, volcanic fire, ghostly voices, ice-robed peaks"
+      ],
+      "respecification-seed": "A catalogue of terrors survived by an actor to establish their fitness for a dangerous task."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Exposition",
+      "tension-arc": "Maintain",
+      "structure": "Eight sentences in three movements: acknowledges enemy strength through past defeats, pivots to actor's unique advantage, ends with ominous caveat. Balanced clauses weigh loss against hope.",
+      "rhetorical-dna": [
+        "Grudging admission of enemy prowess maintains tension through honesty",
+        "Historical examples establish pattern of defeat despite physical supremacy",
+        "Rhetorical pivot shifts from despair to menace",
+        "Final sentence undercuts confidence with danger, creating unease",
+        "Formal, ceremonial diction befitting a leader's inner counsel"
+      ],
+      "respecification-seed": "A leader acknowledges past defeats to introduce a dangerous new strategy."
+    },
+    {
+      "word-count": "200-250",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Seven sentences that open with portentous identification of artifact, recounts predecessor's doom in elaborate detail, then pivots to present intention and request. Ends with a challenge.",
+      "rhetorical-dna": [
+        "Nested doom-narrative creates weight of history",
+        "Accumulative 'either...or' structure multiplies possible failures",
+        "Archaic vocabulary heightens ritual atmosphere",
+        "Confidence despite acknowledged peril creates dramatic irony"
+      ],
+      "respecification-seed": "An explanation of the dangers of an actor's art."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Exposition",
+      "tension-arc": "Release",
+      "structure": "Single flowing sentence of journey, linking departure to arrival through named waypoints. Compressed time, expanded geography.",
+      "rhetorical-dna": [
+        "Paratactic 'and so...and so' structure mimics the steady pace of travel",
+        "Place-names create texture without slowing narrative",
+        "Efficient time-skip signals transition",
+        "Unpunctuated flow suggests uneventful passage",
+        "Grounding function: moves characters between dramatic scenes"
+      ],
+      "respecification-seed": "Travelers journey between locations while sharing news of prior events."
+    },
+    {
+      "word-count": "250+",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Eleven sentences; opens with night's safety, blooms into elaborate dawn imagery, then shifts to grueling traverse. Accumulative hardships build through the day to exhausted arrival.",
+      "rhetorical-dna": [
+        "Lyrical nature imagery gives way to harsh terrain catalog",
+        "Comparative intensification builds severity",
+        "Personification of landscape and elements",
+        "Sensory accumulation: color, temperature, texture, time",
+        "Physical toll registered in specific bodily details"
+      ],
+      "respecification-seed": "A party endures a dangerous mountain crossing from shelter to destination."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Exposition",
+      "tension-arc": "Release",
+      "structure": "Two sentences: first describes provisions through sensory detail and effect, second elevates to divine register. Compression after prior paragraph's exhaustion.",
+      "rhetorical-dna": [
+        "Sensory triptych (appearance, texture, taste) grounds the magical in physical experience",
+        "Comparison to ordinary food heightens supernatural restoration",
+        "Color imagery links sustenance to cosmic beauty",
+        "Brevity after ordeal creates pacing relief",
+        "Closing invocation of divine peace signals resolution"
+      ],
+      "respecification-seed": "Exhausted travelers consume restorative provisions after ordeal."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Exposition",
+      "tension-arc": "Maintain",
+      "structure": "Five sentences. Opens with misdirection and correction, expands into catalogue, pivots on counter-expectation, then tracks reputation through history to present supremacy.",
+      "rhetorical-dna": [
+        "Triadic enumeration (vineyards, pastures, islands) followed by contrast pivot",
+        "Construction inverts expectation against appearance (example: 'think not that...'",
+        "Formal register with archaic verb forms (examples: affecteth, carrieth, oweth)",
+        "Climactic ranking structure: third-best to peer to supreme",
+        "Simile for delicacy (silver birch) counterweighted by martial record"
+      ],
+      "respecification-seed": "A figure's appearance belies combat prowess and storied/noble history."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Exposition",
+      "tension-arc": "Release",
+      "structure": "Two long sentences. First captures transition with sensory fade; second expands into branching catalogue of activities, closing on temporal span of celebration/achievement.",
+      "rhetorical-dna": [
+        "Synaesthetic music metaphor",
+        "Anaphoric listing creating parallel rhythmic waves",
+        "Elevated diction maintaining courtly atmosphere (examples: pleasaunces, disport, caroused)",
+        "Periodic sentence delaying main verb while accumulating detail",
+        "Closing formula invoking duration and delight"
+      ],
+      "respecification-seed": "A gathering disperses into varied activities."
+    },
+    {
+      "word-count": "0-50",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Single sentence. Subject-verb-purpose chain linking movement, concealment, and deliberation in one breath.",
+      "rhetorical-dna": [
+        "Tripartite action sequence (example: rose, withdrew, to determine)",
+        "Spatial transition signaling shift to serious business",
+        "Formal phrasing  maintaining register",
+        "Brief and decisive after preceding expansiveness"
+      ],
+      "respecification-seed": "Leaders withdraw privately to deliberate an urgent response."
+    },
+    {
+      "word-count": "200-250",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Six sentences building strategic argument. Opens with enemy's cunning timing, catalogues losses, pivots to bitter irony of betrayal after shared victory, projects enemy's calculation and readiness.",
+      "rhetorical-dna": [
+        "Bitter parallelism contrasting sacrifice against opportunism",
+        "Precise numerical detail grounding stakes",
+        "Rhetorical questions sharpening treachery",
+        "\"mouth-friends\" and \"treason\" vocabulary marking moral condemnation",
+        "Conditional projection showing enemy's certainty"
+      ],
+      "respecification-seed": "An analysis of how an ally's betrayal exploits a weakened state after costly victory."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Exposition",
+      "tension-arc": "Escalate",
+      "structure": "Six sentences. Opens with intimate, prophetic dream in accumulating horror, closes with waking cry. Dream sequence builds through repeated \"and\" conjunctions.",
+      "rhetorical-dna": [
+        "Polysyndeton (\"and... and... and\") creating relentless dream-logic accumulation",
+        "Apocalyptic imagery (examples: bearded star, fiery signs, blood, flame)",
+        "Italicized prophetic utterance breaking narrative voice",
+        "Archaic vocabulary sustaining elevated register"
+      ],
+      "respecification-seed": "A prophetic nightmare foretells doom for an actor and/or his land."
+    }
+  ],
+  "gro-reflection-paragraphs": [
+    {
+      "word-count": "100-150",
+      "type": "Reflection",
+      "tension-arc": "Escalate",
+      "structure": "Opens with rhetorical question anticipating judgment, pivots to self-defense through enumeration of hard-won achievements. One long unwinding sentence establishing stakes.",
+      "rhetorical-dna": [
+        "Inverted syntax and archaic constructions create formal, deliberate cadence",
+        "Self-aware framing: speaker pre-empts criticism by voicing it first",
+        "Triadic listing builds cumulative weight",
+        "Intimate metaphor for bond with authority figure"
+      ],
+      "respecification-seed": "A figure defends a dangerous choice made at the height of hard-won security."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Reflection",
+      "tension-arc": "Release",
+      "structure": "Opens with defiant reversal, expands into philosophical maxim, then unfolds into extended allegory. Rhythm shifts from terse declaration to lyrical accumulation.",
+      "rhetorical-dna": [
+        "Proverbial wisdom as foundation",
+        "Cosmic allegory (example: day vs. night as triumph over darkness)",
+        "Personification building in intensity: delicate to wild to triumphant",
+        "Parallel construction cascading into celebration",
+        "Register shifts from sardonic to exalted"
+      ],
+      "respecification-seed": "A character dismisses conventional wisdom by invoking nature's own cycles of triumph and loss."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Reflection",
+      "tension-arc": "Maintain",
+      "structure": "Two-part movement: first, rhetorical question challenging loyalty to success; second, philosophical self-justification through metaphor.",
+      "rhetorical-dna": [
+        "Defiant self-defense through counter-question",
+        "Extended metaphor linking personal loyalty to cosmic phenomena",
+        "Archaic formality lending dignity to what might seem betrayal",
+        "Final clause lifts into abstraction"
+      ],
+      "respecification-seed": "A figure justifies their questionable choices by an extended metaphor with divine/natural phenomenon."
+    },
+    {
+      "word-count": "150-200",
+      "type": "Reflection",
+      "tension-arc": "Escalate",
+      "structure": "Opens with aphoristic statement, then develops through direct address and extended climbing metaphor. Builds through hypotheticals to grim conclusion.",
+      "rhetorical-dna": [
+        "Maxim as thesis",
+        "Direct address creating intimate tutorial tone",
+        "Life-as-X metaphor sustained through multiple scenarios",
+        "Rhetorical questions driving argument forward",
+        "Dark humor in final image (Example: corpse vs. successful climber)"
+      ],
+      "respecification-seed": "A character proposes that indirect paths succeed where direct ones lead to ruin or death."
+    },
+    {
+      "word-count": "50-100",
+      "type": "Reflection",
+      "tension-arc": "Maintain",
+      "structure": "Formal address establishing debt, pivoting to offer of counsel. Single building sentence leading to promise of singular solution.",
+      "rhetorical-dna": [
+        "Courtly formula opening",
+        "Parallel construction in middle",
+        "Tease structure: many options considered, one chosen",
+        "Formal register throughout, deferential but confident"
+      ],
+      "respecification-seed": "An character makes a pledge and promises a single best choice after much deliberation."
+    },
+    {
+      "word-count": "100-150",
+      "type": "Reflection",
+      "tension-arc": "Escalate",
+      "structure": "Opens with chiding observation, proceeds through dismissal of obvious strengths, builds to revelation of hidden greater power. Three beats: critique, enumeration, climactic mystery.",
+      "rhetorical-dna": [
+        "Proverbial wisdom as framing device",
+        "Deliberate undercutting of military assets to elevate something intangible",
+        "Comparative structure building to superlative",
+        "Suspense through withholding: the greater thing unnamed",
+        "Direct address maintaining intimate advisory tone"
+      ],
+      "respecification-seed": "A character warns against relying on obvious strength, hinting at a hidden greater asset."
+    }
+  ]
+}

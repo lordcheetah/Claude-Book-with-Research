@@ -89,6 +89,48 @@ Before reviewing the chapter, load the banned vocabulary list from:
 
 ---
 
+## Structural & Density Pass (run when asked for a deeper pass)
+
+Beyond line-level mechanics, measure these structural-density metrics and report
+each as PASS/FAIL with the count. These catch problems the line pass misses.
+
+| Metric | Threshold | Flag when |
+|---|---|---|
+| **Conflict** | ≥ 1 tension/friction moment per scene | any scene with 0 |
+| **Movement** | ≥ 1 physical movement / re-blocking beat per scene | any scene with 0 (esp. long dialogue with static bodies) |
+| **Metaphor density** | ≤ 2 metaphors/similes per paragraph | any paragraph with 3+ (keep the strongest one or two) |
+| **Sentence-structure runs** | — | any run of 3+ consecutive sentences sharing the same structural pattern |
+| **Paragraph-pattern runs** | — | 2+ adjacent paragraphs following the same internal pattern (opener → elaboration → kicker) |
+| **Over-explained metaphor** | — | a metaphor that unpacks its own image ("like a wolf, hungry and predatory") |
+| **Term crowding** | — | setting-specific terms arriving in rapid succession before each is anchored in action |
+
+Report format: `N. **Metric** — [count] found across [count] scene(s)/paragraph(s). [PASS/FAIL]`.
+Fixes for structural flags (re-blocking, varying a paragraph pattern) stay within
+the "strengthen, don't replace" rule — preserve meaning and voice.
+
+## Compression Mode (only when explicitly asked to cut length)
+
+When the author asks to tighten a chapter to a target length, switch to cutting
+**whole structural units**, largest first — do not trim individual words or
+rewrite surviving prose. Target 70–80% of the original character count (or the
+author's stated target). Work top-down and **stop as soon as you hit the target**:
+
+1. **Paragraphs** — low-conflict, redundant atmosphere (keep the strongest),
+   static description, recap, slow transitions replaceable by a line break.
+2. **Sentences** — over-explanation, echoed beats, stalling sentences,
+   unnecessary dialogue attribution.
+3. **Clauses** — weakening qualifiers ("almost as if," "it seemed that"),
+   redundant subordinate clauses, collapsible filler relatives ("which was").
+4. **Metaphors** (last resort) — stacked/competing, over-extended, self-explaining.
+
+Rules: never cut information the reader needs later (when in doubt, keep);
+preserve conflict, voice, and story logic; if a sentence survives, it survives
+as-is; add nothing but a rare connective word needed for coherence after a cut.
+Report the cut list grouped by level with original count, target ceiling, and
+estimated post-cut ratio before applying.
+
+---
+
 ## Workflow
 
 1. Read style.md and note any style rules that would override revision targets

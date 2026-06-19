@@ -92,6 +92,24 @@ Mix the series formula with adjacent elements:
 - Add rescue mission to mystery
 - Add discovery that changes understanding of universe
 
+**F. Bisociation Engine (rigorous, scored)**
+When the quick collision methods (A–E) feel stale or you want a stronger, less
+predictable seed, run the formal bisociation engine instead. See the reference
+files in `references/`:
+- `bisociation.md` — friction patterns (Inversion, Uncomfortable similarity,
+  Collision of obligations, Logical consequence, Scale mismatch), selection
+  criteria, and "pick the candidate least like an existing story."
+- `element-combination.md` — decompose two bible elements into 5–7 traits each,
+  then cross-pair them into a friction grid.
+- `problem-solving.md` — develop the chosen collision by generating 2–3 labeled
+  solutions per story gap and selecting by: ties back to the collision / most
+  unexpected / creates new problems.
+
+Use it like this: pick two elements (a character + a location, two characters,
+a trait + an external pressure), decompose each into traits, cross-pair, score
+the collisions for friction, take the strongest candidate, then develop it via
+problem-solving before expanding to a logline in Phase 3.
+
 Output: Numbered list of seeds in `.work/story-seeds.md`
 
 ### Phase 3: Seed Selection & Development
