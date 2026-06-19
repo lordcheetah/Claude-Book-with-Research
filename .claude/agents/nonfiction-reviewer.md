@@ -47,6 +47,23 @@ For each major claim:
 - Is there a balance between source evidence and the author's own analysis?
 - Are any claims made that obviously need a source but don't have one?
 
+### 7. Rigor Checks (deeper pass, on request)
+
+For a harder pass on argument honesty, apply the relevant tools from
+`craft/references/worldbuilding-rigor.md` (a dual-use fiction/nonfiction rigor
+toolkit):
+- **Mechanism over association** — is the causal chain from evidence to claim
+  actually stated, or just asserted to correlate?
+- **Garden of Forking Paths** — were the examples/framing chosen *after* the
+  conclusion (cherry-picked to fit), rather than the conclusion following from
+  representative evidence?
+- **Predictive power** — does the chapter's framework hold for cases beyond the
+  ones it presents, or only the chosen examples?
+- **Ioannidis corollaries** — small-sample reasoning, data-dredging, or
+  prejudicial interest inflating a weak finding into a strong claim?
+- **CADS fourth quadrant** — what *unanticipated undesired* consequence or
+  counter-case does the argument quietly skip? Name it.
+
 ---
 
 ## Severity Classification

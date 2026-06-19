@@ -33,6 +33,16 @@ craft/
 | `character.md` | Want/Need/Lie/Ghost/Flaw, arc types, deep-POV checklist, voice-differentiation test. |
 | `pacing.md`, `openings.md`, `endings.md`, `revision-editing.md`, `genre-conventions.md`, `length-forms.md`, `craft-wisdom.md` | Standard craft checklists and process wisdom. |
 
+### references/ (worldbuilding)
+
+| File | What it gives you |
+|---|---|
+| `worldbuilding-rigor.md` | **Dual-use rigor toolkit** for keeping invented systems consistent (hard SF/fantasy) *and* nonfiction arguments honestly grounded: operating principles (mechanism-over-association, Pearl's ladder, predictive power), six metascience triage filters, and adversarial protocols (red-team ladder, Russell Conjugation strip, CADS quadrants). Wired into `world-rules-reviewer` and `nonfiction-reviewer`. |
+| `magic-systems.md` | Fantasy magic design: Sanderson's Three Laws, hard/soft framework, the source/rules/cost/limits template, genre pitfalls, reveal timing, checklist. Used by the `magic-system-designer` skill. |
+| `designing-worlds.md` | Physical-substrate method: biomes, planetary mechanics, weather-as-narrative, one productive contradiction per biome. Used by `civilization-builder` Step 1. |
+| `designing-lore.md` | Deep-memory layer: myth, legendary figures, historical eras, relics — macro scale (complements the single-object `folklore-generator`). |
+| `interrogating-design.md` | Single-decision pressure test: OODA loop, red-team escalation, Russell Conjugation check. Used by `civilization-builder` and `magic-system-designer`. |
+
 ## style-guides/
 
 `decision-matrix.md` is the practical one: a side-by-side of where Chicago
@@ -76,3 +86,10 @@ Character-voice archetypes for the `style-revision` skill (voice mode), plus
 - `styles/`, `voices/`, and `data/` adapted from **Claude-Fiction-Kit**
   (sandervw). The dark-fantasy banks read as Howard/Conan pastiche, not from any
   specific project's canon.
+- `worldbuilding-rigor.md`, `designing-worlds.md`, `designing-lore.md`,
+  `interrogating-design.md` adapted from **worldcodex** (alainator, MIT) — its
+  epistemological framework, design skills, and `/civilization-build` pipeline.
+  The `civilization-builder` and `deriving-social-systems` skills and the
+  `world-assumptions-reviewer` agent also derive from it.
+- `magic-systems.md` adapted and translated from a Chinese-language
+  fantasy-world-building skill (wordflowlab, via microck/ordinary-claude-skills).

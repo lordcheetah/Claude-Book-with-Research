@@ -105,6 +105,9 @@ If a planner or writer needs a character or location that doesn't exist in the b
 - `story-ideator` : generate original storylines from bible (includes the scored bisociation idea engine — see `references/bisociation.md`)
 - `folklore-generator` : generate culturally-plausible beliefs, rituals, and folk explanations for an object or phenomenon (worldbuilding)
 - `style-revision` : rewrite a passage in a named author style (Howard/Peake/Eddison) or character voice (Freeman/Paladin/Thorogood/Rogue) — see `craft/styles/` and `craft/voices/`
+- `civilization-builder` : deep first-principles culture/species build (planet → biology → cognition → culture → tech → language → science → history), with author checkpoints; hands canon to bible-builder
+- `deriving-social-systems` : derive coordination structures from a species' biology/cognition/environment (communication-medium taxonomy + negative derivation); used in civilization-builder Step 4
+- `magic-system-designer` : design a fantasy magic system with clear rules/costs/limits (Sanderson's Three Laws, hard/soft) — see `craft/references/magic-systems.md`
 - `perplexity-improver` : reduce AI-detectable patterns in chapters (pair with `craft/references/prose-smells.md`)
 - `synopsis-writer` : generate query synopsis, blurb, logline, query letter (end of project)
 - `chapter-stats` : statistics dashboard across all chapters (on demand)
@@ -146,9 +149,19 @@ Shared, cross-project, read-only craft reference. Inject the relevant file(s)
 into an agent's context when useful; agents may also read them directly. See
 `craft/README.md` for the full index.
 - `craft/references/` : prose-smells (LLM-tic catalogue w/ thresholds), audiobook-considerations, anti-patterns, prose-style, dialogue, scene-structure, story-structure, character, pacing, openings, endings, and more.
+- `craft/references/` (worldbuilding) : `worldbuilding-rigor.md` (dual-use rigor toolkit — metascience filters + adversarial protocols, wired into world-rules-reviewer and nonfiction-reviewer), `magic-systems.md` (Sanderson's laws, hard/soft), `designing-worlds.md`, `designing-lore.md`, `interrogating-design.md`.
 - `craft/style-guides/` : Chicago (US) vs New Oxford (UK) copy-edit standards + a divergence decision-matrix. Pick one per project, keep it consistent.
 - `craft/styles/` & `craft/voices/` : named author styles and character voices for the `style-revision` skill.
 - `craft/data/` : abstracted paragraph templates, character-action sentences, and a craft-axis vocabulary with ban lists.
+
+## Worldbuilding (on demand)
+
+For deep worldbuilding beyond what `bible-builder` fills in:
+- `civilization-builder` skill — full derivation-chain build of a culture/species, checkpoint-gated; the deep companion to bible-builder.
+- `deriving-social-systems` skill — derive social structures from biology/cognition/environment.
+- `magic-system-designer` skill — design/audit a fantasy magic system.
+- **world-assumptions-reviewer** agent — flags anthropomorphism (non-human species) and cultural parochialism (humans in novel settings); a distinct lens from continuity-reviewer (facts) and world-rules-reviewer (system logic). Run during/after a civilization build.
+- **research-assistant** can run `scripts/research-tool.py` for key-free academic literature search (8 OA sources) + PDF→markdown, for hard-SF and nonfiction grounding.
 
 ---
 

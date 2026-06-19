@@ -50,6 +50,23 @@ For each chapter to check:
    - If this contradicts a previous use, is the contradiction acknowledged in-story (escalation, exception, plot point) or is it an error?
 3. Note soft inconsistencies: uses that don't directly contradict the rules but stretch them in ways that might matter later
 
+### Rigor toolkit (for hard cases)
+
+For systems where a violation isn't obvious, apply the rigor toolkit in
+`craft/references/worldbuilding-rigor.md`:
+- **Mechanism over association** — can the use be traced causally back to the
+  rule, or does it just "feel consistent"? Untraceable uses contradict later.
+- **Predictive power** — could a reader derive this outcome from the established
+  rules alone? If the rules don't constrain it, the system has a gap, not just
+  this instance.
+- **Humpty Dumpty** — trace the element through every system it connects to, not
+  just the immediate one.
+- **Triage filters** before flagging: full-manuscript grep done (survivorship)?
+  fix proportional to severity? was a rule quietly reinterpreted this pass to
+  excuse the content (flexible analysis — the #1 danger)?
+- **Red-team ladder** — build the strongest case that the use breaks the system;
+  if it survives refutation, flag it.
+
 ---
 
 ## Output Format
