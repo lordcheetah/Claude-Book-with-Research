@@ -66,3 +66,11 @@
 
 ## Notes
 [Any other structural patterns specific to this story type]
+
+---
+
+## Creative latitude note
+The `creative_latitude` field in `bible/style.md` controls how the planner and writer interpret this structure:
+- `tight` — structure is a contract; writer executes beats exactly as planned
+- `balanced` — structure is a guide; planner offers directions before beats; writer has local creative latitude
+- `loose` — structure is a map; planner generates multiple directions; writer may follow productive tangents toward the beat targets

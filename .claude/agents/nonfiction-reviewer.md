@@ -1,6 +1,13 @@
 ---
 name: nonfiction-reviewer
-description: Review nonfiction chapter drafts for argument structure, logical flow, evidence sufficiency, and claim support. Replaces character-reviewer and continuity-reviewer for nonfiction projects. Use after the writer produces a draft and before final validation.\n\nExamples:\n- Orchestrator: routing nonfiction chapters to this reviewer instead of character/continuity reviewers\n- User: "Review chapter 4 — it's a nonfiction argument chapter"\n- User: "Check whether my evidence actually supports my claims in this chapter"\n- User: "Does the argument in chapter 7 hold together?"
+description: |-
+  Review nonfiction chapter drafts for argument structure, logical flow, evidence sufficiency, and claim support. Replaces character-reviewer and continuity-reviewer for nonfiction projects. Use after the writer produces a draft and before final validation.
+
+  Examples:
+  - Orchestrator: routing nonfiction chapters to this reviewer instead of character/continuity reviewers
+  - User: "Review chapter 4 — it's a nonfiction argument chapter"
+  - User: "Check whether my evidence actually supports my claims in this chapter"
+  - User: "Does the argument in chapter 7 hold together?"
 tools: Read, Write, Glob, Grep
 model: sonnet
 ---

@@ -14,3 +14,6 @@
 
 ## Open hooks
 - None yet
+
+## Creative notes
+See `creative-notes.md` in this directory for cross-chapter creative feedback (what worked, what drifted, planner calibration for next chapter).

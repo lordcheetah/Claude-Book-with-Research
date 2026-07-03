@@ -39,9 +39,16 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 1. Load `{PROJECT_ROOT}/state/current/situation.md` to understand current position
    - If `state/current/` doesn't exist yet, use `state/template/` as the initial state
 2. Call **chapter-planner** agent: synopsis + plan.md + state/current/situation.md + bible/tropes.md (if it exists) + PROJECT_ROOT
-3. Validate plan aligns with story trajectory
+3. Show the chapter plan to the user and wait for approval before proceeding:
+   - For balanced/loose projects: the plan includes Chapter Directions — present them to the user for selection; the planner then writes beats for the selected direction
+   - For all projects: user approves the final beats before the writer runs
+   - This is a hard user checkpoint — the writer does not start until the user approves the plan
 4. Call **writer** agent: chapter plan + bible/style.md + bible/tropes.md (if it exists) + relevant bible/characters/*.md + state/current/* + PROJECT_ROOT
    - This agent loads prose-writing, scene-construction, writing-principles, and llm-writing skills automatically (all vendored project-local skills)
+   - Frame the brief according to `creative_latitude` in bible/style.md:
+     - `tight` → "Follow these beats in order. Execute each exactly as described."
+     - `balanced` → "These are the narrative targets for this chapter. How you arrive at each beat is yours."
+     - `loose` → "These are directional markers. Arrive at these story beats; the path between them is yours."
    - [Optional] Call **reader-sim**: draft → experiential reader signal before formal review. If it reports losing the reader at a specific location, send that finding back to the writer before proceeding.
    - [Optional] Call **revision-agent** for craft-level prose pass (proactive — before reviewers). For a deeper pass, ask it for the Structural & Density metrics; to cut length, ask for Compression Mode.
 5. Call **perplexity-improver** skill to reduce AI-detectable patterns. Pair it with `craft/references/prose-smells.md` — the structural LLM-tic catalogue with frequency thresholds (paradoxical pairing, exhaustive triad, negative definition, default atmosphere words, etc.).
@@ -53,7 +60,7 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 8. Call **continuity-reviewer**: draft + state/current/* + timeline/history.md + PROJECT_ROOT
    - For fantasy/sci-fi: also call **world-rules-reviewer** after continuity
 9. If any gate fails: loop **revision-writer** with reports (reactive — applies specific critique findings surgically; max 3 iterations)
-10. Call **state-updater**: creates `{PROJECT_ROOT}/state/chapter-NN/`, updates symlink, appends timeline
+10. Call **state-updater**: creates `{PROJECT_ROOT}/state/chapter-NN/`, updates symlink, appends timeline; also extracts creative feedback from critic + reader-sim into `state/chapter-NN/creative-notes.md` and updates `state/current/creative-notes.md` (what worked, what drifted, planner calibration note for the next chapter)
 11. Call **subplot-tracker**: update `{PROJECT_ROOT}/story/subplots.md` with this chapter
 12. Call **foreshadowing-tracker**: update `{PROJECT_ROOT}/story/foreshadowing.md` with this chapter
 13. Move final chapter to `{PROJECT_ROOT}/story/chapters/`
@@ -65,6 +72,7 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 ### Periodic checks (not every chapter)
 - **arc-reviewer**: recommended every 3–5 chapters and at act transitions — flag this to the user
 - **sensitivity-reader**: on demand or before sharing with external readers
+- **creative-notes review**: every 3–5 chapters, scan `state/current/creative-notes.md` for recurring patterns — if the same imbalance appears repeatedly (consistently too tight, consistently drifting), the `creative_latitude` setting in bible/style.md may need adjusting for the rest of the manuscript
 
 ---
 
@@ -73,6 +81,7 @@ All subsequent file paths use PROJECT_ROOT (and SERIES_ROOT if applicable) as ba
 - `{PROJECT_ROOT}/bible/tropes.md` : genre-native tropes, clichés to avoid, in-use tracker — set at project setup, updated after chapters
 - `{SERIES_ROOT}/*` : read-only constraint layer (if series project)
 - `{PROJECT_ROOT}/state/current/*` : current chapter state
+- `{PROJECT_ROOT}/state/current/creative-notes.md` : cross-chapter creative feedback (expand/collapse balance, what worked, planner calibration) — updated by state-updater after each chapter; read by planner at the start of each new chapter
 - `{PROJECT_ROOT}/state/chapter-NN/*` : archived state
 - `{PROJECT_ROOT}/timeline/history.md` : all past chapters (append-only)
 - `{PROJECT_ROOT}/timeline/current-chapter.md` : current chapter (reset at transition)
@@ -220,6 +229,7 @@ projects/[name]/
 │   ├── style.md              ← fill in from bible/style.md.example
 │   ├── structure.md          ← fill in from bible/structure.md.example
 │   ├── tropes.md             ← populate at project setup via research-assistant + TV Tropes (see bible/tropes.md.example)
+│   │                           also set creative_latitude: tight/balanced/loose in style.md at project setup
 │   ├── characters/
 │   │   └── _template.md
 │   └── universe/

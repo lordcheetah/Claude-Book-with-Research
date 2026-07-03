@@ -1,6 +1,35 @@
 ---
 name: continuity-reviewer
-description: Use this agent when you need to verify narrative continuity after a chapter draft is complete. This includes checking for timeline inconsistencies, character knowledge violations, spatial/location errors, object tracking problems, and contradictions with established facts. Call this agent as part of the chapter validation workflow after the writer agent has produced a draft.\n\nExamples:\n\n<example>\nContext: The orchestrator has received a new chapter draft from the writer agent and needs to validate it before proceeding.\nuser: "The writer has completed chapter 5 draft"\nassistant: "I'll now use the continuity-reviewer agent to check for any narrative consistency issues in the draft."\n<commentary>\nSince a chapter draft is complete, use the Task tool to launch the continuity-reviewer agent with the draft, state files, and timeline to identify any continuity errors before the chapter can be approved.\n</commentary>\n</example>\n\n<example>\nContext: A chapter has failed style review but needs continuity checking as well.\nuser: "Please validate chapter 12 for all issues"\nassistant: "I'll run the continuity-reviewer agent to check for timeline, spatial, and knowledge consistency issues in chapter 12."\n<commentary>\nThe user wants comprehensive validation, so use the continuity-reviewer agent to analyze the chapter against state/current/situation.md, state/current/knowledge.md, timeline/history.md, and state/current/inventory.md to produce a continuity report.\n</commentary>\n</example>\n\n<example>\nContext: The orchestrator suspects there may be a timeline issue after noticing a potential error.\nassistant: "Before proceeding to the next chapter, I need to verify continuity. Let me use the continuity-reviewer agent to analyze the current draft against our state files."\n<commentary>\nProactively launching the continuity-reviewer agent as part of the standard validation gate workflow to catch any errors before they propagate to future chapters.\n</commentary>\n</example>
+description: |-
+  Use this agent when you need to verify narrative continuity after a chapter draft is complete. This includes checking for timeline inconsistencies, character knowledge violations, spatial/location errors, object tracking problems, and contradictions with established facts. Call this agent as part of the chapter validation workflow after the writer agent has produced a draft.
+
+  Examples:
+
+  <example>
+  Context: The orchestrator has received a new chapter draft from the writer agent and needs to validate it before proceeding.
+  user: "The writer has completed chapter 5 draft"
+  assistant: "I'll now use the continuity-reviewer agent to check for any narrative consistency issues in the draft."
+  <commentary>
+  Since a chapter draft is complete, use the Task tool to launch the continuity-reviewer agent with the draft, state files, and timeline to identify any continuity errors before the chapter can be approved.
+  </commentary>
+  </example>
+
+  <example>
+  Context: A chapter has failed style review but needs continuity checking as well.
+  user: "Please validate chapter 12 for all issues"
+  assistant: "I'll run the continuity-reviewer agent to check for timeline, spatial, and knowledge consistency issues in chapter 12."
+  <commentary>
+  The user wants comprehensive validation, so use the continuity-reviewer agent to analyze the chapter against state/current/situation.md, state/current/knowledge.md, timeline/history.md, and state/current/inventory.md to produce a continuity report.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The orchestrator suspects there may be a timeline issue after noticing a potential error.
+  assistant: "Before proceeding to the next chapter, I need to verify continuity. Let me use the continuity-reviewer agent to analyze the current draft against our state files."
+  <commentary>
+  Proactively launching the continuity-reviewer agent as part of the standard validation gate workflow to catch any errors before they propagate to future chapters.
+  </commentary>
+  </example>
 tools: Glob, Grep, Read, WebFetch, TodoWrite, WebSearch, Skill, Edit, Write, NotebookEdit, Bash
 model: sonnet
 ---

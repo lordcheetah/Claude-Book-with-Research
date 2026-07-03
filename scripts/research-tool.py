@@ -46,6 +46,16 @@ import urllib.error
 from datetime import datetime
 from pathlib import Path
 
+# Ensure UTF-8 output even on consoles that default to a narrow codepage
+# (e.g. Windows cp1252), so non-Latin author names/titles don't crash printing.
+for _stream in (sys.stdout, sys.stderr):
+    _reconfigure = getattr(_stream, "reconfigure", None)
+    if _reconfigure is not None:
+        try:
+            _reconfigure(encoding="utf-8")
+        except (ValueError, OSError):
+            pass
+
 # ============================================================
 # Configuration
 # ============================================================

@@ -1,6 +1,37 @@
 ---
 name: style-linter
-description: Use this agent when you need to verify that a chapter draft complies with the project's style guide (bible/style.md). This agent should be called after the writer agent produces a draft and before character or continuity reviews. It performs technical style validation only and does not judge creative or narrative elements.\n\nExamples:\n\n<example>\nContext: The orchestrator has received a new chapter draft from the writer agent and needs to validate it against style rules before proceeding to other reviews.\nuser: "The writer has completed chapter 5 draft. Please validate it."\nassistant: "I'll use the style-linter agent to check the draft against our style guide before proceeding with character and continuity reviews."\n<commentary>\nSince a chapter draft is ready for validation, use the style-linter agent to perform technical style verification against bible/style.md.\n</commentary>\n</example>\n\n<example>\nContext: A chapter has failed style review and been revised by the writer. The orchestrator needs to re-validate the revised draft.\nuser: "The writer has addressed the style issues. Please check the revision."\nassistant: "I'll launch the style-linter agent again to verify the revised chapter now meets our style requirements."\n<commentary>\nSince a revised draft needs re-validation, use the style-linter agent to confirm all blocking errors have been resolved.\n</commentary>\n</example>\n\n<example>\nContext: The orchestrator is proceeding through the workflow and has just validated the chapter plan.\nassistant: "The chapter plan aligns with our story trajectory. Now I'll have the writer agent create the draft."\n[writer agent completes draft]\nassistant: "Draft complete. I'll now use the style-linter agent to validate the chapter against bible/style.md before proceeding to character review."\n<commentary>\nAs part of the standard workflow after writer completion, proactively use the style-linter agent for style validation.\n</commentary>\n</example>
+description: |-
+  Use this agent when you need to verify that a chapter draft complies with the project's style guide (bible/style.md). This agent should be called after the writer agent produces a draft and before character or continuity reviews. It performs technical style validation only and does not judge creative or narrative elements.
+
+  Examples:
+
+  <example>
+  Context: The orchestrator has received a new chapter draft from the writer agent and needs to validate it against style rules before proceeding to other reviews.
+  user: "The writer has completed chapter 5 draft. Please validate it."
+  assistant: "I'll use the style-linter agent to check the draft against our style guide before proceeding with character and continuity reviews."
+  <commentary>
+  Since a chapter draft is ready for validation, use the style-linter agent to perform technical style verification against bible/style.md.
+  </commentary>
+  </example>
+
+  <example>
+  Context: A chapter has failed style review and been revised by the writer. The orchestrator needs to re-validate the revised draft.
+  user: "The writer has addressed the style issues. Please check the revision."
+  assistant: "I'll launch the style-linter agent again to verify the revised chapter now meets our style requirements."
+  <commentary>
+  Since a revised draft needs re-validation, use the style-linter agent to confirm all blocking errors have been resolved.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The orchestrator is proceeding through the workflow and has just validated the chapter plan.
+  assistant: "The chapter plan aligns with our story trajectory. Now I'll have the writer agent create the draft."
+  [writer agent completes draft]
+  assistant: "Draft complete. I'll now use the style-linter agent to validate the chapter against bible/style.md before proceeding to character review."
+  <commentary>
+  As part of the standard workflow after writer completion, proactively use the style-linter agent for style validation.
+  </commentary>
+  </example>
 tools: Glob, Grep, Read, WebFetch, TodoWrite, WebSearch, Skill, Edit, Write, NotebookEdit, Bash
 model: sonnet
 ---

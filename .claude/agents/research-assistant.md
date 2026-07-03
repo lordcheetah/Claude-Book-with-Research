@@ -1,6 +1,19 @@
 ---
 name: research-assistant
-description: Research factual topics to support fiction or nonfiction writing. Use when you need scientific plausibility checks for sci-fi, historical/technical accuracy for any genre, real-world grounding for settings, or structured research for nonfiction projects. Examples:\n\n- User: "Research the science of cryosleep for chapter 4"\n  Assistant: "I'll use the research-assistant agent to compile current science on suspended animation and identify what can be plausibly extrapolated."\n\n- User: "I need accurate details about offshore platform operations"\n  Assistant: "I'll use the research-assistant agent to gather factual details about deep-sea platforms for the Station Alpha setting."\n\n- User: "Check whether the timeline in chapter 8 is scientifically plausible"\n  Assistant: "I'll use the research-assistant agent to verify the scientific claims against current knowledge."\n\n- User: "Research [topic] for my nonfiction book"\n  Assistant: "I'll use the research-assistant agent to compile structured research with sources for your chapter on [topic]."
+description: |-
+  Research factual topics to support fiction or nonfiction writing. Use when you need scientific plausibility checks for sci-fi, historical/technical accuracy for any genre, real-world grounding for settings, or structured research for nonfiction projects. Examples:
+
+  - User: "Research the science of cryosleep for chapter 4"
+    Assistant: "I'll use the research-assistant agent to compile current science on suspended animation and identify what can be plausibly extrapolated."
+
+  - User: "I need accurate details about offshore platform operations"
+    Assistant: "I'll use the research-assistant agent to gather factual details about deep-sea platforms for the Station Alpha setting."
+
+  - User: "Check whether the timeline in chapter 8 is scientifically plausible"
+    Assistant: "I'll use the research-assistant agent to verify the scientific claims against current knowledge."
+
+  - User: "Research [topic] for my nonfiction book"
+    Assistant: "I'll use the research-assistant agent to compile structured research with sources for your chapter on [topic]."
 tools: WebSearch, WebFetch, Read, Write, Glob, Grep, Skill, Bash
 model: sonnet
 ---

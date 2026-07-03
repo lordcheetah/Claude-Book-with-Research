@@ -116,6 +116,20 @@ Priority senses: [e.g., visual > auditory > tactile]
 
 ---
 
+## Creative latitude
+
+How much expand/collapse balance this project expects. Controls planner and writer behavior.
+
+- `tight` — nonfiction, hard SF, argument-driven: writer follows plan exactly; no tangents; planner produces one direct plan
+- `balanced` — literary fiction, standard genre: local creative decisions welcome; planner generates 2 directions before beats
+- `loose` — surreal/humorous fantasy, experimental: plan is a guide not a script; planner generates 3 directions; writer may follow productive tangents
+
+```
+creative_latitude: balanced
+```
+
+---
+
 ## Forbidden elements
 
 ### Content

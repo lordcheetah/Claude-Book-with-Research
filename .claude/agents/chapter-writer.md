@@ -1,6 +1,19 @@
 ---
 name: chapter-writer
-description: Use this agent when you need to write a chapter draft based on a provided chapter plan. This agent should be called after the planner agent has produced chapter beats and before any review agents (style-linter, character-reviewer, continuity-reviewer) are invoked. Examples:\n\n- User: "Write chapter 5 based on the plan"\n  Assistant: "I'll use the chapter-writer agent to draft chapter 5 following the established beats and style guide."\n  <Task tool invocation with chapter-writer agent>\n\n- After planner agent returns chapter beats:\n  Assistant: "The chapter plan is ready. Now I'll invoke the chapter-writer agent to transform these beats into a full chapter draft."\n  <Task tool invocation with chapter-writer agent>\n\n- User: "Continue with the next chapter"\n  Assistant: "I'll first load the current state, then use the chapter-writer agent to draft the next chapter according to the plan."\n  <Task tool invocation with chapter-writer agent>
+description: |-
+  Use this agent when you need to write a chapter draft based on a provided chapter plan. This agent should be called after the planner agent has produced chapter beats and before any review agents (style-linter, character-reviewer, continuity-reviewer) are invoked. Examples:
+
+  - User: "Write chapter 5 based on the plan"
+    Assistant: "I'll use the chapter-writer agent to draft chapter 5 following the established beats and style guide."
+    <Task tool invocation with chapter-writer agent>
+
+  - After planner agent returns chapter beats:
+    Assistant: "The chapter plan is ready. Now I'll invoke the chapter-writer agent to transform these beats into a full chapter draft."
+    <Task tool invocation with chapter-writer agent>
+
+  - User: "Continue with the next chapter"
+    Assistant: "I'll first load the current state, then use the chapter-writer agent to draft the next chapter according to the plan."
+    <Task tool invocation with chapter-writer agent>
 model: opus
 ---
 

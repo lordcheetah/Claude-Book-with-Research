@@ -1,6 +1,25 @@
 ---
 name: state-updater
-description: Use this agent when a chapter has been validated by all reviewers (style-linter, character-reviewer, continuity-reviewer) and needs its state changes extracted and recorded. This agent should be called after step 8 of the orchestrator workflow (after all gates pass) but before moving the final chapter to story/chapters/. The agent creates a NEW state/chapter-NN/ directory, writes state files there, and updates the symlink.\n\n<example>\nContext: The orchestrator has just received approval from all three reviewers for chapter 5.\nuser: "Chapter 5 has passed all validation gates"\nassistant: "Now I need to extract and record all state changes from this validated chapter. Let me use the state-updater agent to create state/chapter-05/, write the state files, update the symlink, and append events to the timeline."\n<commentary>\nSince the chapter has passed validation, use the state-updater agent to create state/chapter-05/, write situation.md, characters.md, knowledge.md, update the symlink state/current → chapter-05, and append to timeline/current-chapter.md.\n</commentary>\n</example>\n\n<example>\nContext: A chapter draft has been revised and finally approved after 2 iteration loops.\nuser: "The writer has addressed the continuity issues and the chapter is now approved"\nassistant: "Excellent, the chapter is now validated. I'll use the state-updater agent to create the new chapter state directory, capture all narrative state changes, and update the symlink before archiving this chapter."\n<commentary>\nAfter successful validation (even after revision loops), the state-updater agent must be invoked to create the versioned state directory and maintain accurate state tracking.\n</commentary>\n</example>
+description: |-
+  Use this agent when a chapter has been validated by all reviewers (style-linter, character-reviewer, continuity-reviewer) and needs its state changes extracted and recorded. This agent should be called after step 8 of the orchestrator workflow (after all gates pass) but before moving the final chapter to story/chapters/. The agent creates a NEW state/chapter-NN/ directory, writes state files there, and updates the symlink.
+
+  <example>
+  Context: The orchestrator has just received approval from all three reviewers for chapter 5.
+  user: "Chapter 5 has passed all validation gates"
+  assistant: "Now I need to extract and record all state changes from this validated chapter. Let me use the state-updater agent to create state/chapter-05/, write the state files, update the symlink, and append events to the timeline."
+  <commentary>
+  Since the chapter has passed validation, use the state-updater agent to create state/chapter-05/, write situation.md, characters.md, knowledge.md, update the symlink state/current → chapter-05, and append to timeline/current-chapter.md.
+  </commentary>
+  </example>
+
+  <example>
+  Context: A chapter draft has been revised and finally approved after 2 iteration loops.
+  user: "The writer has addressed the continuity issues and the chapter is now approved"
+  assistant: "Excellent, the chapter is now validated. I'll use the state-updater agent to create the new chapter state directory, capture all narrative state changes, and update the symlink before archiving this chapter."
+  <commentary>
+  After successful validation (even after revision loops), the state-updater agent must be invoked to create the versioned state directory and maintain accurate state tracking.
+  </commentary>
+  </example>
 model: sonnet
 ---
 
@@ -96,7 +115,32 @@ First, create the new chapter directory where NN is the zero-padded chapter numb
 - [Maintain cumulative list]
 ```
 
-### 5. state/chapter-NN/inventory.md (CREATE if relevant)
+### 5. state/chapter-NN/creative-notes.md (CREATE)
+
+Extract creative feedback from the critic report and reader-sim report (if both were run) and distill it into calibration notes for the next chapter's planner. This closes the expand/collapse feedback loop.
+
+```markdown
+# Creative Notes — After Chapter [X]
+
+## Expand/collapse balance
+[Did this chapter feel too tight, about right, or too loose? Evidence from critic/reader-sim reports.]
+
+## What worked (carry forward)
+[Creative choices the critic flagged positively or reader-sim reported as transporting — deploy similar approaches in future chapters]
+
+## What fired by default (watch next chapter)
+[Tropes or patterns the critic flagged as lazy/default rather than intentional — avoid or subvert next chapter]
+
+## Reader drift points
+[Specific scenes or moments where reader-sim reported losing the thread — note the type so the planner can watch for similar patterns]
+
+## Planner note for Chapter [X+1]
+[Any specific creative calibration the orchestrator or author wants carried forward — e.g., "tighten scene openings," "more interiority in dialogue scenes," "the tangent in scene 2 worked, try it again"]
+```
+
+If neither a critic report nor a reader-sim report was provided, write a minimal entry noting no feedback was available for this chapter.
+
+### 6. state/chapter-NN/inventory.md (CREATE if relevant)
 ```markdown
 # Inventory state - After chapter [X]
 
@@ -159,6 +203,7 @@ Before finalizing, verify:
 5. Timeline entries are specific enough to prevent future contradictions
 6. No critical plot developments are omitted
 7. Symlink state/current points to the new chapter directory
+8. creative-notes.md has been written with at least a minimal entry — this is how creative feedback reaches the next chapter's planner
 
 ## Output Format
 Present each file's complete updated content, clearly labeled with the filename. State files should be complete files (not diffs). Timeline shows only the new content to append.

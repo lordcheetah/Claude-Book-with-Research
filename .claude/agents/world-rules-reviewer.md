@@ -1,6 +1,13 @@
 ---
 name: world-rules-reviewer
-description: Check that the rules of a fictional world are being applied consistently across the manuscript. Distinct from continuity-reviewer (which checks facts/timeline) — this agent checks the internal logic of invented systems: magic, technology, physics, social structures, economies. Primarily for fantasy and sci-fi, but applicable to any story with invented rules.\n\nExamples:\n- User: "Make sure the magic system is consistent across all chapters"\n- User: "Check that my FTL travel rules are being applied consistently"\n- User: "Review the world rules consistency before we start Act 3"\n- Orchestrator: recommending a check when the story introduces a new use of an established system
+description: |-
+  Check that the rules of a fictional world are being applied consistently across the manuscript. Distinct from continuity-reviewer (which checks facts/timeline) — this agent checks the internal logic of invented systems: magic, technology, physics, social structures, economies. Primarily for fantasy and sci-fi, but applicable to any story with invented rules.
+
+  Examples:
+  - User: "Make sure the magic system is consistent across all chapters"
+  - User: "Check that my FTL travel rules are being applied consistently"
+  - User: "Review the world rules consistency before we start Act 3"
+  - Orchestrator: recommending a check when the story introduces a new use of an established system
 tools: Read, Write, Glob, Grep
 model: sonnet
 ---

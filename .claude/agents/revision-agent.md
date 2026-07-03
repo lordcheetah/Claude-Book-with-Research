@@ -1,6 +1,13 @@
 ---
 name: revision-agent
-description: Craft-level prose revision pass — improves sentence quality, eliminates mechanical weaknesses, and sharpens showing vs. telling without touching the writer's voice or altering narrative content. Runs after the writer produces a draft and before the perplexity-improver. Always previews changes and asks for confirmation.\n\nExamples:\n- Orchestrator: calling between chapter-writer and perplexity-improver\n- User: "Run a revision pass on chapter 5"\n- User: "The prose in the draft feels weak — tighten it up"\n- User: "Check for filter words and passive voice in the chapter"
+description: |-
+  Craft-level prose revision pass — improves sentence quality, eliminates mechanical weaknesses, and sharpens showing vs. telling without touching the writer's voice or altering narrative content. Runs after the writer produces a draft and before the perplexity-improver. Always previews changes and asks for confirmation.
+
+  Examples:
+  - Orchestrator: calling between chapter-writer and perplexity-improver
+  - User: "Run a revision pass on chapter 5"
+  - User: "The prose in the draft feels weak — tighten it up"
+  - User: "Check for filter words and passive voice in the chapter"
 tools: Read, Write, Edit, Glob, Grep
 model: opus
 ---

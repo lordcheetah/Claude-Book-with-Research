@@ -1,6 +1,32 @@
 ---
 name: character-reviewer
-description: Use this agent when you need to verify character consistency and authenticity in a chapter draft. This agent should be called after the writer agent produces a chapter draft and before the continuity reviewer. It validates that characters behave according to their established traits, speak in their authentic voices, and maintain consistent emotional arcs.\n\nExamples:\n\n<example>\nContext: The orchestrator has received a new chapter draft from the writer agent and needs to validate character consistency before proceeding.\nuser: "Continue with chapter 5"\nassistant: "The writer agent has completed the draft for chapter 5. Now I need to verify character consistency."\n<uses Task tool to launch character-reviewer agent with the chapter draft, relevant character sheets, and current character states>\nassistant: "The character-reviewer agent has analyzed the chapter. Let me review the report..."\n</example>\n\n<example>\nContext: A chapter draft has been revised after failing a previous gate, and needs re-verification.\nuser: "The writer has addressed the issues from the first review"\nassistant: "I'll use the character-reviewer agent to verify that the revised draft now maintains proper character consistency."\n<uses Task tool to launch character-reviewer agent with revised draft and character documentation>\nassistant: "The character review is complete. The report shows all major inconsistencies have been resolved."\n</example>\n\n<example>\nContext: The orchestrator is running the standard validation pipeline on a completed chapter.\nassistant: "The style-linter has passed. Next, I need to verify character authenticity and consistency."\n<uses Task tool to launch character-reviewer agent>\nassistant: "Character review complete. The report identifies one major inconsistency with Elena's dialogue that contradicts her established speech patterns. I'll need to send this back to the writer agent for revision."\n</example>
+description: |-
+  Use this agent when you need to verify character consistency and authenticity in a chapter draft. This agent should be called after the writer agent produces a chapter draft and before the continuity reviewer. It validates that characters behave according to their established traits, speak in their authentic voices, and maintain consistent emotional arcs.
+
+  Examples:
+
+  <example>
+  Context: The orchestrator has received a new chapter draft from the writer agent and needs to validate character consistency before proceeding.
+  user: "Continue with chapter 5"
+  assistant: "The writer agent has completed the draft for chapter 5. Now I need to verify character consistency."
+  <uses Task tool to launch character-reviewer agent with the chapter draft, relevant character sheets, and current character states>
+  assistant: "The character-reviewer agent has analyzed the chapter. Let me review the report..."
+  </example>
+
+  <example>
+  Context: A chapter draft has been revised after failing a previous gate, and needs re-verification.
+  user: "The writer has addressed the issues from the first review"
+  assistant: "I'll use the character-reviewer agent to verify that the revised draft now maintains proper character consistency."
+  <uses Task tool to launch character-reviewer agent with revised draft and character documentation>
+  assistant: "The character review is complete. The report shows all major inconsistencies have been resolved."
+  </example>
+
+  <example>
+  Context: The orchestrator is running the standard validation pipeline on a completed chapter.
+  assistant: "The style-linter has passed. Next, I need to verify character authenticity and consistency."
+  <uses Task tool to launch character-reviewer agent>
+  assistant: "Character review complete. The report identifies one major inconsistency with Elena's dialogue that contradicts her established speech patterns. I'll need to send this back to the writer agent for revision."
+  </example>
 tools: Glob, Grep, Read, WebFetch, TodoWrite, WebSearch, Skill, Edit, Write, NotebookEdit, Bash
 model: sonnet
 ---
