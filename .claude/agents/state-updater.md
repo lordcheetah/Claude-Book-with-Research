@@ -117,7 +117,7 @@ First, create the new chapter directory where NN is the zero-padded chapter numb
 
 ### 5. state/chapter-NN/creative-notes.md (CREATE)
 
-Extract creative feedback from the critic report and reader-sim report (if both were run) and distill it into calibration notes for the next chapter's planner. This closes the expand/collapse feedback loop.
+Extract creative feedback from the critic report and reader-sim report (if either was run) — and, for **nonfiction projects, from the nonfiction-reviewer report** — and distill it into calibration notes for the next chapter's planner. This closes the expand/collapse feedback loop.
 
 ```markdown
 # Creative Notes — After Chapter [X]
@@ -134,11 +134,20 @@ Extract creative feedback from the critic report and reader-sim report (if both 
 ## Reader drift points
 [Specific scenes or moments where reader-sim reported losing the thread — note the type so the planner can watch for similar patterns]
 
+## Argument calibration (nonfiction only — from the nonfiction-reviewer report)
+[Include this section only if a nonfiction-reviewer report was provided. Distill:
+- Argument tightness — did the central claim land, or was it asserted/diffuse? Any thesis that had to be inferred.
+- Evidence-sufficiency gaps — claims flagged as needing a source but lacking one; the sourcing-gate misses to fix earlier next chapter.
+- Causation discipline — any causal claim left untyped (trigger/structural/background/accident) or without a register (made possible/likely/set off); "flat because" instances.
+- Structure/coupling — for a project with an explicit architecture (e.g. backbone spans vs. junction nodes), how the transition/seam read, and whether dimensions were quarantined instead of integrated.
+- Contested-claim handling — any load-bearing claim asserted as settled that should be flagged contested.
+Carry the top 1–3 as concrete instructions into the planner note below.]
+
 ## Planner note for Chapter [X+1]
-[Any specific creative calibration the orchestrator or author wants carried forward — e.g., "tighten scene openings," "more interiority in dialogue scenes," "the tangent in scene 2 worked, try it again"]
+[Any specific creative calibration the orchestrator or author wants carried forward — e.g., "tighten scene openings," "more interiority in dialogue scenes," "the tangent in scene 2 worked, try it again"; for nonfiction, e.g. "type every causal claim up front," "front-load the sourcing pass on contested figures," "give the ideology thread a concrete downstream event."]
 ```
 
-If neither a critic report nor a reader-sim report was provided, write a minimal entry noting no feedback was available for this chapter.
+If no critic, reader-sim, or nonfiction-reviewer report was provided, write a minimal entry noting no feedback was available for this chapter.
 
 ### 6. state/chapter-NN/inventory.md (CREATE if relevant)
 ```markdown
