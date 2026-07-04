@@ -167,9 +167,116 @@ These are not errors. Each pattern has legitimate uses. The problem is frequency
 
 **Fix:** Look at the character. What does *their* false smile actually look like? A practised expression worn smooth from use. A smile that was only mouth. A brightness that stopped short, like a lamp under a shade. The goal is not to find a cleverer way to say the same thing — it's to actually *see* the character and describe what you see.
 
+### 10. Named Emotion in Narration
+
+**Pattern:** The narrator labels the POV character's emotional state directly.
+
+**Examples:** "She felt a wave of relief." "He was overcome with grief." "A surge of anger moved through her." "She felt afraid."
+
+**Why it fails:** It tells the reader what to feel rather than giving them material to feel it with. The reader's interpretive work — reading a body response, a changed action, an object choice — is where the reward lives. Naming the emotion pre-empts that work.
+
+**Threshold:** Zero in narration. (In dialogue, or in free indirect discourse where a character names their own feeling, acceptable.)
+
+**Fix:** Show the body, the action, the changed behavior. Relief: she exhaled; she set down the phone; she laughed once, briefly, at nothing. Let the reader interpret.
+
+### 11. The Meaning-Summary Sentence
+
+**Pattern:** A sentence that explicitly states the emotional or thematic significance of a scene, typically placed at the close.
+
+**Examples:** "It was a moment neither would forget." "That changed everything." "She would never be the same." "He had finally understood."
+
+**Why it fails:** Announces the meaning of something that should carry its own meaning. Signals the writer's uncertainty that the scene worked. A well-written scene doesn't need its significance labelled.
+
+**Threshold:** Zero.
+
+**Fix:** Cut it. If the scene earned its weight, the meaning is already there. If removing the sentence exposes that the scene didn't earn it, revise the scene, not the sentence.
+
+### 12. Emotional Weather
+
+**Pattern:** Atmosphere, weather, or setting deployed as shorthand for emotional state rather than grounded in character action.
+
+**Examples:** "Tension hung in the air." "The atmosphere grew heavy." "Something dark settled over the room." "The silence was suffocating." "The air between them crackled."
+
+**Why it fails:** Assigns emotional content to the environment instead of the characters. The narrator imposes a reading rather than showing the characters producing one. Readers notice the abdication.
+
+**Threshold:** One per chapter, only if the physical environment is actually changing (storm arriving, heat exhausting). Zero as a substitute for characterisation.
+
+**Fix:** Move the weight from the room to the people in it. What does each character's body do? Where do their eyes go? What don't they say?
+
+### 13. The Adjective Pair
+
+**Pattern:** Two adjectives in a row, often near-synonymous, used to intensify where one precise adjective would be stronger.
+
+**Examples:** "cold, unforgiving"; "dark, empty"; "quiet, still"; "bright, piercing."
+
+**Why it fails:** When both adjectives do the same job, neither does it well. The second implies the first was insufficient. One precise adjective out-performs two imprecise ones.
+
+**Threshold:** Two per chapter maximum, only when the adjectives describe genuinely different qualities.
+
+**Fix:** Pick the more precise one. Cut the other.
+
+### 14. The Wrap-Up Paragraph
+
+**Pattern:** A final paragraph that restates the chapter's events or emotional content rather than ending on forward pressure.
+
+**Examples:** Endings that begin "As she walked away, she reflected on what had happened..." followed by a chapter summary; final paragraphs that explain what the scene meant.
+
+**Why it fails:** Redundant and pacing-killing. The chapter already happened. Chapter endings should create forward momentum or leave an image, not summarise.
+
+**Threshold:** Zero. If the chapter ends with a wrap-up paragraph, cut it. End on the last moment of real narrative weight.
+
+**Fix:** Delete the paragraph. Find the sentence of genuine pressure immediately before it and end there.
+
+### 15. The Explanatory "As If" Simile
+
+**Pattern:** "It was as if..." or "It felt like..." used to explain an emotional state via simile rather than ground it in concrete detail.
+
+**Examples:** "It was as if the ground had shifted beneath her." "It felt like someone had knocked the air from her lungs." "It was as if he were speaking from the bottom of the ocean."
+
+**Why it fails:** Simile should make the abstract concrete. These similes operate in reverse — they take a specific moment and generalise it into an analogy. "As if the ground had shifted" is vaguer than describing what actually happened to her body or attention.
+
+**Threshold:** Two to three per chapter; zero when the simile substitutes for actual characterisation.
+
+**Fix:** Describe what actually happened — physically, attentionally, behaviourally — and let the reader supply their own analogy.
+
+### 16. The Reflexive Counterbalancing Hedge *(nonfiction)*
+
+**Pattern:** A hedging sentence after every argument acknowledging the other side, regardless of whether the acknowledgment does argumentative work.
+
+**Examples:** "Of course, it's not that simple." "There are many perspectives on this." "While X may be true, it's also important to consider Y." "Critics might argue..." followed by a straw version.
+
+**Why it fails:** Signals epistemic anxiety rather than intellectual honesty. Real engagement with counterarguments strengthens the case. Reflexive hedging signals the writer doesn't trust their own claim.
+
+**Threshold:** One genuine engagement with a counterargument per section; zero reflexive hedges that add no content.
+
+**Fix:** Either engage the objection seriously (steelmanned, with a response) or cut the hedge entirely. Pick a side.
+
+### 17. The Portentous Gerund
+
+**Pattern:** An article or demonstrative + an ad-hoc "[verb]-ing" pressed into service as an abstract noun-subject — usually in a short "this is significant" sentence. `the/that/this [verb]ing` carrying the weight of a whole event: "That emptying is where the story turns."
+
+**Examples:**
+- "That emptying is where the story turns."
+- "The leaving had already begun."
+- "The forgetting came later."
+- "This unmaking of the old order."
+- "The becoming was slow, and then it was total."
+
+**Why it works (rarely):** Nominalizing an action can name a genuine abstraction the language has no other word for, and a few verbs have lexicalized into legitimate event-nouns ("the Crossing," "the Reckoning," "a reading of the will," "the killing" as a named episode). Those are conventional nouns, not this tic.
+
+**Why it stops working:** Most of the time it converts a concrete event with real actors into a weightless, agentless abstraction, then asks that abstraction to sound momentous. People rarely talk or write this way; it reads as manufactured gravity — the prose reaching for profundity by turning a verb into fog. It hides *who did what to whom* behind a floating gerund. (Note: this is the opposite of deliberate verbing-a-noun anthimeria — "science the shit out of this" — which is punchy *because* it adds a concrete actor and action; that device is fine in moderation. The tic here drains the actor out, not in.)
+
+**Threshold:** Near zero as a portent/"significance" move. One ad-hoc gerund-subject per chapter is a yellow flag; two is a tic. Established event-nouns don't count.
+
+**Fix:** Restore the actor and the verb. Say who did what, then state the significance plainly if it still needs stating. "That emptying is where the story turns" → "The continent emptied — that is where the story turns," or better, name the agent: "Disease emptied the continent. The story turns there." If removing the gerund leaves nothing concrete underneath, the sentence was manufacturing weight it hadn't earned — cut it.
+
+---
+
 ## When a Smell is Intentional
 
 Some novels use these patterns deliberately as voice signatures. If a manuscript *knowingly* deploys paradoxical pairings as a narrative strategy — say, a protagonist who genuinely cannot reconcile contradictions — then frequency may be appropriate. But this should be a conscious choice documented in the project's tone guide, not an emergent habit.
+
+The **escape hatch mechanism**: the writer may violate any default by embedding a margin note in the draft (`<!-- WRITER-NOTE: [one-sentence justification] -->`). The critic reads these notes and either accepts the violation (justification is specific and the choice demonstrably serves the prose) or overrides it (justification is vague or the choice doesn't hold up). This prevents hard rules from producing their own house style while catching lazy violations.
 
 ## Cross-Reference
 
