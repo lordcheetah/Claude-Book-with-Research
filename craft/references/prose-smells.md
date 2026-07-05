@@ -270,6 +270,46 @@ These are not errors. Each pattern has legitimate uses. The problem is frequency
 
 **Fix:** Restore the actor and the verb. Say who did what, then state the significance plainly if it still needs stating. "That emptying is where the story turns" → "The continent emptied — that is where the story turns," or better, name the agent: "Disease emptied the continent. The story turns there." If removing the gerund leaves nothing concrete underneath, the sentence was manufacturing weight it hadn't earned — cut it.
 
+### 18. Announcing the Obvious
+
+**Pattern:** The narrator names or praises a move the reader already gets from the text or subtext — "This is the honest move," "This is the hard part," "Here is where it matters," "That is the important point," "Notice what just happened."
+
+**Examples:**
+- "This is the honest move."
+- "This is where the argument turns."
+- "That is the careful reading."
+- "And that is the tell."
+
+**Why it works (rarely):** A signpost earns its place only when the point is genuinely counterintuitive, easy to miss, or where the reader would assume the opposite.
+
+**The test (apply before keeping one) — is any of these a *yes*?**
+- Would the reader expect the opposite (that it was dishonest, hidden, careless)?
+- Is the thing normally done the wrong way, so flagging the right way is actually informative?
+- Would the point genuinely be missed if you didn't say it?
+If none is a yes, cut it. The reader should get it from the writing.
+
+**Why it stops working:** It tells what the prose already shows, and it flatters the move ("honest," "careful," "rigorous") instead of just making it. Stacked, it becomes a running commentary track — the narrator managing the reader instead of trusting the evidence and reasoning to land unlabeled. (Showing over telling; in nonfiction the "showing" is the evidence and the argument doing their work without a caption.)
+
+**Threshold:** Near zero for self-praising labels ("the honest move," "the careful reading"). Signpost only where the test returns a yes.
+
+**Fix:** Delete the label; let the sentence it introduced stand on its own. If the point really is easy to miss, make the surrounding prose clearer rather than announcing it. (Related: #11 Meaning-Summary Sentence.)
+
+### 19. The Missing Agent
+
+**Pattern:** Two linked habits that drain the actor out of a sentence: (a) **passive voice** where a real agent exists, and (b) **the detached article** — "the" where a possessive would name the owner ("the ledger" for *the planter's ledger*, "the testimony" for *las Casas's testimony*, "the hand" for *his hand*).
+
+**Examples:**
+- Passive: "Mistakes were made." "The village had been abandoned." "The clause was struck." (vs. who erred, who left, who struck it)
+- Detached article: "The decision was regretted later." "The eyes narrowed." (vs. *Congress* regretted it; *his* eyes)
+
+**Why it works (sometimes):** Passive is right when the agent is genuinely unknown or unimportant, or when end-focus matters ("The bridge was built in 1887"). The bare article is right for unique or institutional referents ("the Constitution," "The One Ring") and where ownership is beside the point.
+
+**Why it stops working:** Both hide who did or owns the thing — and agency is where causation lives. In a causation-driven argument, "the village was abandoned" quietly erases the people who left and why; "the people abandoned the village" keeps them on the page. The detached article holds a person at arm's length by refusing to say whose.
+
+**Threshold:** Default to active voice and named possession. Reach for passive or the bare article only when one of the legitimate cases above genuinely applies.
+
+**Fix:** Name the agent and make it the subject; when you catch a passive, ask "by whom?" and, if the answer matters, put it in. Restore the possessive wherever a person owns the thing.
+
 ---
 
 ## When a Smell is Intentional
